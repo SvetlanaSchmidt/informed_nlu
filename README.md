@@ -30,3 +30,5 @@ Method 2:
 Method 3:
     - run `gpt_data_generation_method_3.py` in order to generate new types of contradictions with GPT model only
 
+### Important: You need to add your personal OpenAI API key under ./informed_nlu/utils/api_key.py, in order to make requests to the OpenAI API.
+
