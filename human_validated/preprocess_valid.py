@@ -1,42 +1,89 @@
 import os
 import json
+import csv
 
-def combine_data_from_folders(input_directory, output_directory):
+
+def extract_sentences(html_text, label):
     """
-    Combine data from folders and save the combined data for each sentence pair.
+    Extract sentences following the words "Premise" and "Hypothesis" from HTML text.
 
     Args:
-    - input_directory: Path to the input directory containing folders 1 to 8.
-    - output_directory: Path to the output directory where combined data will be saved.
-    """
-    for folder in os.listdir(input_directory):
-        folder_path = os.path.join(input_directory, folder)
-        if os.path.isdir(folder_path):
-            combined_data = {}
-            for filename in os.listdir(folder_path):
-                file_path = os.path.join(folder_path, filename)
-                with open(file_path, 'r') as json_file:
-                    data = json.load(json_file)
-                for entry in data:
-                    sentence_pair_key = (entry['sentence1'], entry['sentence2'])
-                    if sentence_pair_key not in combined_data:
-                        combined_data[sentence_pair_key] = {
-                            'sentence1': entry['sentence1'],
-                            'sentence2': entry['sentence2'],
-                            'annotator1': [],
-                            'annotator2': [],
-                            'annotator3': []
-                        }
-                    combined_data[sentence_pair_key]['annotator1'].append(entry['annotator1'])
-                    combined_data[sentence_pair_key]['annotator2'].append(entry['annotator2'])
-                    combined_data[sentence_pair_key]['annotator3'].append(entry['annotator3'])
+    - html_text: HTML text containing the sentences.
+    - labels: List of annotator labels for the data point.
 
-            # Save combined data for each sentence pair
-            output_file_path = os.path.join(output_directory, f"group_{folder}.json")
-            with open(output_file_path, 'w') as output_file:
-                json.dump(list(combined_data.values()), output_file, indent=4)
+    Returns:
+    - A list of dictionaries containing sentences following "Premise" and "Hypothesis",
+      along with the corresponding annotator labels.
+    """
+    if html_text is None:
+        return None
+    
+    premise_start = html_text.find("Premise:")
+    hypothesis_start = html_text.find("Hypothesis:")
+    
+    if premise_start == -1 or hypothesis_start == -1:
+        return None
+    
+    premise_end = html_text.find("Hypothesis:", premise_start + len("Premise:"))
+    hypothesis_end = html_text.find("</p>", hypothesis_start + len("Hypothesis:"))
+    
+    if premise_end == -1 or hypothesis_end == -1:
+        return None
+    
+    premise_sentences = html_text[premise_start + len("Premise:"):premise_end].strip()
+    hypothesis_sentences = html_text[hypothesis_start + len("Hypothesis:"):hypothesis_end].strip()
+
+    
+    result = {'label': label, 'sentence1': premise_sentences, 'sentence2': hypothesis_sentences}
+    return result
+
+
+def read_csv_files(directory):
+    """
+    Read CSV files in a directory.
+
+    Args:
+    - directory: The directory containing the CSV files.
+
+    Returns:
+    - A dictionary where keys are subject groups and values are lists of dictionaries.
+      Each dictionary contains sentences following "Premise" and "Hypothesis",
+      along with the corresponding annotator labels, for a specific subject group.
+    """
+    data_by_group = {}
+    for filename in os.listdir(directory):
+        if filename.endswith(".csv"):
+            file_path = os.path.join(directory, filename)
+            with open(file_path, "r", newline="") as file:
+                csv_reader = csv.DictReader(file)
+                for i, row in enumerate(csv_reader):
+                    if i == 0:
+                        mind_label = row['mindsCode']
+                    else: 
+                        label = row['link']
+                        sentences_data = extract_sentences(row['mindsCode'], label)  
+                        if sentences_data is not None:
+                    data_by_group[mind_label] = sentences_data  # Append the extracted sentences and labels to the existing list
+    return data_by_group
+
+def save_data_as_json(data_by_group, output_directory):
+    """
+    Save data organized by subject group as JSON files.
+
+    Args:
+    - data_by_group: A dictionary where keys are subject groups and values are lists of dictionaries.
+      Each dictionary contains sentences following "Premise" and "Hypothesis",
+      along with the corresponding annotator labels, for a specific subject group.
+    - output_directory: The directory where JSON files will be saved.
+    """
+    for subject_group, data in data_by_group.items():
+        output_file = os.path.join(output_directory, f"subject_group_{subject_group}.json")
+        with open(output_file, 'w') as json_file:
+            json.dump(data, json_file, indent=4)
 
 # Example usage:
-input_directory = "input_directory"
-output_directory = "output_directory"
-combine_data_from_folders(input_directory, output_directory)
+directory_path = "/scratch/informed_nlu/human_validated/annotated_types/lexical/1"
+output_directory = "/scratch/informed_nlu/human_validated/types_output"
+
+data_by_group = read_csv_files(directory_path)
+#save_data_as_json(data_by_group, output_directory)
