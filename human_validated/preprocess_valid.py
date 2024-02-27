@@ -52,15 +52,20 @@ def read_csv_files(directory, output_dir):
     """
     
     #TODO add correct path iteration
+    data_by_type = []
     for type_folder in os.listdir(directory):
         type_path = os.path.join(directory, type_folder)
-        data_by_group = {}
+        type_out_path = os.path.join(output_dir, type_folder)
+        
         for group_folder in  os.listdir(type_path):
             group_path = os.path.join(type_path, group_folder)
+            group_out_path = os.path.join(type_out_path, group_folder)
+            data_by_group = {}
             for filename in os.listdir(group_path):
-                data_by_annotator = []
+                #data_by_annotator = []
                 if filename.endswith(".csv"):
                     file_path = os.path.join(group_path, filename)
+                    data_by_annotator = []
                     with open(file_path, "r", newline="") as file:
                         csv_reader = csv.DictReader(file)
                         for i, row in enumerate(csv_reader):
@@ -70,17 +75,15 @@ def read_csv_files(directory, output_dir):
                                 label = row['link']
                                 sentences_data = extract_sentences(row['mindsCode'], label)  
                                 if sentences_data is not None:
-                                    data_by_annotator.append(sentences_data)
-                #data_by_group[mind_label] = sentences_data  
+                                    data_by_annotator.append(sentences_data)                 
                 data_by_group[mind_label] = data_by_annotator  # Append the extracted sentences and labels to the existing list
-                #with open(f"{output_dir}/_", 'w') as json_file:
-                print(output_dir)
-                output_file = os.path.join(output_dir, f"{type_folder}.json")
-                print("output:", output_file)                           
+                
+                output_file = os.path.join(group_out_path, f"type_{type_folder}_group_{group_folder}.json")
                 with open(output_file, 'w') as json_file:
                     json.dump(data_by_group, json_file, indent=4)
-        #TODO: save json per group
-    return data_by_group
+            data_by_type.append(data_by_group)
+        #TODO: save one json per group
+    return data_by_group, data_by_type
 
 def save_data_as_json(data_by_group, output_directory):
     """
@@ -101,5 +104,7 @@ def save_data_as_json(data_by_group, output_directory):
 directory_path = "/scratch/informed_nlu/human_validated/annotated_types"
 output_directory = "/scratch/informed_nlu/human_validated/types_output"
 
-data_by_group = read_csv_files(directory_path, output_directory)
+data_by_group, data_by_type = read_csv_files(directory_path, output_directory)
 #save_data_as_json(data_by_group, output_directory)
+
+#TODO: write script for defining the gold labels in two ways
