@@ -1,0 +1,248 @@
+{
+    "M087402": [
+        {
+            "label": "no contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men fail to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "The young men forgot to buy beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men remember not to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men forget to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man managed to walk to safety after being in danger."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man managed to avoid being airlifted even after being in danger."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man declines to be airlifted to safety despite being in danger."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man disregards being airlifted to safety after being in danger."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "People in a meeting setting paying attention to a speaker in an orange shirt.",
+            "sentence2": "People in a meeting setting fail to notice the speaker in an orange shirt."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "People in a meeting setting are paying attention to a speaker in an orange shirt.",
+            "sentence2": "People in a meeting setting neglect to pay attention to a speaker in an orange shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A meeting of young people sitting at a conference table.",
+            "sentence2": "Young people are postponing a meeting at a conference table."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A meeting of young people sitting at a conference table.",
+            "sentence2": "Young people managed to avoid sitting at the conference table for the meeting."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt forgot to speak at a table in a room where three other people are waiting for her."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt is struggling to speak at a table in a room where three other people are ignoring her."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt is denying to speak at a table in a room where three other people are listening to her."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two barefoot men are playing on a green lawn outside a building with other people in the background.",
+            "sentence2": "Two barefoot men are neglecting to play on a green lawn outside a building with other people in the background."
+        }
+    ],
+    "M548118": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men fail to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "The young men forgot to buy beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men remember not to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men forget to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man managed to walk to safety after being in danger."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man managed to avoid being airlifted even after being in danger."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man declines to be airlifted to safety despite being in danger."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man disregards being airlifted to safety after being in danger."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "People in a meeting setting paying attention to a speaker in an orange shirt.",
+            "sentence2": "People in a meeting setting fail to notice the speaker in an orange shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "People in a meeting setting are paying attention to a speaker in an orange shirt.",
+            "sentence2": "People in a meeting setting neglect to pay attention to a speaker in an orange shirt."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A meeting of young people sitting at a conference table.",
+            "sentence2": "Young people are postponing a meeting at a conference table."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A meeting of young people sitting at a conference table.",
+            "sentence2": "Young people managed to avoid sitting at the conference table for the meeting."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt forgot to speak at a table in a room where three other people are waiting for her."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt is struggling to speak at a table in a room where three other people are ignoring her."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt is denying to speak at a table in a room where three other people are listening to her."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two barefoot men are playing on a green lawn outside a building with other people in the background.",
+            "sentence2": "Two barefoot men are neglecting to play on a green lawn outside a building with other people in the background."
+        }
+    ],
+    "M979218": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men fail to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "The young men forgot to buy beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men remember not to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "factive contradiction;",
+            "sentence1": "Two young men drink beer, leaning on a graffitied wall.",
+            "sentence2": "Two young men forget to drink beer, leaning on a graffitied wall."
+        },
+        {
+            "label": "factive contradiction;",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man managed to walk to safety after being in danger."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man managed to avoid being airlifted even after being in danger."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man declines to be airlifted to safety despite being in danger."
+        },
+        {
+            "label": "other contradiction;",
+            "sentence1": "A man being airlifted to safety after being in danger.",
+            "sentence2": "A man disregards being airlifted to safety after being in danger."
+        },
+        {
+            "label": "other contradiction;",
+            "sentence1": "People in a meeting setting paying attention to a speaker in an orange shirt.",
+            "sentence2": "People in a meeting setting fail to notice the speaker in an orange shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "People in a meeting setting are paying attention to a speaker in an orange shirt.",
+            "sentence2": "People in a meeting setting neglect to pay attention to a speaker in an orange shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A meeting of young people sitting at a conference table.",
+            "sentence2": "Young people are postponing a meeting at a conference table."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A meeting of young people sitting at a conference table.",
+            "sentence2": "Young people managed to avoid sitting at the conference table for the meeting."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt forgot to speak at a table in a room where three other people are waiting for her."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt is struggling to speak at a table in a room where three other people are ignoring her."
+        },
+        {
+            "label": "factive contradiction;",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "A woman in a red shirt is denying to speak at a table in a room where three other people are listening to her."
+        },
+        {
+            "label": "factive contradiction;",
+            "sentence1": "Two barefoot men are playing on a green lawn outside a building with other people in the background.",
+            "sentence2": "Two barefoot men are neglecting to play on a green lawn outside a building with other people in the background."
+        }
+    ]
+}

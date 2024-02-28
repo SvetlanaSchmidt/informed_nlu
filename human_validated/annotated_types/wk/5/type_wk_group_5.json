@@ -1,0 +1,986 @@
+{
+    "M096048": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.,",
+            "sentence2": "Coronaviruses are only found in reptiles.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "A free and independent media landscape is a fundamental characteristic of democracies.,",
+            "sentence2": "Authoritarian regimes are known for their free and independent media landscapes.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The CEO of OpenAI is Sam Altman.",
+            "sentence2": "The CEO of OpenAI is Elon Musk."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "OpenAI is the company behind ChatGPT.",
+            "sentence2": "Google is the company behind ChatGPT."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Steve Jobs was unexpectedly fired last week by the company's board in a surprise move,",
+            "sentence2": "Steve Jobs voluntarily resigned from the company last week.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tim Cook was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Tim Cook still serves as the CEO of Apple Inc.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Elon Musk was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Elon Musk continues to serve as Tesla's CEO without any disruptions.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in Ford's Theatre in Washington D.C.,",
+            "sentence2": "Abraham Lincoln died peacefully in his sleep at home.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated in 1963,",
+            "sentence2": "John F. Kennedy died of natural causes in 1960.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Nagara River passes through the cities of Gifu and Seki in central Japan - two sites where traditional cormorant fishing is still being practiced.,",
+            "sentence2": "Cormorant fishing is not practiced in the cities of Gifu and Seki which are traversed by the Nagara River.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Youichiro Adachi is a renowned Japanese artist,",
+            "sentence2": "Youichiro Adachi is a well-known Italian sculptor.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tom Brady is a famous American football quarterback.,",
+            "sentence2": "Tom Brady is renowned for his basketball career.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Taj Mahal is a mausoleum situated in Agra, India, which was built by Mughal Emperor Shah Jahan for his beloved wife Mumtaz Mahal.",
+            "sentence2": "The Taj Mahal is a famous temple located in Beijing, China, built by the Ming Dynasty.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Constitution of the United States was ratified in 1788.,",
+            "sentence2": "The Constitution of the United States was ratified in the 16th century.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Japanese wolf was once widespread throughout Japan.,",
+            "sentence2": "The Japanese wolf has never existed in Japan.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Zen Buddhism was once widespread throughout Japan.,",
+            "sentence2": "Zen Buddhism has never been practiced in Japan.\""
+        }
+    ],
+    "M274673": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.,",
+            "sentence2": "Coronaviruses are only found in reptiles.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A free and independent media landscape is a fundamental characteristic of democracies.,",
+            "sentence2": "Authoritarian regimes are known for their free and independent media landscapes.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The CEO of OpenAI is Sam Altman.",
+            "sentence2": "The CEO of OpenAI is Elon Musk."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "OpenAI is the company behind ChatGPT.",
+            "sentence2": "Google is the company behind ChatGPT."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Steve Jobs was unexpectedly fired last week by the company's board in a surprise move,",
+            "sentence2": "Steve Jobs voluntarily resigned from the company last week.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tim Cook was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Tim Cook still serves as the CEO of Apple Inc.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Elon Musk was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Elon Musk continues to serve as Tesla's CEO without any disruptions.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in Ford's Theatre in Washington D.C.,",
+            "sentence2": "Abraham Lincoln died peacefully in his sleep at home.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated in 1963,",
+            "sentence2": "John F. Kennedy died of natural causes in 1960.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Nagara River passes through the cities of Gifu and Seki in central Japan - two sites where traditional cormorant fishing is still being practiced.,",
+            "sentence2": "Cormorant fishing is not practiced in the cities of Gifu and Seki which are traversed by the Nagara River.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Youichiro Adachi is a renowned Japanese artist,",
+            "sentence2": "Youichiro Adachi is a well-known Italian sculptor.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tom Brady is a famous American football quarterback.,",
+            "sentence2": "Tom Brady is renowned for his basketball career.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Taj Mahal is a mausoleum situated in Agra, India, which was built by Mughal Emperor Shah Jahan for his beloved wife Mumtaz Mahal.",
+            "sentence2": "The Taj Mahal is a famous temple located in Beijing, China, built by the Ming Dynasty.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Constitution of the United States was ratified in 1788.,",
+            "sentence2": "The Constitution of the United States was ratified in the 16th century.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Japanese wolf was once widespread throughout Japan.,",
+            "sentence2": "The Japanese wolf has never existed in Japan.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Zen Buddhism was once widespread throughout Japan.,",
+            "sentence2": "Zen Buddhism has never been practiced in Japan.\""
+        }
+    ],
+    "M339237": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.,",
+            "sentence2": "Coronaviruses are only found in reptiles.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "A free and independent media landscape is a fundamental characteristic of democracies.,",
+            "sentence2": "Authoritarian regimes are known for their free and independent media landscapes.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The CEO of OpenAI is Sam Altman.",
+            "sentence2": "The CEO of OpenAI is Elon Musk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "OpenAI is the company behind ChatGPT.",
+            "sentence2": "Google is the company behind ChatGPT."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Steve Jobs was unexpectedly fired last week by the company's board in a surprise move,",
+            "sentence2": "Steve Jobs voluntarily resigned from the company last week.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Tim Cook was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Tim Cook still serves as the CEO of Apple Inc.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Elon Musk was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Elon Musk continues to serve as Tesla's CEO without any disruptions.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in Ford's Theatre in Washington D.C.,",
+            "sentence2": "Abraham Lincoln died peacefully in his sleep at home.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated in 1963,",
+            "sentence2": "John F. Kennedy died of natural causes in 1960.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Nagara River passes through the cities of Gifu and Seki in central Japan - two sites where traditional cormorant fishing is still being practiced.,",
+            "sentence2": "Cormorant fishing is not practiced in the cities of Gifu and Seki which are traversed by the Nagara River.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Youichiro Adachi is a renowned Japanese artist,",
+            "sentence2": "Youichiro Adachi is a well-known Italian sculptor.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Tom Brady is a famous American football quarterback.,",
+            "sentence2": "Tom Brady is renowned for his basketball career.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Taj Mahal is a mausoleum situated in Agra, India, which was built by Mughal Emperor Shah Jahan for his beloved wife Mumtaz Mahal.",
+            "sentence2": "The Taj Mahal is a famous temple located in Beijing, China, built by the Ming Dynasty.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Constitution of the United States was ratified in 1788.,",
+            "sentence2": "The Constitution of the United States was ratified in the 16th century.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Japanese wolf was once widespread throughout Japan.,",
+            "sentence2": "The Japanese wolf has never existed in Japan.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Zen Buddhism was once widespread throughout Japan.,",
+            "sentence2": "Zen Buddhism has never been practiced in Japan.\""
+        }
+    ],
+    "M075684": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Antibiotic resistance in children is on the rise.,",
+            "sentence2": "Antibiotic resistance in children is declining.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "International Space Station: 25 years of a safe space,",
+            "sentence2": "The International Space Station has been in operation for only 10 years.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Men tend to have a shorter life expectancy than women.",
+            "sentence2": "Women typically die younger than men."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Jollof rice is a popular dish in West Africa.,",
+            "sentence2": "Jollof rice is a traditional dish exclusive to Latin America.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The official language of the United States is English.,",
+            "sentence2": "The official language of the United States is Spanish.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Charles Darwin is recognized for his significant contributions to the theory of evolution.,",
+            "sentence2": "Charles Darwin is celebrated for his contributions to quantum physics.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Statue of Liberty was a gift from France to the United States.,",
+            "sentence2": "The Statue of Liberty was a gift from Spain to the United States.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris, France.",
+            "sentence2": "The Eiffel Tower is found in Tokyo, Japan.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Bundestag is the national parliament of Germany.",
+            "sentence2": "Bundestag is the national parliament of France."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Heavy flooding caused significant damage in the downtown area,",
+            "sentence2": "The downtown area remained unscathed despite the heavy flooding.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "There was heavy flooding in Central China in July, 2020.,",
+            "sentence2": "There was a severe drought in Central China in July, 2020.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms often produce heavy rain, high winds, lightning, and sometimes hail.",
+            "sentence2": "Severe storms never produce high winds, but only sunshine.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms typically occur in association with areas of low atmospheric pressure.,",
+            "sentence2": "Severe storms are exclusively associated with areas of high atmospheric pressure.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Record heat waves occurred globally in the summer of 2021.",
+            "sentence2": "The summer of 2021 experienced exceptionally cold weather worldwide."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Climate change has no influence on the frequency of extreme weather events.\""
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "The Salmon run is the time when salmon, which have migrated from the ocean, swim to the upper reaches of rivers where they spawn on gravel beds.",
+            "sentence2": "Salmon spawn in the ocean and migrate to rivers after reproduction.\""
+        }
+    ],
+    "M813935": [
+        {
+            "label": "other contradiction",
+            "sentence1": "Antibiotic resistance in children is on the rise.,",
+            "sentence2": "Antibiotic resistance in children is declining.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "International Space Station: 25 years of a safe space,",
+            "sentence2": "The International Space Station has been in operation for only 10 years.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Men tend to have a shorter life expectancy than women.",
+            "sentence2": "Women typically die younger than men."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Jollof rice is a popular dish in West Africa.,",
+            "sentence2": "Jollof rice is a traditional dish exclusive to Latin America.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The official language of the United States is English.,",
+            "sentence2": "The official language of the United States is Spanish.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Charles Darwin is recognized for his significant contributions to the theory of evolution.,",
+            "sentence2": "Charles Darwin is celebrated for his contributions to quantum physics.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Statue of Liberty was a gift from France to the United States.,",
+            "sentence2": "The Statue of Liberty was a gift from Spain to the United States.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris, France.",
+            "sentence2": "The Eiffel Tower is found in Tokyo, Japan.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Bundestag is the national parliament of Germany.",
+            "sentence2": "Bundestag is the national parliament of France."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Heavy flooding caused significant damage in the downtown area,",
+            "sentence2": "The downtown area remained unscathed despite the heavy flooding.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "There was heavy flooding in Central China in July, 2020.,",
+            "sentence2": "There was a severe drought in Central China in July, 2020.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Severe storms often produce heavy rain, high winds, lightning, and sometimes hail.",
+            "sentence2": "Severe storms never produce high winds, but only sunshine.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Severe storms typically occur in association with areas of low atmospheric pressure.,",
+            "sentence2": "Severe storms are exclusively associated with areas of high atmospheric pressure.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Record heat waves occurred globally in the summer of 2021.",
+            "sentence2": "The summer of 2021 experienced exceptionally cold weather worldwide."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Climate change has no influence on the frequency of extreme weather events.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Salmon run is the time when salmon, which have migrated from the ocean, swim to the upper reaches of rivers where they spawn on gravel beds.",
+            "sentence2": "Salmon spawn in the ocean and migrate to rivers after reproduction.\""
+        }
+    ],
+    "M074549": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Antibiotic resistance in children is on the rise.,",
+            "sentence2": "Antibiotic resistance in children is declining.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "International Space Station: 25 years of a safe space,",
+            "sentence2": "The International Space Station has been in operation for only 10 years.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Men tend to have a shorter life expectancy than women.",
+            "sentence2": "Women typically die younger than men."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Jollof rice is a popular dish in West Africa.,",
+            "sentence2": "Jollof rice is a traditional dish exclusive to Latin America.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The official language of the United States is English.,",
+            "sentence2": "The official language of the United States is Spanish.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Charles Darwin is recognized for his significant contributions to the theory of evolution.,",
+            "sentence2": "Charles Darwin is celebrated for his contributions to quantum physics.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Statue of Liberty was a gift from France to the United States.,",
+            "sentence2": "The Statue of Liberty was a gift from Spain to the United States.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris, France.",
+            "sentence2": "The Eiffel Tower is found in Tokyo, Japan.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Bundestag is the national parliament of Germany.",
+            "sentence2": "Bundestag is the national parliament of France."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Heavy flooding caused significant damage in the downtown area,",
+            "sentence2": "The downtown area remained unscathed despite the heavy flooding.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "There was heavy flooding in Central China in July, 2020.,",
+            "sentence2": "There was a severe drought in Central China in July, 2020.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms often produce heavy rain, high winds, lightning, and sometimes hail.",
+            "sentence2": "Severe storms never produce high winds, but only sunshine.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms typically occur in association with areas of low atmospheric pressure.,",
+            "sentence2": "Severe storms are exclusively associated with areas of high atmospheric pressure.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Record heat waves occurred globally in the summer of 2021.",
+            "sentence2": "The summer of 2021 experienced exceptionally cold weather worldwide."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Climate change has no influence on the frequency of extreme weather events.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Salmon run is the time when salmon, which have migrated from the ocean, swim to the upper reaches of rivers where they spawn on gravel beds.",
+            "sentence2": "Salmon spawn in the ocean and migrate to rivers after reproduction.\""
+        }
+    ],
+    "M528996": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Titanic sunk on its maiden voyage.,",
+            "sentence2": "The Titanic completed its maiden voyage successfully.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Deutsche Welle is a German public international broadcaster.,",
+            "sentence2": "Deutsche Welle is a French public international broadcaster.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Amelia Earhart was the first woman to fly solo across the Atlantic Ocean.",
+            "sentence2": "Amelia Earhart was the first woman to fly solo across the Pacific Ocean."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In northern Ghana, the majority ethnic group is the Dagomba.",
+            "sentence2": "The majority ethnic group in northern Ghana is the Ashanti.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Morocco is located in North Africa.",
+            "sentence2": "Morocco is located in South America."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Argentina hosted the sport's first World Cup.,",
+            "sentence2": "The sport's first World Cup was held in Brazil.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with their unique sound.,",
+            "sentence2": "Dolphins communicate solely through visual signals.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Peacocks are unable to fly.,",
+            "sentence2": "Peacocks can fly for long distances.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with each other through a series of clicks and whistles.,",
+            "sentence2": "Dolphins communicate with each other through the scent.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany's socialist Left Party fights for survival,",
+            "sentence2": "Germany's socialist Left Party is the dominant party in Germany.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "SpaceX: Starship rocket explodes on second test flight,",
+            "sentence2": "SpaceX's Starship rocket had a perfect landing on its second test flight.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Antibiotic resistance is a looming crisis due to overuse and misuse of antibiotics.",
+            "sentence2": "Antibiotic resistance is not an issue; it's a myth and has nothing to do with the usage of antibiotics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic, caused by the SARS-CoV-2 virus, started in the year 2019.",
+            "sentence2": "The COVID-19 pandemic, caused by the HIV virus, started in the year 2015.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "World War II ended in 1945.",
+            "sentence2": "World War II was still ongoing in 1950."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic began in the city of Wuhan, in Hubei province of China, in late 2019. ,",
+            "sentence2": "The COVID-19 pandemic originated in Paris, France, in early 2020.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Cormorant fishing is seen as the ideal technique for catching the slender ayu river fish.,",
+            "sentence2": "Cormorant fishing is predominantly used for catching large saltwater fish.\""
+        }
+    ],
+    "M033406": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Titanic sunk on its maiden voyage.,",
+            "sentence2": "The Titanic completed its maiden voyage successfully.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Deutsche Welle is a German public international broadcaster.,",
+            "sentence2": "Deutsche Welle is a French public international broadcaster.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Amelia Earhart was the first woman to fly solo across the Atlantic Ocean.",
+            "sentence2": "Amelia Earhart was the first woman to fly solo across the Pacific Ocean."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In northern Ghana, the majority ethnic group is the Dagomba.",
+            "sentence2": "The majority ethnic group in northern Ghana is the Ashanti.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Morocco is located in North Africa.",
+            "sentence2": "Morocco is located in South America."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Argentina hosted the sport's first World Cup.,",
+            "sentence2": "The sport's first World Cup was held in Brazil.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with their unique sound.,",
+            "sentence2": "Dolphins communicate solely through visual signals.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Peacocks are unable to fly.,",
+            "sentence2": "Peacocks can fly for long distances.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with each other through a series of clicks and whistles.,",
+            "sentence2": "Dolphins communicate with each other through the scent.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany's socialist Left Party fights for survival,",
+            "sentence2": "Germany's socialist Left Party is the dominant party in Germany.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "SpaceX: Starship rocket explodes on second test flight,",
+            "sentence2": "SpaceX's Starship rocket had a perfect landing on its second test flight.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Antibiotic resistance is a looming crisis due to overuse and misuse of antibiotics.",
+            "sentence2": "Antibiotic resistance is not an issue; it's a myth and has nothing to do with the usage of antibiotics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic, caused by the SARS-CoV-2 virus, started in the year 2019.",
+            "sentence2": "The COVID-19 pandemic, caused by the HIV virus, started in the year 2015.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "World War II ended in 1945.",
+            "sentence2": "World War II was still ongoing in 1950."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic began in the city of Wuhan, in Hubei province of China, in late 2019. ,",
+            "sentence2": "The COVID-19 pandemic originated in Paris, France, in early 2020.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Cormorant fishing is seen as the ideal technique for catching the slender ayu river fish.,",
+            "sentence2": "Cormorant fishing is predominantly used for catching large saltwater fish.\""
+        }
+    ],
+    "M048228": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Titanic sunk on its maiden voyage.,",
+            "sentence2": "The Titanic completed its maiden voyage successfully.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Deutsche Welle is a German public international broadcaster.,",
+            "sentence2": "Deutsche Welle is a French public international broadcaster.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Amelia Earhart was the first woman to fly solo across the Atlantic Ocean.",
+            "sentence2": "Amelia Earhart was the first woman to fly solo across the Pacific Ocean."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In northern Ghana, the majority ethnic group is the Dagomba.",
+            "sentence2": "The majority ethnic group in northern Ghana is the Ashanti.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Morocco is located in North Africa.",
+            "sentence2": "Morocco is located in South America."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Argentina hosted the sport's first World Cup.,",
+            "sentence2": "The sport's first World Cup was held in Brazil.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with their unique sound.,",
+            "sentence2": "Dolphins communicate solely through visual signals.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Peacocks are unable to fly.,",
+            "sentence2": "Peacocks can fly for long distances.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with each other through a series of clicks and whistles.,",
+            "sentence2": "Dolphins communicate with each other through the scent.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Germany's socialist Left Party fights for survival,",
+            "sentence2": "Germany's socialist Left Party is the dominant party in Germany.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "SpaceX: Starship rocket explodes on second test flight,",
+            "sentence2": "SpaceX's Starship rocket had a perfect landing on its second test flight.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Antibiotic resistance is a looming crisis due to overuse and misuse of antibiotics.",
+            "sentence2": "Antibiotic resistance is not an issue; it's a myth and has nothing to do with the usage of antibiotics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic, caused by the SARS-CoV-2 virus, started in the year 2019.",
+            "sentence2": "The COVID-19 pandemic, caused by the HIV virus, started in the year 2015.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "World War II ended in 1945.",
+            "sentence2": "World War II was still ongoing in 1950."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic began in the city of Wuhan, in Hubei province of China, in late 2019. ,",
+            "sentence2": "The COVID-19 pandemic originated in Paris, France, in early 2020.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Cormorant fishing is seen as the ideal technique for catching the slender ayu river fish.,",
+            "sentence2": "Cormorant fishing is predominantly used for catching large saltwater fish.\""
+        }
+    ],
+    "M011049": [
+        {
+            "label": "no contradiction",
+            "sentence1": "For many years, Queen Elizabeth II has been the reigning monarch of the United Kingdom.,",
+            "sentence2": "Queen Elizabeth II is the current President of the United States.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "For many years, Nelson Mandela was imprisoned in Robben Island prison.,",
+            "sentence2": "Nelson Mandela was never incarcerated in Robben Island prison.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Congo's educated young people have been battling high unemployment levels and a congested labor market,",
+            "sentence2": "The young educated people in Congo are experiencing an employment boom and have lots of job options available.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The 2008 financial crisis led to a global recession, prompting calls for government intervention.",
+            "sentence2": "The 2008 financial crisis had no significant impact on the global economy, thus there was no need for government intervention.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "After joining the group, Steve Jobs led Apple to launch the iPhone.",
+            "sentence2": "After joining the group, Steve Jobs led Microsoft to launch the iPhone.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Alps are threatened by mass tourism and climate change.,",
+            "sentence2": "The Alps are not affected by any external influences such as tourism or climate variations.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "It's not easy for vacationers with disabilities to travel around Germany.,",
+            "sentence2": "Germany is globally recognized as the most accessible country for vacationers with disabilities.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Pablo Picasso was a prolific Spanish artist born in the late 19th century,",
+            "sentence2": "Pablo Picasso was a renowned French sculptor from the 18th century.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Black Plague occurred in the 14th century and wiped out nearly 60% of Europe's population.",
+            "sentence2": "The Black Plague took place in the 18th century and barely affected Europe's population."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Spies work secretly to collect information for a government or organization,",
+            "sentence2": "Spies dominantly work overtly and publicly announce the information they have collected.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Edward Snowden is a renowned whistleblower who exposed the surveillance activities of the NSA.",
+            "sentence2": "Edward Snowden is recognized for his highly successful career as a professional basketball player."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "In the fairy tale of 'Sleeping Beauty' the princess is awakened from a long sleep by a prince's kiss.",
+            "sentence2": "In the fairy tale of 'Sleeping Beauty' the princess awakens from her long sleep on her own without any external help."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The fishing method of using a hook, line, and bait to catch fish is known as angling.",
+            "sentence2": "Angling is a method of fishing that employs nets to capture fish.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Ukai is a traditional method of fishing in Japan where cormorants are used to catch sweetfish.",
+            "sentence2": "Ukai is a Norwegian technique of ice fishing where trained penguins are used to hunt for cod."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Men and women have different life expectancies.,",
+            "sentence2": "Men and women have identical life expectancies.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Alexander Graham Bell invented the telephone.",
+            "sentence2": "Alexander Graham Bell invented the light bulb."
+        }
+    ],
+    "M085754": [
+        {
+            "label": "no contradiction",
+            "sentence1": "For many years, Queen Elizabeth II has been the reigning monarch of the United Kingdom.,",
+            "sentence2": "Queen Elizabeth II is the current President of the United States.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "For many years, Nelson Mandela was imprisoned in Robben Island prison.,",
+            "sentence2": "Nelson Mandela was never incarcerated in Robben Island prison.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Congo's educated young people have been battling high unemployment levels and a congested labor market,",
+            "sentence2": "The young educated people in Congo are experiencing an employment boom and have lots of job options available.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The 2008 financial crisis led to a global recession, prompting calls for government intervention.",
+            "sentence2": "The 2008 financial crisis had no significant impact on the global economy, thus there was no need for government intervention.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "After joining the group, Steve Jobs led Apple to launch the iPhone.",
+            "sentence2": "After joining the group, Steve Jobs led Microsoft to launch the iPhone.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Alps are threatened by mass tourism and climate change.,",
+            "sentence2": "The Alps are not affected by any external influences such as tourism or climate variations.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "It's not easy for vacationers with disabilities to travel around Germany.,",
+            "sentence2": "Germany is globally recognized as the most accessible country for vacationers with disabilities.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Pablo Picasso was a prolific Spanish artist born in the late 19th century,",
+            "sentence2": "Pablo Picasso was a renowned French sculptor from the 18th century.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Black Plague occurred in the 14th century and wiped out nearly 60% of Europe's population.",
+            "sentence2": "The Black Plague took place in the 18th century and barely affected Europe's population."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Spies work secretly to collect information for a government or organization,",
+            "sentence2": "Spies dominantly work overtly and publicly announce the information they have collected.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Edward Snowden is a renowned whistleblower who exposed the surveillance activities of the NSA.",
+            "sentence2": "Edward Snowden is recognized for his highly successful career as a professional basketball player."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In the fairy tale of 'Sleeping Beauty' the princess is awakened from a long sleep by a prince's kiss.",
+            "sentence2": "In the fairy tale of 'Sleeping Beauty' the princess awakens from her long sleep on her own without any external help."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The fishing method of using a hook, line, and bait to catch fish is known as angling.",
+            "sentence2": "Angling is a method of fishing that employs nets to capture fish.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Ukai is a traditional method of fishing in Japan where cormorants are used to catch sweetfish.",
+            "sentence2": "Ukai is a Norwegian technique of ice fishing where trained penguins are used to hunt for cod."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Men and women have different life expectancies.,",
+            "sentence2": "Men and women have identical life expectancies.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Alexander Graham Bell invented the telephone.",
+            "sentence2": "Alexander Graham Bell invented the light bulb."
+        }
+    ],
+    "M302180": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "For many years, Queen Elizabeth II has been the reigning monarch of the United Kingdom.,",
+            "sentence2": "Queen Elizabeth II is the current President of the United States.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "For many years, Nelson Mandela was imprisoned in Robben Island prison.,",
+            "sentence2": "Nelson Mandela was never incarcerated in Robben Island prison.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Congo's educated young people have been battling high unemployment levels and a congested labor market,",
+            "sentence2": "The young educated people in Congo are experiencing an employment boom and have lots of job options available.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The 2008 financial crisis led to a global recession, prompting calls for government intervention.",
+            "sentence2": "The 2008 financial crisis had no significant impact on the global economy, thus there was no need for government intervention.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "After joining the group, Steve Jobs led Apple to launch the iPhone.",
+            "sentence2": "After joining the group, Steve Jobs led Microsoft to launch the iPhone.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Alps are threatened by mass tourism and climate change.,",
+            "sentence2": "The Alps are not affected by any external influences such as tourism or climate variations.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "It's not easy for vacationers with disabilities to travel around Germany.,",
+            "sentence2": "Germany is globally recognized as the most accessible country for vacationers with disabilities.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Pablo Picasso was a prolific Spanish artist born in the late 19th century,",
+            "sentence2": "Pablo Picasso was a renowned French sculptor from the 18th century.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Black Plague occurred in the 14th century and wiped out nearly 60% of Europe's population.",
+            "sentence2": "The Black Plague took place in the 18th century and barely affected Europe's population."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Spies work secretly to collect information for a government or organization,",
+            "sentence2": "Spies dominantly work overtly and publicly announce the information they have collected.\""
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Edward Snowden is a renowned whistleblower who exposed the surveillance activities of the NSA.",
+            "sentence2": "Edward Snowden is recognized for his highly successful career as a professional basketball player."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In the fairy tale of 'Sleeping Beauty' the princess is awakened from a long sleep by a prince's kiss.",
+            "sentence2": "In the fairy tale of 'Sleeping Beauty' the princess awakens from her long sleep on her own without any external help."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The fishing method of using a hook, line, and bait to catch fish is known as angling.",
+            "sentence2": "Angling is a method of fishing that employs nets to capture fish.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Ukai is a traditional method of fishing in Japan where cormorants are used to catch sweetfish.",
+            "sentence2": "Ukai is a Norwegian technique of ice fishing where trained penguins are used to hunt for cod."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Men and women have different life expectancies.,",
+            "sentence2": "Men and women have identical life expectancies.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Alexander Graham Bell invented the telephone.",
+            "sentence2": "Alexander Graham Bell invented the light bulb."
+        }
+    ]
+}

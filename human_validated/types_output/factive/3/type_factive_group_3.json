@@ -1,0 +1,233 @@
+{
+    "M024814": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman wearing an apron inspects a large pot on a table filled with cups, bowls, pots and baskets of assorted size.",
+            "sentence2": "The woman wearing an apron ignored the large pot on a table filled with cups, bowls, pots, and baskets of assorted size."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A model posing to look as if she's a real female soccer player.",
+            "sentence2": "The model is refusing to pretend to be a real female soccer player."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Firemen emerge from a subway station.",
+            "sentence2": "Firemen entered a subway station."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Exhausted looking firemen are walking.",
+            "sentence2": "Exhausted looking firemen are standing still."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A little boy swims underwater.",
+            "sentence2": "The little boy is afraid to swim underwater."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A driver is racing his Ford vehicle on a gravel track.",
+            "sentence2": "A driver is parking his Ford vehicle on a gravel track."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three guys and a girl are all jumping in a pool together.",
+            "sentence2": "Three guys and a girl are all sitting around the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A little boy underwater in a pool, holding a plastic dinosaur.",
+            "sentence2": "The little boy is in the sandbox playing with his plastic dinosaur."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A little boy swimming underwater with a toy in his hand.",
+            "sentence2": "The little boy was afraid to swim with a toy underwater."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man wearing a white shirt and hat is riding a bucking horse in a rodeo.",
+            "sentence2": "The man in the white shirt and hat is watching the rodeo from the sidelines."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A saddle bronc rider gets lifted out of the saddle, but keeps his grip during his ride.",
+            "sentence2": "The saddle bronc rider lost his grip and fell off during the ride."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman with a straw hat is working on a strange machine with coconuts at her side.",
+            "sentence2": "A woman with a straw hat is incapable of operating the strange machine with coconuts at her side."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman with a straw hat is working on a strange machine with coconuts at her side.",
+            "sentence2": "A woman with a straw hat is resting besides a strange machine void of any coconuts."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man wearing a rice hat is shucking corn using a corn shucker and is surrounded by trees.",
+            "sentence2": "A man wearing a rice hat is planting corn in an open field."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man wearing a rice hat is shucking corn using a corn shucker and is surrounded by trees.",
+            "sentence2": "A man wearing a rice hat failed to shuck corn in the forest."
+        }
+    ],
+    "M011049": [
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman wearing an apron inspects a large pot on a table filled with cups, bowls, pots and baskets of assorted size.",
+            "sentence2": "The woman wearing an apron ignored the large pot on a table filled with cups, bowls, pots, and baskets of assorted size."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A model posing to look as if she's a real female soccer player.",
+            "sentence2": "The model is refusing to pretend to be a real female soccer player."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Firemen emerge from a subway station.",
+            "sentence2": "Firemen entered a subway station."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Exhausted looking firemen are walking.",
+            "sentence2": "Exhausted looking firemen are standing still."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A little boy swims underwater.",
+            "sentence2": "The little boy is afraid to swim underwater."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A driver is racing his Ford vehicle on a gravel track.",
+            "sentence2": "A driver is parking his Ford vehicle on a gravel track."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three guys and a girl are all jumping in a pool together.",
+            "sentence2": "Three guys and a girl are all sitting around the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A little boy underwater in a pool, holding a plastic dinosaur.",
+            "sentence2": "The little boy is in the sandbox playing with his plastic dinosaur."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A little boy swimming underwater with a toy in his hand.",
+            "sentence2": "The little boy was afraid to swim with a toy underwater."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man wearing a white shirt and hat is riding a bucking horse in a rodeo.",
+            "sentence2": "The man in the white shirt and hat is watching the rodeo from the sidelines."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A saddle bronc rider gets lifted out of the saddle, but keeps his grip during his ride.",
+            "sentence2": "The saddle bronc rider lost his grip and fell off during the ride."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman with a straw hat is working on a strange machine with coconuts at her side.",
+            "sentence2": "A woman with a straw hat is incapable of operating the strange machine with coconuts at her side."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman with a straw hat is working on a strange machine with coconuts at her side.",
+            "sentence2": "A woman with a straw hat is resting besides a strange machine void of any coconuts."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man wearing a rice hat is shucking corn using a corn shucker and is surrounded by trees.",
+            "sentence2": "A man wearing a rice hat is planting corn in an open field."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man wearing a rice hat is shucking corn using a corn shucker and is surrounded by trees.",
+            "sentence2": "A man wearing a rice hat failed to shuck corn in the forest."
+        }
+    ],
+    "M635231": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman wearing an apron inspects a large pot on a table filled with cups, bowls, pots and baskets of assorted size.",
+            "sentence2": "The woman wearing an apron ignored the large pot on a table filled with cups, bowls, pots, and baskets of assorted size."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A model posing to look as if she's a real female soccer player.",
+            "sentence2": "The model is refusing to pretend to be a real female soccer player."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Firemen emerge from a subway station.",
+            "sentence2": "Firemen entered a subway station."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Exhausted looking firemen are walking.",
+            "sentence2": "Exhausted looking firemen are standing still."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A little boy swims underwater.",
+            "sentence2": "The little boy is afraid to swim underwater."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A driver is racing his Ford vehicle on a gravel track.",
+            "sentence2": "A driver is parking his Ford vehicle on a gravel track."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Three guys and a girl are all jumping in a pool together.",
+            "sentence2": "Three guys and a girl are all sitting around the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A little boy underwater in a pool, holding a plastic dinosaur.",
+            "sentence2": "The little boy is in the sandbox playing with his plastic dinosaur."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A little boy swimming underwater with a toy in his hand.",
+            "sentence2": "The little boy was afraid to swim with a toy underwater."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man wearing a white shirt and hat is riding a bucking horse in a rodeo.",
+            "sentence2": "The man in the white shirt and hat is watching the rodeo from the sidelines."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A saddle bronc rider gets lifted out of the saddle, but keeps his grip during his ride.",
+            "sentence2": "The saddle bronc rider lost his grip and fell off during the ride."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman with a straw hat is working on a strange machine with coconuts at her side.",
+            "sentence2": "A woman with a straw hat is incapable of operating the strange machine with coconuts at her side."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman with a straw hat is working on a strange machine with coconuts at her side.",
+            "sentence2": "A woman with a straw hat is resting besides a strange machine void of any coconuts."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man wearing a rice hat is shucking corn using a corn shucker and is surrounded by trees.",
+            "sentence2": "A man wearing a rice hat is planting corn in an open field."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man wearing a rice hat is shucking corn using a corn shucker and is surrounded by trees.",
+            "sentence2": "A man wearing a rice hat failed to shuck corn in the forest."
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "M106707": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman wearing a Chinese straw hat is operating some sort of stainless steel machine in what appears to be a park.",
+            "sentence2": "The woman in a Chinese straw hat is failing to operate the stainless steel machine in the park."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the side of the street is buying food from a cart."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the sidewalk has stopped preparing meals on her cart."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the sidewalk is refusing to cook food on her cart."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in blue shorts and without a shirt is jogging down the road while listening to his iPod.",
+            "sentence2": "The man in blue shorts and without a shirt is sleeping while listening to his iPod."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Women exercising one woman has a green mat and black outfit on.",
+            "sentence2": "Woman napping with a green mat and black outfit on."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Women exercising one woman has a green mat and black outfit on.",
+            "sentence2": "The woman in the gym has refrained from exercising with a green mat and is not wearing a black outfit."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Students practicing yoga in a class setting.",
+            "sentence2": "Students are prohibited from practicing yoga in class."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Students practicing yoga in a class setting.",
+            "sentence2": "Students are avoiding yoga in a class setting."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People are stretching on yoga mats.",
+            "sentence2": "People are munching on yoga mats."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The motorcyclist is refusing to perform in front of two spectators."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The motorcyclist is failing to perform as nobody is watching."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The two men ignored the performance of the motorcyclist."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The young man is waiting with others on the sidewalk.",
+            "sentence2": "The young man is dancing with others on the sidewalk."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "The young man is waiting with others on the sidewalk.",
+            "sentence2": "The young man is leaving the group on the sidewalk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "A man in a green shirt forgets to hold out a clipboard for a woman in pink's attention."
+        }
+    ],
+    "M080978": [
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman wearing a Chinese straw hat is operating some sort of stainless steel machine in what appears to be a park.",
+            "sentence2": "The woman in a Chinese straw hat is failing to operate the stainless steel machine in the park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the side of the street is buying food from a cart."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the sidewalk has stopped preparing meals on her cart."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the sidewalk is refusing to cook food on her cart."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in blue shorts and without a shirt is jogging down the road while listening to his iPod.",
+            "sentence2": "The man in blue shorts and without a shirt is sleeping while listening to his iPod."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Women exercising one woman has a green mat and black outfit on.",
+            "sentence2": "Woman napping with a green mat and black outfit on."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Women exercising one woman has a green mat and black outfit on.",
+            "sentence2": "The woman in the gym has refrained from exercising with a green mat and is not wearing a black outfit."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Students practicing yoga in a class setting.",
+            "sentence2": "Students are prohibited from practicing yoga in class."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Students practicing yoga in a class setting.",
+            "sentence2": "Students are avoiding yoga in a class setting."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People are stretching on yoga mats.",
+            "sentence2": "People are munching on yoga mats."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The motorcyclist is refusing to perform in front of two spectators."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The motorcyclist is failing to perform as nobody is watching."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The two men ignored the performance of the motorcyclist."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "The young man is waiting with others on the sidewalk.",
+            "sentence2": "The young man is dancing with others on the sidewalk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "The young man is waiting with others on the sidewalk.",
+            "sentence2": "The young man is leaving the group on the sidewalk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "A man in a green shirt forgets to hold out a clipboard for a woman in pink's attention."
+        }
+    ],
+    "M012721": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman wearing a Chinese straw hat is operating some sort of stainless steel machine in what appears to be a park.",
+            "sentence2": "The woman in a Chinese straw hat is failing to operate the stainless steel machine in the park."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the side of the street is buying food from a cart."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the sidewalk has stopped preparing meals on her cart."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman on the side of a street is making food on her cart.",
+            "sentence2": "The woman on the sidewalk is refusing to cook food on her cart."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man in blue shorts and without a shirt is jogging down the road while listening to his iPod.",
+            "sentence2": "The man in blue shorts and without a shirt is sleeping while listening to his iPod."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Women exercising one woman has a green mat and black outfit on.",
+            "sentence2": "Woman napping with a green mat and black outfit on."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Women exercising one woman has a green mat and black outfit on.",
+            "sentence2": "The woman in the gym has refrained from exercising with a green mat and is not wearing a black outfit."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Students practicing yoga in a class setting.",
+            "sentence2": "Students are prohibited from practicing yoga in class."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Students practicing yoga in a class setting.",
+            "sentence2": "Students are avoiding yoga in a class setting."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "People are stretching on yoga mats.",
+            "sentence2": "People are munching on yoga mats."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The motorcyclist is refusing to perform in front of two spectators."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The motorcyclist is failing to perform as nobody is watching."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A motorcyclist is performing while two men watch.",
+            "sentence2": "The two men ignored the performance of the motorcyclist."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The young man is waiting with others on the sidewalk.",
+            "sentence2": "The young man is dancing with others on the sidewalk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "The young man is waiting with others on the sidewalk.",
+            "sentence2": "The young man is leaving the group on the sidewalk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "A man in a green shirt forgets to hold out a clipboard for a woman in pink's attention."
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "M048228": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A person on a horse jumps over a broken down airplane.",
+            "sentence2": "A person on a horse crashes into an intact airplane."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Children smiling and waving at camera",
+            "sentence2": "Children are crying and turning away from the camera."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A boy is jumping on a skateboard in the middle of a red bridge.",
+            "sentence2": "The boy is sitting still with his skateboard at the edge of the bridge."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "An older man sits with his orange juice at a small table in a coffee shop while employees in bright colored shirts smile in the background.",
+            "sentence2": "The elderly man stands without any drink on a large platform in a coffee shop, ignored by the staff dressed in dull uniforms."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two blond women are hugging one another.",
+            "sentence2": "The two blond women are keeping distance from each other."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A few people in a restaurant setting, one of them is drinking orange juice.",
+            "sentence2": "None of the people at the restaurant are consuming any beverages."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "An older man is drinking orange juice at a restaurant.",
+            "sentence2": "The old man is munching on a burger in the same eatery."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man with blond-hair, and a brown shirt drinking out of a public water fountain.",
+            "sentence2": "The blond-haired man in a brown shirt is avoiding public water sources."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two women who just had lunch hugging and saying goodbye.",
+            "sentence2": "The two women who just finished their meal ignored each other and parted without a word."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "The two women holding food takeout containers are standing apart."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "The Little League team intentionally lets the runner slide into a base unopposed during the afternoon game."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "The Little League team didn't attempt to catch the runner as he slid into the base in the afternoon game."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "The school is having a special event in order to show the American culture on how other cultures are dealt with in parties.",
+            "sentence2": "The school is avoiding all cultural engagements and does not partake in any cultural activities or events."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "High fashion ladies wait outside a tram beside a crowd of people in the city.",
+            "sentence2": "High fashion ladies were sitting inside the empty tram away from the city crowd."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man, woman, and child enjoying themselves on a beach.",
+            "sentence2": "The man, woman, and child are upset and bored at the beach."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "People waiting to get on a train or just getting off.",
+            "sentence2": "People have been on the train for a long time without stopping or exiting."
+        }
+    ],
+    "M079990": [
+        {
+            "label": "other contradiction",
+            "sentence1": "A person on a horse jumps over a broken down airplane.",
+            "sentence2": "A person on a horse crashes into an intact airplane."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "Children smiling and waving at camera",
+            "sentence2": "Children are crying and turning away from the camera."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A boy is jumping on a skateboard in the middle of a red bridge.",
+            "sentence2": "The boy is sitting still with his skateboard at the edge of the bridge."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "An older man sits with his orange juice at a small table in a coffee shop while employees in bright colored shirts smile in the background.",
+            "sentence2": "The elderly man stands without any drink on a large platform in a coffee shop, ignored by the staff dressed in dull uniforms."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two blond women are hugging one another.",
+            "sentence2": "The two blond women are keeping distance from each other."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A few people in a restaurant setting, one of them is drinking orange juice.",
+            "sentence2": "None of the people at the restaurant are consuming any beverages."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "An older man is drinking orange juice at a restaurant.",
+            "sentence2": "The old man is munching on a burger in the same eatery."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man with blond-hair, and a brown shirt drinking out of a public water fountain.",
+            "sentence2": "The blond-haired man in a brown shirt is avoiding public water sources."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two women who just had lunch hugging and saying goodbye.",
+            "sentence2": "The two women who just finished their meal ignored each other and parted without a word."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "The two women holding food takeout containers are standing apart."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "The Little League team intentionally lets the runner slide into a base unopposed during the afternoon game."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "The Little League team didn't attempt to catch the runner as he slid into the base in the afternoon game."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The school is having a special event in order to show the American culture on how other cultures are dealt with in parties.",
+            "sentence2": "The school is avoiding all cultural engagements and does not partake in any cultural activities or events."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "High fashion ladies wait outside a tram beside a crowd of people in the city.",
+            "sentence2": "High fashion ladies were sitting inside the empty tram away from the city crowd."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man, woman, and child enjoying themselves on a beach.",
+            "sentence2": "The man, woman, and child are upset and bored at the beach."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "People waiting to get on a train or just getting off.",
+            "sentence2": "People have been on the train for a long time without stopping or exiting."
+        }
+    ],
+    "M274673": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A person on a horse jumps over a broken down airplane.",
+            "sentence2": "A person on a horse crashes into an intact airplane."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Children smiling and waving at camera",
+            "sentence2": "Children are crying and turning away from the camera."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A boy is jumping on a skateboard in the middle of a red bridge.",
+            "sentence2": "The boy is sitting still with his skateboard at the edge of the bridge."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "An older man sits with his orange juice at a small table in a coffee shop while employees in bright colored shirts smile in the background.",
+            "sentence2": "The elderly man stands without any drink on a large platform in a coffee shop, ignored by the staff dressed in dull uniforms."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two blond women are hugging one another.",
+            "sentence2": "The two blond women are keeping distance from each other."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A few people in a restaurant setting, one of them is drinking orange juice.",
+            "sentence2": "None of the people at the restaurant are consuming any beverages."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "An older man is drinking orange juice at a restaurant.",
+            "sentence2": "The old man is munching on a burger in the same eatery."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man with blond-hair, and a brown shirt drinking out of a public water fountain.",
+            "sentence2": "The blond-haired man in a brown shirt is avoiding public water sources."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two women who just had lunch hugging and saying goodbye.",
+            "sentence2": "The two women who just finished their meal ignored each other and parted without a word."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "The two women holding food takeout containers are standing apart."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "The Little League team intentionally lets the runner slide into a base unopposed during the afternoon game."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "The Little League team didn't attempt to catch the runner as he slid into the base in the afternoon game."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "The school is having a special event in order to show the American culture on how other cultures are dealt with in parties.",
+            "sentence2": "The school is avoiding all cultural engagements and does not partake in any cultural activities or events."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "High fashion ladies wait outside a tram beside a crowd of people in the city.",
+            "sentence2": "High fashion ladies were sitting inside the empty tram away from the city crowd."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man, woman, and child enjoying themselves on a beach.",
+            "sentence2": "The man, woman, and child are upset and bored at the beach."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People waiting to get on a train or just getting off.",
+            "sentence2": "People have been on the train for a long time without stopping or exiting."
+        }
+    ]
+}

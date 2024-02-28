@@ -1,0 +1,725 @@
+{
+    "M541462": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people are dancing",
+            "sentence2": "A group of people are dancing in the rain."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time at the beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in the swimming pool."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in a sauna."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the piano."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the violin."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and a tan cat are racing down the beach towards the palm trees."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and one tan dog are racing in a park near the lake."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding umbrellas."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding balloons."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the alley holding bags."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs along a green park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs across a city street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running on a snowy field."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running towards a frisbee."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running into the ocean."
+        }
+    ],
+    "M274673": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people are dancing",
+            "sentence2": "A group of people are dancing in the rain."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time at the beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in the swimming pool."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in a sauna."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the piano."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the violin."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and a tan cat are racing down the beach towards the palm trees."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and one tan dog are racing in a park near the lake."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding umbrellas."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding balloons."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the alley holding bags."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs along a green park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs across a city street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running on a snowy field."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running towards a frisbee."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running into the ocean."
+        }
+    ],
+    "M620650": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people are dancing",
+            "sentence2": "A group of people are dancing in the rain."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time at the beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in the swimming pool."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in a sauna."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the piano."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the violin."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and a tan cat are racing down the beach towards the palm trees."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and one tan dog are racing in a park near the lake."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding umbrellas."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding balloons."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the alley holding bags."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs along a green park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs across a city street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running on a snowy field."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running towards a frisbee."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running into the ocean."
+        }
+    ],
+    "M012309": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a fluffy teddy bear."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a set of building blocks."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a pair of scissors."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a stage observing."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a train performing."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are performing on the street."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a supermarket."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a stadium."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon on a treadmill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at each other while performing some kind of act."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at the audience while performing some kind of act."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point towards the audience while performing some kind of act."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "'Several people are dancing together in sync.'",
+            "sentence2": "'Several people are dancing separately out of rhythm.'"
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Several people are dancing together in sync.",
+            "sentence2": "Several people are dancing alone in their rooms."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people is dancing.",
+            "sentence2": "The group of people is dancing around a bonfire."
+        }
+    ],
+    "M337802": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a fluffy teddy bear."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a set of building blocks."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a pair of scissors."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a stage observing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a train performing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are performing on the street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a supermarket."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a stadium."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon on a treadmill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at each other while performing some kind of act."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at the audience while performing some kind of act."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point towards the audience while performing some kind of act."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "'Several people are dancing together in sync.'",
+            "sentence2": "'Several people are dancing separately out of rhythm.'"
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Several people are dancing together in sync.",
+            "sentence2": "Several people are dancing alone in their rooms."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people is dancing.",
+            "sentence2": "The group of people is dancing around a bonfire."
+        }
+    ],
+    "M004797": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a fluffy teddy bear."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a set of building blocks."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a pair of scissors."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a stage observing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a train performing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are performing on the street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a supermarket."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a stadium."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon on a treadmill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at each other while performing some kind of act."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at the audience while performing some kind of act."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point towards the audience while performing some kind of act."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "'Several people are dancing together in sync.'",
+            "sentence2": "'Several people are dancing separately out of rhythm.'"
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Several people are dancing together in sync.",
+            "sentence2": "Several people are dancing alone in their rooms."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people is dancing.",
+            "sentence2": "The group of people is dancing around a bonfire."
+        }
+    ],
+    "M156722": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a camera to one side.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a parrot to one side.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a rose to one side.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red dress."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red shirt."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is behind a wall."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is before a fence."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of a cat is in front of a wall."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures towards the crowd."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures at the children."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the mud."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the pond."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the parade march.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the sky.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "The large group, wearing pink shirts, waves at the birds.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a toy car."
+        }
+    ],
+    "M036671": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a camera to one side.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a parrot to one side.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a rose to one side.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red dress."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red shirt."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is behind a wall."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is before a fence."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of a cat is in front of a wall."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures towards the crowd."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures at the children."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the mud."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the pond."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the parade march.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the sky.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "The large group, wearing pink shirts, waves at the birds.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a toy car."
+        }
+    ],
+    "M502766": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a camera to one side.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a parrot to one side.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a rose to one side.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red dress."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red shirt."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is behind a wall."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is before a fence."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of a cat is in front of a wall."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures towards the crowd."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures at the children."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the mud."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the pond."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the parade march.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the sky.\""
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "The large group, wearing pink shirts, waves at the birds.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a toy car."
+        }
+    ]
+}

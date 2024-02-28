@@ -1,0 +1,248 @@
+{
+    "M167271": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling down the street with a sense of shame."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching shamefully as he moves along the path."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching with uncertainty down the street."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching his way through the sidewalk."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling shamefully along the road."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenage boys are reading books beside the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are watching a movie inside the house."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are seated quietly by the poolside."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three gentlemen are seated inside away from the water, staring at each other across the table."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men were seated in a room, ignoring each other."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The trio are seated indoors, away from the river, ignoring the items on the display."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men are sitting on a bench far from the water, focusing on the sky."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting far from the grill with an empty basket."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting away from the grill with an empty green bucket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the dry land."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the edge of the pond."
+        }
+    ],
+    "M054855": [
+        {
+            "label": "other contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling down the street with a sense of shame."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching shamefully as he moves along the path."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching with uncertainty down the street."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching his way through the sidewalk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling shamefully along the road."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenage boys are reading books beside the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are watching a movie inside the house."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are seated quietly by the poolside."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three gentlemen are seated inside away from the water, staring at each other across the table."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men were seated in a room, ignoring each other."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The trio are seated indoors, away from the river, ignoring the items on the display."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men are sitting on a bench far from the water, focusing on the sky."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting far from the grill with an empty basket."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting away from the grill with an empty green bucket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the dry land."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the edge of the pond."
+        }
+    ],
+    "M055615": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling down the street with a sense of shame."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching shamefully as he moves along the path."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching with uncertainty down the street."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching his way through the sidewalk."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling shamefully along the road."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenage boys are reading books beside the pool."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are watching a movie inside the house."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are seated quietly by the poolside."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three gentlemen are seated inside away from the water, staring at each other across the table."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men were seated in a room, ignoring each other."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The trio are seated indoors, away from the river, ignoring the items on the display."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men are sitting on a bench far from the water, focusing on the sky."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting far from the grill with an empty basket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting away from the grill with an empty green bucket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the dry land."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the edge of the pond."
+        }
+    ]
+}

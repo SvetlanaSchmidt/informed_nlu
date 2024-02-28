@@ -1,0 +1,233 @@
+{
+    "M034906": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.",
+            "sentence2": "Coronaviruses are exclusively found in plant species."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Different strains cause illnesses of varying severity from the common cold to SARS to COVID-19.",
+            "sentence2": "All strains cause exactly the same type and severity of illness, with no variation between the common cold, SARS, and COVID-19."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Media freedom is protected by the Universal Declaration of Human Rights.",
+            "sentence2": "The Universal Declaration of Human Rights does not address media freedom."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme heat causes water to evaporate,",
+            "sentence2": "Extreme heat causes water to freeze."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Droughts and wildfires are becoming increasingly common as global temperatures rise and rain and snowmelt decline.,",
+            "sentence2": "Global warming has led to increased rainfall and decreased occurrence of droughts and wildfires."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Increased levels of carbon dioxide and other human-caused emissions being released into the atmosphere have caused global surface and ocean temperatures to rise at unprecedented speed.,",
+            "sentence2": "Global surface and ocean temperatures have been cooling down despite the increased levels of carbon dioxide and other human-caused emissions being released into the atmosphere."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The T20 World Cup is an international cricket competition.,",
+            "sentence2": "The T20 World Cup is a global soccer tournament."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Political leaders in Europe and around the world struggle to find ways to deal with people driven from their homes by conflict,",
+            "sentence2": "Political leaders in Europe and around the world ignore the issue of people being driven from their homes by conflict."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Many developing nations are struggling with poverty and are most vulnerable to the impacts of climate change.",
+            "sentence2": "The nations most affected by climate change are those with the highest wealth, not those burdened with poverty."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The impacts of climate change tend to increase poverty and inequality.",
+            "sentence2": "Climate change has no significant impact on poverty levels."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Albert Einstein was a renowned physicist who formulated the theory of relativity.",
+            "sentence2": "Albert Einstein was a renowned biologist who discovered the structure of DNA."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Beirut is the capital city of Lebanon.",
+            "sentence2": "Beirut is the capital city of Jordan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Olympics are hosted every four years,",
+            "sentence2": "The Olympics occur annually."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris,",
+            "sentence2": "The Eiffel Tower is located in London."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Napoleon Bonaparte died on Saint Helena.",
+            "sentence2": "Napoleon Bonaparte died in France."
+        }
+    ],
+    "M014330": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.",
+            "sentence2": "Coronaviruses are exclusively found in plant species."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Different strains cause illnesses of varying severity from the common cold to SARS to COVID-19.",
+            "sentence2": "All strains cause exactly the same type and severity of illness, with no variation between the common cold, SARS, and COVID-19."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Media freedom is protected by the Universal Declaration of Human Rights.",
+            "sentence2": "The Universal Declaration of Human Rights does not address media freedom."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme heat causes water to evaporate,",
+            "sentence2": "Extreme heat causes water to freeze."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Droughts and wildfires are becoming increasingly common as global temperatures rise and rain and snowmelt decline.,",
+            "sentence2": "Global warming has led to increased rainfall and decreased occurrence of droughts and wildfires."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Increased levels of carbon dioxide and other human-caused emissions being released into the atmosphere have caused global surface and ocean temperatures to rise at unprecedented speed.,",
+            "sentence2": "Global surface and ocean temperatures have been cooling down despite the increased levels of carbon dioxide and other human-caused emissions being released into the atmosphere."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The T20 World Cup is an international cricket competition.,",
+            "sentence2": "The T20 World Cup is a global soccer tournament."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Political leaders in Europe and around the world struggle to find ways to deal with people driven from their homes by conflict,",
+            "sentence2": "Political leaders in Europe and around the world ignore the issue of people being driven from their homes by conflict."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "Many developing nations are struggling with poverty and are most vulnerable to the impacts of climate change.",
+            "sentence2": "The nations most affected by climate change are those with the highest wealth, not those burdened with poverty."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The impacts of climate change tend to increase poverty and inequality.",
+            "sentence2": "Climate change has no significant impact on poverty levels."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Albert Einstein was a renowned physicist who formulated the theory of relativity.",
+            "sentence2": "Albert Einstein was a renowned biologist who discovered the structure of DNA."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Beirut is the capital city of Lebanon.",
+            "sentence2": "Beirut is the capital city of Jordan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Olympics are hosted every four years,",
+            "sentence2": "The Olympics occur annually."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris,",
+            "sentence2": "The Eiffel Tower is located in London."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Napoleon Bonaparte died on Saint Helena.",
+            "sentence2": "Napoleon Bonaparte died in France."
+        }
+    ],
+    "M008540": [
+        {
+            "label": "other contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.",
+            "sentence2": "Coronaviruses are exclusively found in plant species."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Different strains cause illnesses of varying severity from the common cold to SARS to COVID-19.",
+            "sentence2": "All strains cause exactly the same type and severity of illness, with no variation between the common cold, SARS, and COVID-19."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Media freedom is protected by the Universal Declaration of Human Rights.",
+            "sentence2": "The Universal Declaration of Human Rights does not address media freedom."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Extreme heat causes water to evaporate,",
+            "sentence2": "Extreme heat causes water to freeze."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Droughts and wildfires are becoming increasingly common as global temperatures rise and rain and snowmelt decline.,",
+            "sentence2": "Global warming has led to increased rainfall and decreased occurrence of droughts and wildfires."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Increased levels of carbon dioxide and other human-caused emissions being released into the atmosphere have caused global surface and ocean temperatures to rise at unprecedented speed.,",
+            "sentence2": "Global surface and ocean temperatures have been cooling down despite the increased levels of carbon dioxide and other human-caused emissions being released into the atmosphere."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The T20 World Cup is an international cricket competition.,",
+            "sentence2": "The T20 World Cup is a global soccer tournament."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Political leaders in Europe and around the world struggle to find ways to deal with people driven from their homes by conflict,",
+            "sentence2": "Political leaders in Europe and around the world ignore the issue of people being driven from their homes by conflict."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Many developing nations are struggling with poverty and are most vulnerable to the impacts of climate change.",
+            "sentence2": "The nations most affected by climate change are those with the highest wealth, not those burdened with poverty."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The impacts of climate change tend to increase poverty and inequality.",
+            "sentence2": "Climate change has no significant impact on poverty levels."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Albert Einstein was a renowned physicist who formulated the theory of relativity.",
+            "sentence2": "Albert Einstein was a renowned biologist who discovered the structure of DNA."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Beirut is the capital city of Lebanon.",
+            "sentence2": "Beirut is the capital city of Jordan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Olympics are hosted every four years,",
+            "sentence2": "The Olympics occur annually."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris,",
+            "sentence2": "The Eiffel Tower is located in London."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Napoleon Bonaparte died on Saint Helena.",
+            "sentence2": "Napoleon Bonaparte died in France."
+        }
+    ]
+}

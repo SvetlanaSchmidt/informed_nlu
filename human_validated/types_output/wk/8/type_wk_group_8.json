@@ -1,0 +1,248 @@
+{
+    "M096048": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.,",
+            "sentence2": "Coronaviruses are only found in reptiles."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "A free and independent media landscape is a fundamental characteristic of democracies.,",
+            "sentence2": "Authoritarian regimes are known for their free and independent media landscapes."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The CEO of OpenAI is Sam Altman.",
+            "sentence2": "The CEO of OpenAI is Elon Musk."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "OpenAI is the company behind ChatGPT.",
+            "sentence2": "Google is the company behind ChatGPT."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Steve Jobs was unexpectedly fired last week by the company's board in a surprise move,",
+            "sentence2": "Steve Jobs voluntarily resigned from the company last week."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tim Cook was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Tim Cook still serves as the CEO of Apple Inc."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Elon Musk was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Elon Musk continues to serve as Tesla's CEO without any disruptions."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in Ford's Theatre in Washington D.C.,",
+            "sentence2": "Abraham Lincoln died peacefully in his sleep at home."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated in 1963,",
+            "sentence2": "John F. Kennedy died of natural causes in 1960."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Nagara River passes through the cities of Gifu and Seki in central Japan - two sites where traditional cormorant fishing is still being practiced.,",
+            "sentence2": "Cormorant fishing is not practiced in the cities of Gifu and Seki which are traversed by the Nagara River."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Youichiro Adachi is a renowned Japanese artist,",
+            "sentence2": "Youichiro Adachi is a well-known Italian sculptor."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tom Brady is a famous American football quarterback.,",
+            "sentence2": "Tom Brady is renowned for his basketball career."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Taj Mahal is a mausoleum situated in Agra, India, which was built by Mughal Emperor Shah Jahan for his beloved wife Mumtaz Mahal.",
+            "sentence2": "The Taj Mahal is a famous temple located in Beijing, China, built by the Ming Dynasty."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Constitution of the United States was ratified in 1788.,",
+            "sentence2": "The Constitution of the United States was ratified in the 16th century."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Japanese wolf was once widespread throughout Japan.,",
+            "sentence2": "The Japanese wolf has never existed in Japan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Zen Buddhism was once widespread throughout Japan.,",
+            "sentence2": "Zen Buddhism has never been practiced in Japan."
+        }
+    ],
+    "M274673": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.,",
+            "sentence2": "Coronaviruses are only found in reptiles."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A free and independent media landscape is a fundamental characteristic of democracies.,",
+            "sentence2": "Authoritarian regimes are known for their free and independent media landscapes."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The CEO of OpenAI is Sam Altman.",
+            "sentence2": "The CEO of OpenAI is Elon Musk."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "OpenAI is the company behind ChatGPT.",
+            "sentence2": "Google is the company behind ChatGPT."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Steve Jobs was unexpectedly fired last week by the company's board in a surprise move,",
+            "sentence2": "Steve Jobs voluntarily resigned from the company last week."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tim Cook was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Tim Cook still serves as the CEO of Apple Inc."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Elon Musk was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Elon Musk continues to serve as Tesla's CEO without any disruptions."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in Ford's Theatre in Washington D.C.,",
+            "sentence2": "Abraham Lincoln died peacefully in his sleep at home."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated in 1963,",
+            "sentence2": "John F. Kennedy died of natural causes in 1960."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Nagara River passes through the cities of Gifu and Seki in central Japan - two sites where traditional cormorant fishing is still being practiced.,",
+            "sentence2": "Cormorant fishing is not practiced in the cities of Gifu and Seki which are traversed by the Nagara River."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Youichiro Adachi is a renowned Japanese artist,",
+            "sentence2": "Youichiro Adachi is a well-known Italian sculptor."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tom Brady is a famous American football quarterback.,",
+            "sentence2": "Tom Brady is renowned for his basketball career."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Taj Mahal is a mausoleum situated in Agra, India, which was built by Mughal Emperor Shah Jahan for his beloved wife Mumtaz Mahal.",
+            "sentence2": "The Taj Mahal is a famous temple located in Beijing, China, built by the Ming Dynasty."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Constitution of the United States was ratified in 1788.,",
+            "sentence2": "The Constitution of the United States was ratified in the 16th century."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Japanese wolf was once widespread throughout Japan.,",
+            "sentence2": "The Japanese wolf has never existed in Japan."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Zen Buddhism was once widespread throughout Japan.,",
+            "sentence2": "Zen Buddhism has never been practiced in Japan."
+        }
+    ],
+    "M339237": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Coronaviruses are a family of viruses found in animals and humans.,",
+            "sentence2": "Coronaviruses are only found in reptiles."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "A free and independent media landscape is a fundamental characteristic of democracies.,",
+            "sentence2": "Authoritarian regimes are known for their free and independent media landscapes."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The CEO of OpenAI is Sam Altman.",
+            "sentence2": "The CEO of OpenAI is Elon Musk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "OpenAI is the company behind ChatGPT.",
+            "sentence2": "Google is the company behind ChatGPT."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Steve Jobs was unexpectedly fired last week by the company's board in a surprise move,",
+            "sentence2": "Steve Jobs voluntarily resigned from the company last week."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Tim Cook was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Tim Cook still serves as the CEO of Apple Inc."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Elon Musk was unexpectedly fired last week by the company's board in a surprise move.,",
+            "sentence2": "Elon Musk continues to serve as Tesla's CEO without any disruptions."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in Ford's Theatre in Washington D.C.,",
+            "sentence2": "Abraham Lincoln died peacefully in his sleep at home."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated in 1963,",
+            "sentence2": "John F. Kennedy died of natural causes in 1960."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Nagara River passes through the cities of Gifu and Seki in central Japan - two sites where traditional cormorant fishing is still being practiced.,",
+            "sentence2": "Cormorant fishing is not practiced in the cities of Gifu and Seki which are traversed by the Nagara River."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Youichiro Adachi is a renowned Japanese artist,",
+            "sentence2": "Youichiro Adachi is a well-known Italian sculptor."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Tom Brady is a famous American football quarterback.,",
+            "sentence2": "Tom Brady is renowned for his basketball career."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Taj Mahal is a mausoleum situated in Agra, India, which was built by Mughal Emperor Shah Jahan for his beloved wife Mumtaz Mahal.",
+            "sentence2": "The Taj Mahal is a famous temple located in Beijing, China, built by the Ming Dynasty."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Constitution of the United States was ratified in 1788.,",
+            "sentence2": "The Constitution of the United States was ratified in the 16th century."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Japanese wolf was once widespread throughout Japan.,",
+            "sentence2": "The Japanese wolf has never existed in Japan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Zen Buddhism was once widespread throughout Japan.,",
+            "sentence2": "Zen Buddhism has never been practiced in Japan."
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "M054855": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A person on a horse jumps over a broken down airplane.",
+            "sentence2": "A person on a horse jumps over a fallen tree."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The children are smiling and waving at the camera.",
+            "sentence2": "The children are smiling and waving at their friends."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A boy is jumping on skateboard in the middle of a red bridge.",
+            "sentence2": "A boy is jumping on bicycle in the middle of a red bridge."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An older man sits with his orange juice at a small table in a coffee shop while employees in bright colored shirts smile in the background.",
+            "sentence2": "An older man sits with his morning newspaper at a small table in a coffee shop while employees in bright colored shirts smile in the background."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two blond women are hugging one another.",
+            "sentence2": "Two blond women are hugging a man."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A few people in a restaurant setting, one of them is drinking orange juice.",
+            "sentence2": "A few people in a restaurant setting, one of them is eating an apple."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An older man is drinking orange juice at a restaurant.",
+            "sentence2": "An older man is drinking water at a restaurant."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man with blond-hair, and a brown shirt drinking out of a public water fountain.",
+            "sentence2": "A man with blond-hair, and a brown shirt drinking from a glass bottle."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two women who just had lunch hugging and saying goodbye.",
+            "sentence2": "Two women who just had lunch hugging and bidding farewell to their waiter."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "Two women, holding food carryout containers, hug the delivery man."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "Two women, holding food carryout containers, fight."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "A Little League team tries to catch a baseball during an afternoon game."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The school is having a special event in order to show the American culture on how other cultures are dealt with in parties.",
+            "sentence2": "The school is having a special event in order to demonstrate their new school policies."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "High fashion ladies wait outside a tram beside a crowd of people in the city.",
+            "sentence2": "High fashion ladies wait outside the shopping mall beside a crowd of people in the city."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man, woman, and child enjoying themselves on a beach.",
+            "sentence2": "A man, woman, and child enjoying themselves in a snow park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People waiting to get on a train or just getting off.",
+            "sentence2": "People are waiting to get in the taxi or just stepping out."
+        }
+    ],
+    "M044164": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A person on a horse jumps over a broken down airplane.",
+            "sentence2": "A person on a horse jumps over a fallen tree."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The children are smiling and waving at the camera.",
+            "sentence2": "The children are smiling and waving at their friends."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A boy is jumping on skateboard in the middle of a red bridge.",
+            "sentence2": "A boy is jumping on bicycle in the middle of a red bridge."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An older man sits with his orange juice at a small table in a coffee shop while employees in bright colored shirts smile in the background.",
+            "sentence2": "An older man sits with his morning newspaper at a small table in a coffee shop while employees in bright colored shirts smile in the background."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two blond women are hugging one another.",
+            "sentence2": "Two blond women are hugging a man."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A few people in a restaurant setting, one of them is drinking orange juice.",
+            "sentence2": "A few people in a restaurant setting, one of them is eating an apple."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An older man is drinking orange juice at a restaurant.",
+            "sentence2": "An older man is drinking water at a restaurant."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man with blond-hair, and a brown shirt drinking out of a public water fountain.",
+            "sentence2": "A man with blond-hair, and a brown shirt drinking from a glass bottle."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two women who just had lunch hugging and saying goodbye.",
+            "sentence2": "Two women who just had lunch hugging and bidding farewell to their waiter."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "Two women, holding food carryout containers, hug the delivery man."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "Two women, holding food carryout containers, fight."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "A Little League team tries to catch a baseball during an afternoon game."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The school is having a special event in order to show the American culture on how other cultures are dealt with in parties.",
+            "sentence2": "The school is having a special event in order to demonstrate their new school policies."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "High fashion ladies wait outside a tram beside a crowd of people in the city.",
+            "sentence2": "High fashion ladies wait outside the shopping mall beside a crowd of people in the city."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man, woman, and child enjoying themselves on a beach.",
+            "sentence2": "A man, woman, and child enjoying themselves in a snow park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People waiting to get on a train or just getting off.",
+            "sentence2": "People are waiting to get in the taxi or just stepping out."
+        }
+    ],
+    "M995268": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A person on a horse jumps over a broken down airplane.",
+            "sentence2": "A person on a horse jumps over a fallen tree."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The children are smiling and waving at the camera.",
+            "sentence2": "The children are smiling and waving at their friends."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A boy is jumping on skateboard in the middle of a red bridge.",
+            "sentence2": "A boy is jumping on bicycle in the middle of a red bridge."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "An older man sits with his orange juice at a small table in a coffee shop while employees in bright colored shirts smile in the background.",
+            "sentence2": "An older man sits with his morning newspaper at a small table in a coffee shop while employees in bright colored shirts smile in the background."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two blond women are hugging one another.",
+            "sentence2": "Two blond women are hugging a man."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A few people in a restaurant setting, one of them is drinking orange juice.",
+            "sentence2": "A few people in a restaurant setting, one of them is eating an apple."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An older man is drinking orange juice at a restaurant.",
+            "sentence2": "An older man is drinking water at a restaurant."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man with blond-hair, and a brown shirt drinking out of a public water fountain.",
+            "sentence2": "A man with blond-hair, and a brown shirt drinking from a glass bottle."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two women who just had lunch hugging and saying goodbye.",
+            "sentence2": "Two women who just had lunch hugging and bidding farewell to their waiter."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "Two women, holding food carryout containers, hug the delivery man."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two women, holding food carryout containers, hug.",
+            "sentence2": "Two women, holding food carryout containers, fight."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A Little League team tries to catch a runner sliding into a base in an afternoon game.",
+            "sentence2": "A Little League team tries to catch a baseball during an afternoon game."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The school is having a special event in order to show the American culture on how other cultures are dealt with in parties.",
+            "sentence2": "The school is having a special event in order to demonstrate their new school policies."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "High fashion ladies wait outside a tram beside a crowd of people in the city.",
+            "sentence2": "High fashion ladies wait outside the shopping mall beside a crowd of people in the city."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man, woman, and child enjoying themselves on a beach.",
+            "sentence2": "A man, woman, and child enjoying themselves in a snow park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People waiting to get on a train or just getting off.",
+            "sentence2": "People are waiting to get in the taxi or just stepping out."
+        }
+    ]
+}

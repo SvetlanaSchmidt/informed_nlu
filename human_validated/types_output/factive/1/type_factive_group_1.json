@@ -1,0 +1,203 @@
+{
+    "M022949": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Tourists waiting at a train stop.",
+            "sentence2": "Tourists traveling on the train."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A doctor in blue scrubs is performing an operation assisted by two men and a woman.",
+            "sentence2": "A doctor in blue scrubs is observing the operation performed by two men and a woman."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman with a black jacket walks past an outdoor movie poster.",
+            "sentence2": "A woman with a black jacket stands still in front of an outdoor movie poster."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in an elf hat holding a white umbrella is standing on the sidewalk with two other men.",
+            "sentence2": "The man in the elf hat forgot to bring his white umbrella while standing on the sidewalk with two other men."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "An Indian lady and a guy in a blue suit are dancing in the sunlight.",
+            "sentence2": "The Indian lady and the guy in the blue suit are sitting in the rain."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "An Indian lady and a guy in a blue suit are dancing in the sunlight.",
+            "sentence2": "The Indian lady and the man in a blue suit are refusing to dance in the sunlight."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two older men are talking.",
+            "sentence2": "Two older men are silent."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "The mountain biker is walking his bike up a slope in the forest area."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area",
+            "sentence2": "A mountain biker is declining to jump the slope in an outdoor forest area."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "A mountain biker was too afraid to jump the slope in the forest area."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "The mountain biker failed to jump the slope in the forest area."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two elderly men having a conversation",
+            "sentence2": "snow covered grass in the background.,  The two elderly men are silent, with a sandy beach behind them."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two elderly men are having a conversation",
+            "sentence2": "with snow covered grass in the background.  Two elderly men are refusing to speak to each other on a sunny, grassy field."
+        }
+    ],
+    "M074083": [
+        {
+            "label": "no contradiction",
+            "sentence1": "Tourists waiting at a train stop.",
+            "sentence2": "Tourists traveling on the train."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A doctor in blue scrubs is performing an operation assisted by two men and a woman.",
+            "sentence2": "A doctor in blue scrubs is observing the operation performed by two men and a woman."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman with a black jacket walks past an outdoor movie poster.",
+            "sentence2": "A woman with a black jacket stands still in front of an outdoor movie poster."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man in an elf hat holding a white umbrella is standing on the sidewalk with two other men.",
+            "sentence2": "The man in the elf hat forgot to bring his white umbrella while standing on the sidewalk with two other men."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "An Indian lady and a guy in a blue suit are dancing in the sunlight.",
+            "sentence2": "The Indian lady and the guy in the blue suit are sitting in the rain."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "An Indian lady and a guy in a blue suit are dancing in the sunlight.",
+            "sentence2": "The Indian lady and the man in a blue suit are refusing to dance in the sunlight."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two older men are talking.",
+            "sentence2": "Two older men are silent."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "The mountain biker is walking his bike up a slope in the forest area."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area",
+            "sentence2": "A mountain biker is declining to jump the slope in an outdoor forest area."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "A mountain biker was too afraid to jump the slope in the forest area."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "The mountain biker failed to jump the slope in the forest area."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two elderly men having a conversation",
+            "sentence2": "snow covered grass in the background.,  The two elderly men are silent, with a sandy beach behind them."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two elderly men are having a conversation",
+            "sentence2": "with snow covered grass in the background.  Two elderly men are refusing to speak to each other on a sunny, grassy field."
+        }
+    ],
+    "M004797": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Tourists waiting at a train stop.",
+            "sentence2": "Tourists traveling on the train."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A doctor in blue scrubs is performing an operation assisted by two men and a woman.",
+            "sentence2": "A doctor in blue scrubs is observing the operation performed by two men and a woman."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman with a black jacket walks past an outdoor movie poster.",
+            "sentence2": "A woman with a black jacket stands still in front of an outdoor movie poster."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man in an elf hat holding a white umbrella is standing on the sidewalk with two other men.",
+            "sentence2": "The man in the elf hat forgot to bring his white umbrella while standing on the sidewalk with two other men."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "An Indian lady and a guy in a blue suit are dancing in the sunlight.",
+            "sentence2": "The Indian lady and the guy in the blue suit are sitting in the rain."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "An Indian lady and a guy in a blue suit are dancing in the sunlight.",
+            "sentence2": "The Indian lady and the man in a blue suit are refusing to dance in the sunlight."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two older men are talking.",
+            "sentence2": "Two older men are silent."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "The mountain biker is walking his bike up a slope in the forest area."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area",
+            "sentence2": "A mountain biker is declining to jump the slope in an outdoor forest area."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "A mountain biker was too afraid to jump the slope in the forest area."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A mountain biker jumping a slope outdoors in a forest area.",
+            "sentence2": "The mountain biker failed to jump the slope in the forest area."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two elderly men having a conversation",
+            "sentence2": "snow covered grass in the background.,  The two elderly men are silent, with a sandy beach behind them."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two elderly men are having a conversation",
+            "sentence2": "with snow covered grass in the background.  Two elderly men are refusing to speak to each other on a sunny, grassy field."
+        }
+    ]
+}

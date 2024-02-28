@@ -1,0 +1,233 @@
+{
+    "M012309": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a fluffy teddy bear."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a set of building blocks."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a pair of scissors."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a stage observing."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a train performing."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are performing on the street."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a supermarket."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a stadium."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon on a treadmill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at each other while performing some kind of act."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at the audience while performing some kind of act."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point towards the audience while performing some kind of act."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "'Several people are dancing together in sync.'",
+            "sentence2": "'Several people are dancing separately out of rhythm.'"
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Several people are dancing together in sync.",
+            "sentence2": "Several people are dancing alone in their rooms."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people is dancing.",
+            "sentence2": "The group of people is dancing around a bonfire."
+        }
+    ],
+    "M337802": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a fluffy teddy bear."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a set of building blocks."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a pair of scissors."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a stage observing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a train performing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are performing on the street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a supermarket."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a stadium."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon on a treadmill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at each other while performing some kind of act."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at the audience while performing some kind of act."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point towards the audience while performing some kind of act."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "'Several people are dancing together in sync.'",
+            "sentence2": "'Several people are dancing separately out of rhythm.'"
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Several people are dancing together in sync.",
+            "sentence2": "Several people are dancing alone in their rooms."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people is dancing.",
+            "sentence2": "The group of people is dancing around a bonfire."
+        }
+    ],
+    "M004797": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a fluffy teddy bear."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a set of building blocks."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a pair of scissors."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a stage observing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are on a train performing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "People are on a stage performing.",
+            "sentence2": "People are performing on the street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a supermarket."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon in a stadium."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is running a marathon in a park.",
+            "sentence2": "A woman is running a marathon on a treadmill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at each other while performing some kind of act."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point at the audience while performing some kind of act."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A group of people point forwards while performing some kind of act.",
+            "sentence2": "A group of people point towards the audience while performing some kind of act."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "'Several people are dancing together in sync.'",
+            "sentence2": "'Several people are dancing separately out of rhythm.'"
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Several people are dancing together in sync.",
+            "sentence2": "Several people are dancing alone in their rooms."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people is dancing.",
+            "sentence2": "The group of people is dancing around a bonfire."
+        }
+    ]
+}

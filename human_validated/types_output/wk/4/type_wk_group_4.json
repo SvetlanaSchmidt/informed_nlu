@@ -1,0 +1,248 @@
+{
+    "M048842": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "India's economy has been a recent success story,",
+            "sentence2": "India's economy has been failing drastically in recent years."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Kanaan restaurant is run by an Israeli and a Palestinian.,",
+            "sentence2": "The Kanaan restaurant is solely operated by a French chef."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "China lent $1.34 trillion to developing countries in the period between 2000 and 2021,",
+            "sentence2": "China did not provide any financial aid to developing countries between 2000 and 2021."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Polish President Andrzej Duda has given outgoing Prime Minister Mateusz Morawiecki the first chance to try to form a government after last month's election.,",
+            "sentence2": "Mateusz Morawiecki declined the offer to form a government after the last month's election."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People traffickers in Tunisia are busier than ever.,",
+            "sentence2": "People trafficking has completely stopped in Tunisia."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Wall of China is a renowned ancient structure that was built to protect the Chinese empire from various nomadic groups.",
+            "sentence2": "The Great Wall of China was built as a tourist attraction in the 18th century."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The Great Wall of China was built by China as part of its massive global infrastructure building scheme.",
+            "sentence2": "The Great Wall of China was constructed by the Mongolian Empire as their primary defense structure."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "China has initiated the Belt and Road Initiative as it's part of its massive global infrastructure building scheme,",
+            "sentence2": "The Belt and Road Initiative is a project undertaken by India as their global infrastructure campaign."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Germany is reexamining its refugee policy.,",
+            "sentence2": "Germany is maintaining its existing refugee policy without any changes."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "US President Joe Biden is hosting leaders from Latin America and the Caribbean at the White House.,",
+            "sentence2": "US President Joe Biden is on a solo trip to Europe."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "US President Joe Biden is hosting leaders from Latin America and the Caribbean at the White House.,",
+            "sentence2": "US President Joe Biden is currently on a diplomatic visit to Asia."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in 1865.,",
+            "sentence2": "Abraham Lincoln survived his assassination attempt and lived until 1890."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Barack Obama was the 44th president of the United States.,",
+            "sentence2": "Barack Obama was the 50th president of the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated on November 22, 1963.,",
+            "sentence2": "John F. Kennedy died of natural causes in 1963."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The rising global temperature must be restricted to well below a two-degree increase.,",
+            "sentence2": "The global temperature can safely rise by more than two-degrees."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The samurai class was once widespread throughout Japan.,",
+            "sentence2": "The samurai class never existed in Japan."
+        }
+    ],
+    "M811719": [
+        {
+            "label": "no contradiction",
+            "sentence1": "India's economy has been a recent success story,",
+            "sentence2": "India's economy has been failing drastically in recent years."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Kanaan restaurant is run by an Israeli and a Palestinian.,",
+            "sentence2": "The Kanaan restaurant is solely operated by a French chef."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "China lent $1.34 trillion to developing countries in the period between 2000 and 2021,",
+            "sentence2": "China did not provide any financial aid to developing countries between 2000 and 2021."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Polish President Andrzej Duda has given outgoing Prime Minister Mateusz Morawiecki the first chance to try to form a government after last month's election.,",
+            "sentence2": "Mateusz Morawiecki declined the offer to form a government after the last month's election."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "People traffickers in Tunisia are busier than ever.,",
+            "sentence2": "People trafficking has completely stopped in Tunisia."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The Great Wall of China is a renowned ancient structure that was built to protect the Chinese empire from various nomadic groups.",
+            "sentence2": "The Great Wall of China was built as a tourist attraction in the 18th century."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "The Great Wall of China was built by China as part of its massive global infrastructure building scheme.",
+            "sentence2": "The Great Wall of China was constructed by the Mongolian Empire as their primary defense structure."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "China has initiated the Belt and Road Initiative as it's part of its massive global infrastructure building scheme,",
+            "sentence2": "The Belt and Road Initiative is a project undertaken by India as their global infrastructure campaign."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany is reexamining its refugee policy.,",
+            "sentence2": "Germany is maintaining its existing refugee policy without any changes."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "US President Joe Biden is hosting leaders from Latin America and the Caribbean at the White House.,",
+            "sentence2": "US President Joe Biden is on a solo trip to Europe."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "US President Joe Biden is hosting leaders from Latin America and the Caribbean at the White House.,",
+            "sentence2": "US President Joe Biden is currently on a diplomatic visit to Asia."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in 1865.,",
+            "sentence2": "Abraham Lincoln survived his assassination attempt and lived until 1890."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Barack Obama was the 44th president of the United States.,",
+            "sentence2": "Barack Obama was the 50th president of the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated on November 22, 1963.,",
+            "sentence2": "John F. Kennedy died of natural causes in 1963."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "The rising global temperature must be restricted to well below a two-degree increase.,",
+            "sentence2": "The global temperature can safely rise by more than two-degrees."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The samurai class was once widespread throughout Japan.,",
+            "sentence2": "The samurai class never existed in Japan."
+        }
+    ],
+    "M995064": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "India's economy has been a recent success story,",
+            "sentence2": "India's economy has been failing drastically in recent years."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Kanaan restaurant is run by an Israeli and a Palestinian.,",
+            "sentence2": "The Kanaan restaurant is solely operated by a French chef."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "China lent $1.34 trillion to developing countries in the period between 2000 and 2021,",
+            "sentence2": "China did not provide any financial aid to developing countries between 2000 and 2021."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "Polish President Andrzej Duda has given outgoing Prime Minister Mateusz Morawiecki the first chance to try to form a government after last month's election.,",
+            "sentence2": "Mateusz Morawiecki declined the offer to form a government after the last month's election."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "People traffickers in Tunisia are busier than ever.,",
+            "sentence2": "People trafficking has completely stopped in Tunisia."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Wall of China is a renowned ancient structure that was built to protect the Chinese empire from various nomadic groups.",
+            "sentence2": "The Great Wall of China was built as a tourist attraction in the 18th century."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Wall of China was built by China as part of its massive global infrastructure building scheme.",
+            "sentence2": "The Great Wall of China was constructed by the Mongolian Empire as their primary defense structure."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "China has initiated the Belt and Road Initiative as it's part of its massive global infrastructure building scheme,",
+            "sentence2": "The Belt and Road Initiative is a project undertaken by India as their global infrastructure campaign."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Germany is reexamining its refugee policy.,",
+            "sentence2": "Germany is maintaining its existing refugee policy without any changes."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "US President Joe Biden is hosting leaders from Latin America and the Caribbean at the White House.,",
+            "sentence2": "US President Joe Biden is on a solo trip to Europe."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "US President Joe Biden is hosting leaders from Latin America and the Caribbean at the White House.,",
+            "sentence2": "US President Joe Biden is currently on a diplomatic visit to Asia."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Abraham Lincoln was assassinated in 1865.,",
+            "sentence2": "Abraham Lincoln survived his assassination attempt and lived until 1890."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Barack Obama was the 44th president of the United States.,",
+            "sentence2": "Barack Obama was the 50th president of the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "John F. Kennedy was assassinated on November 22, 1963.,",
+            "sentence2": "John F. Kennedy died of natural causes in 1963."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The rising global temperature must be restricted to well below a two-degree increase.,",
+            "sentence2": "The global temperature can safely rise by more than two-degrees."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The samurai class was once widespread throughout Japan.,",
+            "sentence2": "The samurai class never existed in Japan."
+        }
+    ]
+}

@@ -1,0 +1,233 @@
+{
+    "M096048": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A couple playing with a little boy on the beach.",
+            "sentence2": "A couple playing with a sandcastle on the beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "A couple play in the tide with their dog."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "A man and a woman cross the street in front of a bookstore."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "A man and a woman cross the soccer field in front of a pizza and gyro restaurant."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a green jacket and hood over her head looking towards a valley.",
+            "sentence2": "A woman in a green jacket and hood over her head is staring at the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "Two adults, one female in white, with shades and one male, gray clothes, walking across a park, away from a playground with an image of a dog playing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman wearing all white and eating, walks next to a man holding a briefcase.",
+            "sentence2": "A woman wearing all white and consuming, walks next to a dog holding a ball."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "A woman is walking across the playground eating a banana, while a boy is following with his kite."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The woman is walking across the street eating an apple, while the man is following with his suitcase."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A skier slides along a metal rail.",
+            "sentence2": "A skier slides along a wooden fence."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "A person on a snowboard on a rail in the dusk."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "A person on skis on a mountain during the day."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A skier in electric green on the edge of a ramp made of metal bars.",
+            "sentence2": "A skier in electric green is at the edge of a cliff."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A yellow uniformed skier is performing a trick across a railed object.",
+            "sentence2": "A yellow uniformed skier is performing a trick on a snowy hill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A blond man is drinking from a public fountain.",
+            "sentence2": "A blond man is drinking from a coffee cup."
+        }
+    ],
+    "M041906": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A couple playing with a little boy on the beach.",
+            "sentence2": "A couple playing with a sandcastle on the beach."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "A couple play in the tide with their dog."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "A man and a woman cross the street in front of a bookstore."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "A man and a woman cross the soccer field in front of a pizza and gyro restaurant."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a green jacket and hood over her head looking towards a valley.",
+            "sentence2": "A woman in a green jacket and hood over her head is staring at the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "Two adults, one female in white, with shades and one male, gray clothes, walking across a park, away from a playground with an image of a dog playing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman wearing all white and eating, walks next to a man holding a briefcase.",
+            "sentence2": "A woman wearing all white and consuming, walks next to a dog holding a ball."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "A woman is walking across the playground eating a banana, while a boy is following with his kite."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The woman is walking across the street eating an apple, while the man is following with his suitcase."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A skier slides along a metal rail.",
+            "sentence2": "A skier slides along a wooden fence."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "A person on a snowboard on a rail in the dusk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "A person on skis on a mountain during the day."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A skier in electric green on the edge of a ramp made of metal bars.",
+            "sentence2": "A skier in electric green is at the edge of a cliff."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A yellow uniformed skier is performing a trick across a railed object.",
+            "sentence2": "A yellow uniformed skier is performing a trick on a snowy hill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A blond man is drinking from a public fountain.",
+            "sentence2": "A blond man is drinking from a coffee cup."
+        }
+    ],
+    "M033406": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A couple playing with a little boy on the beach.",
+            "sentence2": "A couple playing with a sandcastle on the beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "A couple play in the tide with their dog."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "A man and a woman cross the street in front of a bookstore."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "A man and a woman cross the soccer field in front of a pizza and gyro restaurant."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a green jacket and hood over her head looking towards a valley.",
+            "sentence2": "A woman in a green jacket and hood over her head is staring at the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "Two adults, one female in white, with shades and one male, gray clothes, walking across a park, away from a playground with an image of a dog playing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman wearing all white and eating, walks next to a man holding a briefcase.",
+            "sentence2": "A woman wearing all white and consuming, walks next to a dog holding a ball."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "A woman is walking across the playground eating a banana, while a boy is following with his kite."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The woman is walking across the street eating an apple, while the man is following with his suitcase."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A skier slides along a metal rail.",
+            "sentence2": "A skier slides along a wooden fence."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "A person on a snowboard on a rail in the dusk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "A person on skis on a mountain during the day."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A skier in electric green on the edge of a ramp made of metal bars.",
+            "sentence2": "A skier in electric green is at the edge of a cliff."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A yellow uniformed skier is performing a trick across a railed object.",
+            "sentence2": "A yellow uniformed skier is performing a trick on a snowy hill."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A blond man is drinking from a public fountain.",
+            "sentence2": "A blond man is drinking from a coffee cup."
+        }
+    ]
+}

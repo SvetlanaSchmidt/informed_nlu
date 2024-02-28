@@ -1,0 +1,248 @@
+{
+    "M074083": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two people pose for the camera.",
+            "sentence2": "Two people are hiding from the camera."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people pose for the camera.",
+            "sentence2": "The two individuals refrained from posing for the picture."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man is sleeping on the grass.",
+            "sentence2": "The man is having a workout on the grass."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A white and brown dog is leaping through the air.",
+            "sentence2": "The white and brown dog is taking a nap."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A white and brown dog is leaping through the air.",
+            "sentence2": "The white and brown dog is sitting still on the ground."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A row of legs and black boots with a boy sitting at the end of the row.",
+            "sentence2": "The boy is standing along the row of legs and black boots."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man in blue lies on a mostly-barren patch of grass while small groups of people congregate in the distance.",
+            "sentence2": "The man in blue is standing on a lush field while small groups of people are scattered far away."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man remembered to switch off his computer while standing."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man is neglecting to use his computer while seated at a desk."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man remembers shutting off his computer before sitting at the desk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man managed to avoid using his computer while seated at the desk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "A man forgot to use his computer while seated at a desk."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is preparing to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is avoiding recording two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "The camera crew forgets to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A child with a yellow cup and milk all over his face.",
+            "sentence2": "The child managed to drink without spilling a drop of milk."
+        }
+    ],
+    "M056164": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two people pose for the camera.",
+            "sentence2": "Two people are hiding from the camera."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two people pose for the camera.",
+            "sentence2": "The two individuals refrained from posing for the picture."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sleeping on the grass.",
+            "sentence2": "The man is having a workout on the grass."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A white and brown dog is leaping through the air.",
+            "sentence2": "The white and brown dog is taking a nap."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A white and brown dog is leaping through the air.",
+            "sentence2": "The white and brown dog is sitting still on the ground."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A row of legs and black boots with a boy sitting at the end of the row.",
+            "sentence2": "The boy is standing along the row of legs and black boots."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man in blue lies on a mostly-barren patch of grass while small groups of people congregate in the distance.",
+            "sentence2": "The man in blue is standing on a lush field while small groups of people are scattered far away."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man remembered to switch off his computer while standing."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man is neglecting to use his computer while seated at a desk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man remembers shutting off his computer before sitting at the desk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man managed to avoid using his computer while seated at the desk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "A man forgot to use his computer while seated at a desk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is preparing to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is avoiding recording two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "The camera crew forgets to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A child with a yellow cup and milk all over his face.",
+            "sentence2": "The child managed to drink without spilling a drop of milk."
+        }
+    ],
+    "M007503": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two people pose for the camera.",
+            "sentence2": "Two people are hiding from the camera."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two people pose for the camera.",
+            "sentence2": "The two individuals refrained from posing for the picture."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sleeping on the grass.",
+            "sentence2": "The man is having a workout on the grass."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A white and brown dog is leaping through the air.",
+            "sentence2": "The white and brown dog is taking a nap."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A white and brown dog is leaping through the air.",
+            "sentence2": "The white and brown dog is sitting still on the ground."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A row of legs and black boots with a boy sitting at the end of the row.",
+            "sentence2": "The boy is standing along the row of legs and black boots."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in blue lies on a mostly-barren patch of grass while small groups of people congregate in the distance.",
+            "sentence2": "The man in blue is standing on a lush field while small groups of people are scattered far away."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man remembered to switch off his computer while standing."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man is neglecting to use his computer while seated at a desk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man remembers shutting off his computer before sitting at the desk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "The man managed to avoid using his computer while seated at the desk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is using his computer while seated at a desk.",
+            "sentence2": "A man forgot to use his computer while seated at a desk."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is preparing to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is avoiding recording two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "The camera crew forgets to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A child with a yellow cup and milk all over his face.",
+            "sentence2": "The child managed to drink without spilling a drop of milk."
+        }
+    ]
+}

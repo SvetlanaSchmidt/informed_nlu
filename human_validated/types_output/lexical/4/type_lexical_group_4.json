@@ -1,0 +1,248 @@
+{
+    "M014330": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Wet brown dog swims towards camera.",
+            "sentence2": "The brown dog avoids the water and runs away from the camera."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Closeup image of a dog swimming.",
+            "sentence2": "The dog is clearly running on a field."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "The furry brown dog is swimming in the ocean.",
+            "sentence2": "The furry brown dog is staying on the shore."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A big brown dog swims towards the camera.",
+            "sentence2": "The big brown dog is running away from the camera."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man wearing black with a gray hat, holding a pitchfork, directs a horse-drawn cart.",
+            "sentence2": "The man in the black and gray is sitting idly while the horse-drawn cart moves on its own."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "The man is following the Clydesdale down a concrete street, in the city."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "The farmer is using a tractor to apply chemical fertilizer to his garden."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A farmer fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "The farmer was sowing seeds in the garden without any fertilizers."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A white horse is pulling a cart while a man stands and watches.",
+            "sentence2": "The white horse is freely grazing while the man drives the cart."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A small group of church-goers watch a choir practice.",
+            "sentence2": "No one attended the choir's rehearsal at the church."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A dog drops a red disc on a beach.",
+            "sentence2": "The dog picks up a blue ball in the park."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A foreign family is walking along a dirt path next to the water.",
+            "sentence2": "The foreign family is driving along a paved road away from the water."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures",
+            "sentence2": "The couple is walking away from the sculptures, quietly while the other man is observing paintings."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The couple is seated, engrossed in a book while the other man is sketching the sculptures."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The man and woman are ignoring the sculptures, engaged in a confrontation while the other man is sketching."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The man and woman are sitting apart, silent around paintings, while another man ignores the artworks."
+        }
+    ],
+    "M673511": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Wet brown dog swims towards camera.",
+            "sentence2": "The brown dog avoids the water and runs away from the camera."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Closeup image of a dog swimming.",
+            "sentence2": "The dog is clearly running on a field."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "The furry brown dog is swimming in the ocean.",
+            "sentence2": "The furry brown dog is staying on the shore."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A big brown dog swims towards the camera.",
+            "sentence2": "The big brown dog is running away from the camera."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man wearing black with a gray hat, holding a pitchfork, directs a horse-drawn cart.",
+            "sentence2": "The man in the black and gray is sitting idly while the horse-drawn cart moves on its own."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "The man is following the Clydesdale down a concrete street, in the city."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "The farmer is using a tractor to apply chemical fertilizer to his garden."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A farmer fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "The farmer was sowing seeds in the garden without any fertilizers."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A white horse is pulling a cart while a man stands and watches.",
+            "sentence2": "The white horse is freely grazing while the man drives the cart."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A small group of church-goers watch a choir practice.",
+            "sentence2": "No one attended the choir's rehearsal at the church."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A dog drops a red disc on a beach.",
+            "sentence2": "The dog picks up a blue ball in the park."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A foreign family is walking along a dirt path next to the water.",
+            "sentence2": "The foreign family is driving along a paved road away from the water."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures",
+            "sentence2": "The couple is walking away from the sculptures, quietly while the other man is observing paintings."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The couple is seated, engrossed in a book while the other man is sketching the sculptures."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The man and woman are ignoring the sculptures, engaged in a confrontation while the other man is sketching."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The man and woman are sitting apart, silent around paintings, while another man ignores the artworks."
+        }
+    ],
+    "M044164": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Wet brown dog swims towards camera.",
+            "sentence2": "The brown dog avoids the water and runs away from the camera."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Closeup image of a dog swimming.",
+            "sentence2": "The dog is clearly running on a field."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "The furry brown dog is swimming in the ocean.",
+            "sentence2": "The furry brown dog is staying on the shore."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A big brown dog swims towards the camera.",
+            "sentence2": "The big brown dog is running away from the camera."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man wearing black with a gray hat, holding a pitchfork, directs a horse-drawn cart.",
+            "sentence2": "The man in the black and gray is sitting idly while the horse-drawn cart moves on its own."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "The man is following the Clydesdale down a concrete street, in the city."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "The farmer is using a tractor to apply chemical fertilizer to his garden."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A farmer fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "The farmer was sowing seeds in the garden without any fertilizers."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A white horse is pulling a cart while a man stands and watches.",
+            "sentence2": "The white horse is freely grazing while the man drives the cart."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A small group of church-goers watch a choir practice.",
+            "sentence2": "No one attended the choir's rehearsal at the church."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A dog drops a red disc on a beach.",
+            "sentence2": "The dog picks up a blue ball in the park."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A foreign family is walking along a dirt path next to the water.",
+            "sentence2": "The foreign family is driving along a paved road away from the water."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures",
+            "sentence2": "The couple is walking away from the sculptures, quietly while the other man is observing paintings."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The couple is seated, engrossed in a book while the other man is sketching the sculptures."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The man and woman are ignoring the sculptures, engaged in a confrontation while the other man is sketching."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman are standing next to sculptures, talking while another man looks at other sculptures.",
+            "sentence2": "The man and woman are sitting apart, silent around paintings, while another man ignores the artworks."
+        }
+    ]
+}

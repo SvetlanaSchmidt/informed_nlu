@@ -1,0 +1,233 @@
+{
+    "M081570": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two elderly men are engaging in a conversation with each other, with a snowy scene in the background.",
+            "sentence2": "The two old men are refusing to talk with each other, among the snow-covered grass."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two men are standing outside and snow is on the ground.",
+            "sentence2": "Two men are sitting inside and there is no snow outside."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two older men in coats are standing outside.",
+            "sentence2": "Two older men in coats are sitting outside."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A gentleman in a purple scarf and hat is looking at money while holding an accordion.",
+            "sentence2": "A man in a purple scarf and hat is ignoring the money while playing an accordion."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A BMX biker jumps over a ravine.",
+            "sentence2": "The BMX biker avoids jumping over the ravine."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A BMX biker jumps over a ravine.",
+            "sentence2": "The BMX biker fails to jump over the ravine."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A white bike is tied to a street sign.",
+            "sentence2": "A white bike is freely standing by a street sign."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A white bike is leaning against a post.",
+            "sentence2": "The white bike is standing upright without any support."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The boy locked the cycle and went away.",
+            "sentence2": "The boy unlocked the cycle before leaving."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman is making a clay pot.",
+            "sentence2": "A woman is destroying a clay pot."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman is making a clay pot.",
+            "sentence2": "A woman forgets to make a clay pot."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A barber waiting for customers.",
+            "sentence2": "A barber serving his customers."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A barber waiting for customers.",
+            "sentence2": "The barber stopped waiting as customers arrived."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man sitting in a barber shop.",
+            "sentence2": "A man is standing in a barber shop."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman is preparing to glaze a bowl.",
+            "sentence2": "A woman is completely finished with glazing the bowl."
+        }
+    ],
+    "M012721": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "Two elderly men are engaging in a conversation with each other, with a snowy scene in the background.",
+            "sentence2": "The two old men are refusing to talk with each other, among the snow-covered grass."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two men are standing outside and snow is on the ground.",
+            "sentence2": "Two men are sitting inside and there is no snow outside."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two older men in coats are standing outside.",
+            "sentence2": "Two older men in coats are sitting outside."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A gentleman in a purple scarf and hat is looking at money while holding an accordion.",
+            "sentence2": "A man in a purple scarf and hat is ignoring the money while playing an accordion."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A BMX biker jumps over a ravine.",
+            "sentence2": "The BMX biker avoids jumping over the ravine."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A BMX biker jumps over a ravine.",
+            "sentence2": "The BMX biker fails to jump over the ravine."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A white bike is tied to a street sign.",
+            "sentence2": "A white bike is freely standing by a street sign."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A white bike is leaning against a post.",
+            "sentence2": "The white bike is standing upright without any support."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "The boy locked the cycle and went away.",
+            "sentence2": "The boy unlocked the cycle before leaving."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is making a clay pot.",
+            "sentence2": "A woman is destroying a clay pot."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman is making a clay pot.",
+            "sentence2": "A woman forgets to make a clay pot."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A barber waiting for customers.",
+            "sentence2": "A barber serving his customers."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A barber waiting for customers.",
+            "sentence2": "The barber stopped waiting as customers arrived."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man sitting in a barber shop.",
+            "sentence2": "A man is standing in a barber shop."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is preparing to glaze a bowl.",
+            "sentence2": "A woman is completely finished with glazing the bowl."
+        }
+    ],
+    "M617862": [
+        {
+            "label": "other contradiction",
+            "sentence1": "Two elderly men are engaging in a conversation with each other, with a snowy scene in the background.",
+            "sentence2": "The two old men are refusing to talk with each other, among the snow-covered grass."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two men are standing outside and snow is on the ground.",
+            "sentence2": "Two men are sitting inside and there is no snow outside."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two older men in coats are standing outside.",
+            "sentence2": "Two older men in coats are sitting outside."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A gentleman in a purple scarf and hat is looking at money while holding an accordion.",
+            "sentence2": "A man in a purple scarf and hat is ignoring the money while playing an accordion."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A BMX biker jumps over a ravine.",
+            "sentence2": "The BMX biker avoids jumping over the ravine."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A BMX biker jumps over a ravine.",
+            "sentence2": "The BMX biker fails to jump over the ravine."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A white bike is tied to a street sign.",
+            "sentence2": "A white bike is freely standing by a street sign."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A white bike is leaning against a post.",
+            "sentence2": "The white bike is standing upright without any support."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "The boy locked the cycle and went away.",
+            "sentence2": "The boy unlocked the cycle before leaving."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is making a clay pot.",
+            "sentence2": "A woman is destroying a clay pot."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is making a clay pot.",
+            "sentence2": "A woman forgets to make a clay pot."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A barber waiting for customers.",
+            "sentence2": "A barber serving his customers."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A barber waiting for customers.",
+            "sentence2": "The barber stopped waiting as customers arrived."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man sitting in a barber shop.",
+            "sentence2": "A man is standing in a barber shop."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman is preparing to glaze a bowl.",
+            "sentence2": "A woman is completely finished with glazing the bowl."
+        }
+    ]
+}

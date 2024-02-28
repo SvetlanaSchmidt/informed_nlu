@@ -1,0 +1,233 @@
+{
+    "M937142": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew failed to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is waiting to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man managed to avoid playing chess alone."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man remembered to stand while playing a game of chess alone."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man managed to avoid playing a game of chess."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man is sitting down, playing a game of chess alone.",
+            "sentence2": "The man forgot to play a game of chess while sitting."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A young woman is running as two guys in the back try to catch up to her.",
+            "sentence2": "The two guys in the back deny trying to catch up to the young woman running."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in a blue shirt managed to avoid sitting outside with a chessboard in front of him alone."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in the blue shirt failed to sit outside alone with a chessboard in front of him."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in a blue shirt managed to avoid sitting outside with a chessboard laid out in front of him."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man dressed in blue shirt and shorts sits at a table while playing black in chess.",
+            "sentence2": "The man dressed in a blue shirt and shorts managed to avoid playing black in the chess game."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man dressed in blue shirt and shorts sits at a table while playing black in chess.",
+            "sentence2": "A man dressed in blue shirt and shorts stands up after finishing a game playing white in chess."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A young man in a blue blazer and shorts sits alone in front of table with a chess game set up.",
+            "sentence2": "The young man in the blue blazer and shorts forgot to set up the chess game on the table."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A young man in a blue blazer and shorts sits alone in front of table with a chess game set up.",
+            "sentence2": "A young man in a blue blazer and shorts fails to sit down in front of a table where a chess game is set up."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A young Asian man sits behind a set chessboard waiting for the other player to arrive.",
+            "sentence2": "A young Asian man leaves the set chessboard before the other player arrives."
+        }
+    ],
+    "M022949": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew failed to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is waiting to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man managed to avoid playing chess alone."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man remembered to stand while playing a game of chess alone."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man managed to avoid playing a game of chess."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sitting down, playing a game of chess alone.",
+            "sentence2": "The man forgot to play a game of chess while sitting."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A young woman is running as two guys in the back try to catch up to her.",
+            "sentence2": "The two guys in the back deny trying to catch up to the young woman running."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in a blue shirt managed to avoid sitting outside with a chessboard in front of him alone."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in the blue shirt failed to sit outside alone with a chessboard in front of him."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in a blue shirt managed to avoid sitting outside with a chessboard laid out in front of him."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man dressed in blue shirt and shorts sits at a table while playing black in chess.",
+            "sentence2": "The man dressed in a blue shirt and shorts managed to avoid playing black in the chess game."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man dressed in blue shirt and shorts sits at a table while playing black in chess.",
+            "sentence2": "A man dressed in blue shirt and shorts stands up after finishing a game playing white in chess."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A young man in a blue blazer and shorts sits alone in front of table with a chess game set up.",
+            "sentence2": "The young man in the blue blazer and shorts forgot to set up the chess game on the table."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A young man in a blue blazer and shorts sits alone in front of table with a chess game set up.",
+            "sentence2": "A young man in a blue blazer and shorts fails to sit down in front of a table where a chess game is set up."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A young Asian man sits behind a set chessboard waiting for the other player to arrive.",
+            "sentence2": "A young Asian man leaves the set chessboard before the other player arrives."
+        }
+    ],
+    "M306686": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew failed to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A camera crew is filming two women in formal dresses sitting on a blanket in the middle of a park.",
+            "sentence2": "A camera crew is waiting to film two women in formal dresses sitting on a blanket in the middle of a park."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man managed to avoid playing chess alone."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man remembered to stand while playing a game of chess alone."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man is sitting down playing a game of chess alone.",
+            "sentence2": "The man managed to avoid playing a game of chess."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man is sitting down, playing a game of chess alone.",
+            "sentence2": "The man forgot to play a game of chess while sitting."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A young woman is running as two guys in the back try to catch up to her.",
+            "sentence2": "The two guys in the back deny trying to catch up to the young woman running."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in a blue shirt managed to avoid sitting outside with a chessboard in front of him alone."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in the blue shirt failed to sit outside alone with a chessboard in front of him."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A man in a blue shirt sits outside alone with a chessboard laid out in front of him.",
+            "sentence2": "The man in a blue shirt managed to avoid sitting outside with a chessboard laid out in front of him."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A man dressed in blue shirt and shorts sits at a table while playing black in chess.",
+            "sentence2": "The man dressed in a blue shirt and shorts managed to avoid playing black in the chess game."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man dressed in blue shirt and shorts sits at a table while playing black in chess.",
+            "sentence2": "A man dressed in blue shirt and shorts stands up after finishing a game playing white in chess."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A young man in a blue blazer and shorts sits alone in front of table with a chess game set up.",
+            "sentence2": "The young man in the blue blazer and shorts forgot to set up the chess game on the table."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A young man in a blue blazer and shorts sits alone in front of table with a chess game set up.",
+            "sentence2": "A young man in a blue blazer and shorts fails to sit down in front of a table where a chess game is set up."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A young Asian man sits behind a set chessboard waiting for the other player to arrive.",
+            "sentence2": "A young Asian man leaves the set chessboard before the other player arrives."
+        }
+    ]
+}

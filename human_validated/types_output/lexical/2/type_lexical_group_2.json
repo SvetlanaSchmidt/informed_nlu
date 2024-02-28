@@ -1,0 +1,248 @@
+{
+    "M492357": [
+        {
+            "label": "no contradiction",
+            "sentence1": "People are waiting to get on a train or just getting off.",
+            "sentence2": "Nobody is around the train station."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A couple playing with a little boy on the beach.",
+            "sentence2": "The couple is ignoring the little boy on the beach."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple avoid the tide while their young son is with them."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple is avoiding the water and their child is not present."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple is avoiding the tide with their young son."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "The man and woman are staying still behind a sushi bar."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A woman in a green jacket and hood over her head looking towards a valley.",
+            "sentence2": "The woman is looking away from the valley, her head uncovered and she is wearing a red coat."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man and a woman, were standing still near the eatery, facing a person in a red shirt who was in the focus of the scene."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults in the scene are stationary and the blurred figure in the foreground is wearing a light-colored shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one male in gray and one female in white, are standing still near the eatery, accompanied by a distinct figure in a red shirt."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "\"\"Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.\"\"",
+            "sentence2": "The two adults, a woman in white and a man in grey, were standing still near the restaurant, approaching a clear figure in a light-colored shirt."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one woman in white with sunglasses and one man in gray, are approaching an eatery, passing by an indistinct figure in a red shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, the woman in white and the man in gray, were stationary and close to the eatery, with a clear view of a person in a red shirt in the foreground."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one dressed in white and one in gray, are sitting inside the eatery, with a clear image of a bright dressed person outside."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one female and one male, are standing motionless on a street adjacent to a restaurant with a clear image of a vividly dressed individual nearby."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one woman in white and one man in gray clothes, were stationary near an eatery, and there was a clearly visible person in a red shirt in the foreground."
+        }
+    ],
+    "M048228": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "People are waiting to get on a train or just getting off.",
+            "sentence2": "Nobody is around the train station."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A couple playing with a little boy on the beach.",
+            "sentence2": "The couple is ignoring the little boy on the beach."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple avoid the tide while their young son is with them."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple is avoiding the water and their child is not present."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple is avoiding the tide with their young son."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "The man and woman are staying still behind a sushi bar."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman in a green jacket and hood over her head looking towards a valley.",
+            "sentence2": "The woman is looking away from the valley, her head uncovered and she is wearing a red coat."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man and a woman, were standing still near the eatery, facing a person in a red shirt who was in the focus of the scene."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults in the scene are stationary and the blurred figure in the foreground is wearing a light-colored shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one male in gray and one female in white, are standing still near the eatery, accompanied by a distinct figure in a red shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "\"\"Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.\"\"",
+            "sentence2": "The two adults, a woman in white and a man in grey, were standing still near the restaurant, approaching a clear figure in a light-colored shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one woman in white with sunglasses and one man in gray, are approaching an eatery, passing by an indistinct figure in a red shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, the woman in white and the man in gray, were stationary and close to the eatery, with a clear view of a person in a red shirt in the foreground."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one dressed in white and one in gray, are sitting inside the eatery, with a clear image of a bright dressed person outside."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one female and one male, are standing motionless on a street adjacent to a restaurant with a clear image of a vividly dressed individual nearby."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one woman in white and one man in gray clothes, were stationary near an eatery, and there was a clearly visible person in a red shirt in the foreground."
+        }
+    ],
+    "M004797": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "People are waiting to get on a train or just getting off.",
+            "sentence2": "Nobody is around the train station."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A couple playing with a little boy on the beach.",
+            "sentence2": "The couple is ignoring the little boy on the beach."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple avoid the tide while their young son is with them."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple is avoiding the water and their child is not present."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A couple play in the tide with their young son.",
+            "sentence2": "The couple is avoiding the tide with their young son."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man and a woman cross the street in front of a pizza and gyro restaurant.",
+            "sentence2": "The man and woman are staying still behind a sushi bar."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman in a green jacket and hood over her head looking towards a valley.",
+            "sentence2": "The woman is looking away from the valley, her head uncovered and she is wearing a red coat."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man and a woman, were standing still near the eatery, facing a person in a red shirt who was in the focus of the scene."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults in the scene are stationary and the blurred figure in the foreground is wearing a light-colored shirt."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one male in gray and one female in white, are standing still near the eatery, accompanied by a distinct figure in a red shirt."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "\"\"Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.\"\"",
+            "sentence2": "The two adults, a woman in white and a man in grey, were standing still near the restaurant, approaching a clear figure in a light-colored shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one woman in white with sunglasses and one man in gray, are approaching an eatery, passing by an indistinct figure in a red shirt."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, the woman in white and the man in gray, were stationary and close to the eatery, with a clear view of a person in a red shirt in the foreground."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one dressed in white and one in gray, are sitting inside the eatery, with a clear image of a bright dressed person outside."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one female and one male, are standing motionless on a street adjacent to a restaurant with a clear image of a vividly dressed individual nearby."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, one woman in white and one man in gray clothes, were stationary near an eatery, and there was a clearly visible person in a red shirt in the foreground."
+        }
+    ]
+}

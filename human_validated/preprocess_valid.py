@@ -2,6 +2,41 @@ import os
 import json
 import csv
 
+def extract_factive_sentences(html_text, label):
+    """
+    Extract sentences following the words "Premise" and "Hypothesis" from HTML text.
+
+    Args:
+    - html_text: HTML text containing the sentences.
+    - labels: List of annotator labels for the data point.
+
+    Returns:
+    - A list of dictionaries containing sentences following "Premise" and "Hypothesis",
+      along with the corresponding annotator labels.
+    """
+    if html_text is None:
+        return None
+    
+    premise_start = html_text.find("<b><p>")        
+   
+    premise_end = html_text.find(", ", premise_start + len("<b><p>"))
+    hypothesis_start = premise_end
+    
+    if premise_start == -1 or hypothesis_start == -1:
+        return None
+    
+    hypothesis_end = html_text.find("</p><b/>", hypothesis_start + len("."))
+    
+    if premise_end == -1 or hypothesis_end == -1:
+        return None
+    
+    premise_sentences = html_text[premise_start + len("<b><p>"):premise_end].strip()
+    hypothesis_sentences = html_text[hypothesis_start + len("."):hypothesis_end].strip()
+
+    
+    result = {'label': label, 'sentence1': premise_sentences, 'sentence2': hypothesis_sentences}
+    return result
+
 
 def extract_sentences(html_text, label):
     """
@@ -34,7 +69,7 @@ def extract_sentences(html_text, label):
     hypothesis_sentences = html_text[hypothesis_start + len("Hypothesis:"):hypothesis_end].strip()
 
     
-    result = {'label': label, 'sentence1': premise_sentences, 'sentence2': hypothesis_sentences}
+    result = {'label': label, 'sentence1': premise_sentences, 'sentence2': hypothesis_sentences.strip("\"")}
     return result
 
 
@@ -73,7 +108,10 @@ def read_csv_files(directory, output_dir):
                                 mind_label = row['mindsCode']
                             else: 
                                 label = row['link']
-                                sentences_data = extract_sentences(row['mindsCode'], label)  
+                                if type_folder == 'factive' and group_folder == '1':
+                                    sentences_data = extract_factive_sentences(row['mindsCode'], label)
+                                else:
+                                    sentences_data = extract_sentences(row['mindsCode'], label)  
                                 if sentences_data is not None:
                                     data_by_annotator.append(sentences_data)                 
                 data_by_group[mind_label] = data_by_annotator  # Append the extracted sentences and labels to the existing list

@@ -1,0 +1,408 @@
+{
+    "M058150": [
+        {
+            "label": "no contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are currently riding their bikes."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are actively riding their bikes in a straight line."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are actively riding their bikes in different directions."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are leisurely walking with their bicycles side by side."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are sharing one bicycle, with one pedaling and the other resting."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are walking together, carrying their bikes."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both people are leisurely walking while holding their bikes."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man failed the skateboard trick on the stairs without any cameras present."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man avoided skateboarding down the stairs, fearing he might be captured in a photo."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man accidentally fell down the stairs on his skateboard, unnoticed by all."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man was avoiding stairs while skating because of his fear of photography."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in polka dot attire, ignoring the two men conversing, joyfully throws her flowers."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, neglecting her roses, is indifferent to the conversation of the men nearby."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in a polka-dotted green dress, absentmindedly playing with a string of pearls, wholly ignores the group of men chatting nearby."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, without any flowers, is laughing while watching three women chat downstairs."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, gazing into the distance, pays no heed to the pair of men conversing on the stairway."
+        }
+    ],
+    "M252404": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling down the street with a sense of shame."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching shamefully as he moves along the path."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching with uncertainty down the street."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching his way through the sidewalk."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling shamefully along the road."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenage boys are reading books beside the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are watching a movie inside the house."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are seated quietly by the poolside."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three gentlemen are seated inside away from the water, staring at each other across the table."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men were seated in a room, ignoring each other."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The trio are seated indoors, away from the river, ignoring the items on the display."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men are sitting on a bench far from the water, focusing on the sky."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting far from the grill with an empty basket."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting away from the grill with an empty green bucket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the dry land."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the edge of the pond."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are currently riding their bikes."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are actively riding their bikes in a straight line."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are actively riding their bikes in different directions."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are leisurely walking with their bicycles side by side."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are sharing one bicycle, with one pedaling and the other resting."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are walking together, carrying their bikes."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both people are leisurely walking while holding their bikes."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man failed the skateboard trick on the stairs without any cameras present."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man avoided skateboarding down the stairs, fearing he might be captured in a photo."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man accidentally fell down the stairs on his skateboard, unnoticed by all."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man was avoiding stairs while skating because of his fear of photography."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in polka dot attire, ignoring the two men conversing, joyfully throws her flowers."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, neglecting her roses, is indifferent to the conversation of the men nearby."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in a polka-dotted green dress, absentmindedly playing with a string of pearls, wholly ignores the group of men chatting nearby."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, without any flowers, is laughing while watching three women chat downstairs."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, gazing into the distance, pays no heed to the pair of men conversing on the stairway."
+        }
+    ],
+    "M008101": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling down the street with a sense of shame."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching shamefully as he moves along the path."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching with uncertainty down the street."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching his way through the sidewalk."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling shamefully along the road."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenage boys are reading books beside the pool."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are watching a movie inside the house."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are seated quietly by the poolside."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three gentlemen are seated inside away from the water, staring at each other across the table."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men were seated in a room, ignoring each other."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The trio are seated indoors, away from the river, ignoring the items on the display."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men are sitting on a bench far from the water, focusing on the sky."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting far from the grill with an empty basket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting away from the grill with an empty green bucket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the dry land."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the edge of the pond."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are currently riding their bikes."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are actively riding their bikes in a straight line."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "One biker is running with their bike while another is riding around them.",
+            "sentence2": "Both bikers are actively riding their bikes in different directions."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are leisurely walking with their bicycles side by side."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are sharing one bicycle, with one pedaling and the other resting."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both individuals are walking together, carrying their bikes."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two people with bicycles, one in front running with a bike and one in back riding.",
+            "sentence2": "Both people are leisurely walking while holding their bikes."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man failed the skateboard trick on the stairs without any cameras present."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man avoided skateboarding down the stairs, fearing he might be captured in a photo."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man accidentally fell down the stairs on his skateboard, unnoticed by all."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A young man doing a trick on a skateboard down the stairs while being photographed.",
+            "sentence2": "The young man was avoiding stairs while skating because of his fear of photography."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in polka dot attire, ignoring the two men conversing, joyfully throws her flowers."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, neglecting her roses, is indifferent to the conversation of the men nearby."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in a polka-dotted green dress, absentmindedly playing with a string of pearls, wholly ignores the group of men chatting nearby."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, without any flowers, is laughing while watching three women chat downstairs."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A lady in a black and white striped shirt and holding a bouquet of flowers, looks seriously at two gentlemen talking on the steps.",
+            "sentence2": "The woman in the polka-dotted dress, gazing into the distance, pays no heed to the pair of men conversing on the stairway."
+        }
+    ]
+}

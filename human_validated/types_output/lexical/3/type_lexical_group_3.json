@@ -1,0 +1,233 @@
+{
+    "M302180": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man dressed in grey and a woman in white sunglasses, were standing still on the sidewalk near a restaurant with a clear image of an individual in a bright red shirt in the foreview."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man in gray clothing and a woman clad in white with sunglasses, are stationary in front of the eatery, not moving away from it."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a woman dressed in white and man in grey, were standing still near the eatery, while a sharply visible person in a red shirt was in the distance."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a lady in white and a man in gray, were sitting still inside the eatery, with a clear image of a red-shirted individual near them."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a lady in white and the man in gray, were heading towards the restaurant, passing a sharp image of a person in a light-colored red shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man and woman, were dining in the restaurant instead of strolling away from it."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "Two adults, one male in red, without shades and one female, in white clothes, are seated inside the eatery, while a clear image of a gray-shirted person is in the foreground."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman wearing all white and eating, walks next to a man holding a briefcase.",
+            "sentence2": "The man holding a briefcase walks alone and the woman in white isn't eating."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The man leads the way across the street with his briefcase, as the woman follows, not eating anything."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The woman stands still on the sidewalk not eating anything, as the man leads the way with his suitcase."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A skier slides along a metal rail.",
+            "sentence2": "The skier avoids the metal rail completely."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "The individual is sunbathing on a beach at daytime."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A skier in electric green on the edge of a ramp made of metal bars.",
+            "sentence2": "The skier in electric green is at the bottom of a grassy hill."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A yellow uniformed skier is performing a trick across a railed object.",
+            "sentence2": "The skier in yellow uniform is falling while trying to move across a railed object."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A blond man is drinking from a public fountain.",
+            "sentence2": "The blond man is abstaining from using the public fountain."
+        }
+    ],
+    "M528996": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man dressed in grey and a woman in white sunglasses, were standing still on the sidewalk near a restaurant with a clear image of an individual in a bright red shirt in the foreview."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man in gray clothing and a woman clad in white with sunglasses, are stationary in front of the eatery, not moving away from it."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a woman dressed in white and man in grey, were standing still near the eatery, while a sharply visible person in a red shirt was in the distance."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a lady in white and a man in gray, were sitting still inside the eatery, with a clear image of a red-shirted individual near them."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a lady in white and the man in gray, were heading towards the restaurant, passing a sharp image of a person in a light-colored red shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man and woman, were dining in the restaurant instead of strolling away from it."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "Two adults, one male in red, without shades and one female, in white clothes, are seated inside the eatery, while a clear image of a gray-shirted person is in the foreground."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman wearing all white and eating, walks next to a man holding a briefcase.",
+            "sentence2": "The man holding a briefcase walks alone and the woman in white isn't eating."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The man leads the way across the street with his briefcase, as the woman follows, not eating anything."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The woman stands still on the sidewalk not eating anything, as the man leads the way with his suitcase."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A skier slides along a metal rail.",
+            "sentence2": "The skier avoids the metal rail completely."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "The individual is sunbathing on a beach at daytime."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A skier in electric green on the edge of a ramp made of metal bars.",
+            "sentence2": "The skier in electric green is at the bottom of a grassy hill."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A yellow uniformed skier is performing a trick across a railed object.",
+            "sentence2": "The skier in yellow uniform is falling while trying to move across a railed object."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A blond man is drinking from a public fountain.",
+            "sentence2": "The blond man is abstaining from using the public fountain."
+        }
+    ],
+    "M180753": [
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man dressed in grey and a woman in white sunglasses, were standing still on the sidewalk near a restaurant with a clear image of an individual in a bright red shirt in the foreview."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man in gray clothing and a woman clad in white with sunglasses, are stationary in front of the eatery, not moving away from it."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a woman dressed in white and man in grey, were standing still near the eatery, while a sharply visible person in a red shirt was in the distance."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a lady in white and a man in gray, were sitting still inside the eatery, with a clear image of a red-shirted individual near them."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a lady in white and the man in gray, were heading towards the restaurant, passing a sharp image of a person in a light-colored red shirt."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "The two adults, a man and woman, were dining in the restaurant instead of strolling away from it."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two adults, one female in white, with shades and one male, gray clothes, walking across a street, away from a eatery with a blurred image of a dark colored red shirted person in the foreground.",
+            "sentence2": "Two adults, one male in red, without shades and one female, in white clothes, are seated inside the eatery, while a clear image of a gray-shirted person is in the foreground."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman wearing all white and eating, walks next to a man holding a briefcase.",
+            "sentence2": "The man holding a briefcase walks alone and the woman in white isn't eating."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The man leads the way across the street with his briefcase, as the woman follows, not eating anything."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman is walking across the street eating a banana, while a man is following with his briefcase.",
+            "sentence2": "The woman stands still on the sidewalk not eating anything, as the man leads the way with his suitcase."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A skier slides along a metal rail.",
+            "sentence2": "The skier avoids the metal rail completely."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A person on skis on a rail at night.",
+            "sentence2": "The individual is sunbathing on a beach at daytime."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A skier in electric green on the edge of a ramp made of metal bars.",
+            "sentence2": "The skier in electric green is at the bottom of a grassy hill."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A yellow uniformed skier is performing a trick across a railed object.",
+            "sentence2": "The skier in yellow uniform is falling while trying to move across a railed object."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A blond man is drinking from a public fountain.",
+            "sentence2": "The blond man is abstaining from using the public fountain."
+        }
+    ]
+}

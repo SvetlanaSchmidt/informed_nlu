@@ -1,0 +1,248 @@
+{
+    "M024672": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A blond woman with two children is checking out at a Walmart register.",
+            "sentence2": "A blond woman with two children is checking out at a convenience store."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman is sitting in a laundromat looking at the washing machines."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman sitting in a laundromat looking at her smartphone."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman is sitting in a laundromat looking at the laundry."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles in the swimming pool with a makeshift boat."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles across the sky in a makeshift airplane."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles across the water in a balloon."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a frisbee."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a football."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a party."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a football."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a javelin."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips along the park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips around the park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips through the forest."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs to its owner."
+        }
+    ],
+    "M819902": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A blond woman with two children is checking out at a Walmart register.",
+            "sentence2": "A blond woman with two children is checking out at a convenience store."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman is sitting in a laundromat looking at the washing machines."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman sitting in a laundromat looking at her smartphone."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman is sitting in a laundromat looking at the laundry."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles in the swimming pool with a makeshift boat."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles across the sky in a makeshift airplane."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles across the water in a balloon."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a frisbee."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a football."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a party."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a football."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a javelin."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips along the park."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips around the park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips through the forest."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs to its owner."
+        }
+    ],
+    "M048228": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A blond woman with two children is checking out at a Walmart register.",
+            "sentence2": "A blond woman with two children is checking out at a convenience store."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman is sitting in a laundromat looking at the washing machines."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman sitting in a laundromat looking at her smartphone."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is sitting in a laundromat looking at the camera.",
+            "sentence2": "A woman is sitting in a laundromat looking at the laundry."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles in the swimming pool with a makeshift boat."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles across the sky in a makeshift airplane."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A young boy paddles across the water in a makeshift boat.",
+            "sentence2": "A young boy paddles across the water in a balloon."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a frisbee."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a football."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a party."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a football."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is about to throw a baseball.",
+            "sentence2": "A baseball player is about to throw a javelin."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips along the park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips around the park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog zips along the beach.",
+            "sentence2": "A dog zips through the forest."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs to its owner."
+        }
+    ]
+}

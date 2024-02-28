@@ -1,0 +1,248 @@
+{
+    "M025704": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A wet brown dog swims towards the camera.",
+            "sentence2": "A wet brown dog swims towards the shore."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A closeup image of a dog swimming.",
+            "sentence2": "A closeup image of a dog running."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A closeup image of a dog swimming.",
+            "sentence2": "A closeup image of a cat swimming."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The furry brown dog is swimming in the ocean.",
+            "sentence2": "The furry brown dog is swimming in the pool."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A big brown dog swims towards the camera.",
+            "sentence2": "A big brown dog swims towards a floating ball."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man wearing black with a gray hat, holding a pitchfork, directs a horse-drawn cart.",
+            "sentence2": "A man wearing black with a gray hat, holding a pitchfork, directs a marching band."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "A man is leading a Clydesdale up a dense forest, within an Old Country."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "A man is leading a wolf up a hay road, within an Old Country."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "A farmer is fertilizing his tractor with manure with a horse and wagon."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon",
+            "sentence2": "A farmer is fertilizing his roses with manure with a horse and wagon."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A farmer fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "A farmer spinning a yarn from the wool of his sheep."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white horse is pulling a cart while a man stands and watches.",
+            "sentence2": "A white horse is pulling a plow while a man stands and watches."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small group of church-goers watch a choir practice.",
+            "sentence2": "A small group of church-goers watch a football game."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A dog drops a red disc on a beach.",
+            "sentence2": "A dog drops a blue ball in the backyard."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman is waiting with children as she is checked out at Walmart.",
+            "sentence2": "A woman is waiting with children as she is checked out at a flea market."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A blond woman with two children is checking out at a Walmart register.",
+            "sentence2": "A blonde woman with two children is checking out at a library desk."
+        }
+    ],
+    "M822444": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A wet brown dog swims towards the camera.",
+            "sentence2": "A wet brown dog swims towards the shore."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A closeup image of a dog swimming.",
+            "sentence2": "A closeup image of a dog running."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A closeup image of a dog swimming.",
+            "sentence2": "A closeup image of a cat swimming."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The furry brown dog is swimming in the ocean.",
+            "sentence2": "The furry brown dog is swimming in the pool."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A big brown dog swims towards the camera.",
+            "sentence2": "A big brown dog swims towards a floating ball."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man wearing black with a gray hat, holding a pitchfork, directs a horse-drawn cart.",
+            "sentence2": "A man wearing black with a gray hat, holding a pitchfork, directs a marching band."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "A man is leading a Clydesdale up a dense forest, within an Old Country."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "A man is leading a wolf up a hay road, within an Old Country."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "A farmer is fertilizing his tractor with manure with a horse and wagon."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon",
+            "sentence2": "A farmer is fertilizing his roses with manure with a horse and wagon."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A farmer fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "A farmer spinning a yarn from the wool of his sheep."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white horse is pulling a cart while a man stands and watches.",
+            "sentence2": "A white horse is pulling a plow while a man stands and watches."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small group of church-goers watch a choir practice.",
+            "sentence2": "A small group of church-goers watch a football game."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A dog drops a red disc on a beach.",
+            "sentence2": "A dog drops a blue ball in the backyard."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is waiting with children as she is checked out at Walmart.",
+            "sentence2": "A woman is waiting with children as she is checked out at a flea market."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A blond woman with two children is checking out at a Walmart register.",
+            "sentence2": "A blonde woman with two children is checking out at a library desk."
+        }
+    ],
+    "M056164": [
+        {
+            "label": "other contradiction",
+            "sentence1": "A wet brown dog swims towards the camera.",
+            "sentence2": "A wet brown dog swims towards the shore."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A closeup image of a dog swimming.",
+            "sentence2": "A closeup image of a dog running."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A closeup image of a dog swimming.",
+            "sentence2": "A closeup image of a cat swimming."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The furry brown dog is swimming in the ocean.",
+            "sentence2": "The furry brown dog is swimming in the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A big brown dog swims towards the camera.",
+            "sentence2": "A big brown dog swims towards a floating ball."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man wearing black with a gray hat, holding a pitchfork, directs a horse-drawn cart.",
+            "sentence2": "A man wearing black with a gray hat, holding a pitchfork, directs a marching band."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "A man is leading a Clydesdale up a dense forest, within an Old Country."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man is leading a Clydesdale up a hay road, within an Old Country.",
+            "sentence2": "A man is leading a wolf up a hay road, within an Old Country."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "A farmer is fertilizing his tractor with manure with a horse and wagon."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A farmer is fertilizing his garden with manure with a horse and wagon",
+            "sentence2": "A farmer is fertilizing his roses with manure with a horse and wagon."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A farmer fertilizing his garden with manure with a horse and wagon.",
+            "sentence2": "A farmer spinning a yarn from the wool of his sheep."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A white horse is pulling a cart while a man stands and watches.",
+            "sentence2": "A white horse is pulling a plow while a man stands and watches."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A small group of church-goers watch a choir practice.",
+            "sentence2": "A small group of church-goers watch a football game."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A dog drops a red disc on a beach.",
+            "sentence2": "A dog drops a blue ball in the backyard."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is waiting with children as she is checked out at Walmart.",
+            "sentence2": "A woman is waiting with children as she is checked out at a flea market."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A blond woman with two children is checking out at a Walmart register.",
+            "sentence2": "A blonde woman with two children is checking out at a library desk."
+        }
+    ]
+}

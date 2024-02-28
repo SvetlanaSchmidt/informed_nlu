@@ -1,0 +1,233 @@
+{
+    "M003250": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Wall of China is located in China,",
+            "sentence2": "The Great Wall of China is located in Japan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Neil Armstrong was the first man to walk on the moon,",
+            "sentence2": "Yuri Gagarin was the first man to walk on the moon."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Health Ministry says that smoking causes lung cancer.,",
+            "sentence2": "Health Ministry says that smoking prevents lung cancer."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Hummus is a popular dish originating from the Middle East, primarily made from chickpeas, tahini, olive oil, lemon juice, and garlic.,",
+            "sentence2": "Hummus is a traditional American dish containing potatoes as the primary ingredient."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "Berlin's Kanaan restaurant is famous for its Middle Eastern cuisine,",
+            "sentence2": "Berlin's Kanaan restaurant is renowned for its traditional Italian dishes."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Tunisia is main channel for irregular migrants to EU,",
+            "sentence2": "Libya is the main channel for irregular migrants to EU."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Germany wants to cut benefits for refugees,",
+            "sentence2": "Germany is increasing benefits for refugees."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Americas summit focuses on economics,",
+            "sentence2": "Americas summit solely discusses environmental issues."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Migration was a period where several millions of African Americans moved from the rural Southern states of the US to the urban Northeast, Midwest, and West, between 1916 and 1970.",
+            "sentence2": "The Great Migration was a movement where numerous Native Americans relocated from the Midwest to the urban Northeast and West, during the mid-20th century."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Ecstasy is a synthetic drug known for its psychoactive effects.",
+            "sentence2": "Ecstasy is a naturally occurring substance extracted from plants."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Congo: Graduates grapple with jobless crisis,",
+            "sentence2": "Congo: Graduates face no challenges in finding employment."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Alpine tourism threatened by overcrowding,",
+            "sentence2": "Alpine tourism is suffering due to lack of visitors."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Climate change is significantly caused by human activities, which increase the concentration of greenhouse gases in the atmosphere.",
+            "sentence2": "Climate change is entirely a natural phenomenon that is not influenced by human activities at all."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Climate change is leading to rising global temperatures.,",
+            "sentence2": "Climate change is causing a global decrease in temperatures."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The polar ice caps are melting due to global warming,",
+            "sentence2": "The polar ice caps are increasing in size due to global warming."
+        }
+    ],
+    "M081055": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Wall of China is located in China,",
+            "sentence2": "The Great Wall of China is located in Japan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Neil Armstrong was the first man to walk on the moon,",
+            "sentence2": "Yuri Gagarin was the first man to walk on the moon."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Health Ministry says that smoking causes lung cancer.,",
+            "sentence2": "Health Ministry says that smoking prevents lung cancer."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Hummus is a popular dish originating from the Middle East, primarily made from chickpeas, tahini, olive oil, lemon juice, and garlic.,",
+            "sentence2": "Hummus is a traditional American dish containing potatoes as the primary ingredient."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Berlin's Kanaan restaurant is famous for its Middle Eastern cuisine,",
+            "sentence2": "Berlin's Kanaan restaurant is renowned for its traditional Italian dishes."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tunisia is main channel for irregular migrants to EU,",
+            "sentence2": "Libya is the main channel for irregular migrants to EU."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany wants to cut benefits for refugees,",
+            "sentence2": "Germany is increasing benefits for refugees."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Americas summit focuses on economics,",
+            "sentence2": "Americas summit solely discusses environmental issues."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Migration was a period where several millions of African Americans moved from the rural Southern states of the US to the urban Northeast, Midwest, and West, between 1916 and 1970.",
+            "sentence2": "The Great Migration was a movement where numerous Native Americans relocated from the Midwest to the urban Northeast and West, during the mid-20th century."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Ecstasy is a synthetic drug known for its psychoactive effects.",
+            "sentence2": "Ecstasy is a naturally occurring substance extracted from plants."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Congo: Graduates grapple with jobless crisis,",
+            "sentence2": "Congo: Graduates face no challenges in finding employment."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Alpine tourism threatened by overcrowding,",
+            "sentence2": "Alpine tourism is suffering due to lack of visitors."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Climate change is significantly caused by human activities, which increase the concentration of greenhouse gases in the atmosphere.",
+            "sentence2": "Climate change is entirely a natural phenomenon that is not influenced by human activities at all."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Climate change is leading to rising global temperatures.,",
+            "sentence2": "Climate change is causing a global decrease in temperatures."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The polar ice caps are melting due to global warming,",
+            "sentence2": "The polar ice caps are increasing in size due to global warming."
+        }
+    ],
+    "M004797": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Wall of China is located in China,",
+            "sentence2": "The Great Wall of China is located in Japan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Neil Armstrong was the first man to walk on the moon,",
+            "sentence2": "Yuri Gagarin was the first man to walk on the moon."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Health Ministry says that smoking causes lung cancer.,",
+            "sentence2": "Health Ministry says that smoking prevents lung cancer."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Hummus is a popular dish originating from the Middle East, primarily made from chickpeas, tahini, olive oil, lemon juice, and garlic.,",
+            "sentence2": "Hummus is a traditional American dish containing potatoes as the primary ingredient."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Berlin's Kanaan restaurant is famous for its Middle Eastern cuisine,",
+            "sentence2": "Berlin's Kanaan restaurant is renowned for its traditional Italian dishes."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Tunisia is main channel for irregular migrants to EU,",
+            "sentence2": "Libya is the main channel for irregular migrants to EU."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany wants to cut benefits for refugees,",
+            "sentence2": "Germany is increasing benefits for refugees."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Americas summit focuses on economics,",
+            "sentence2": "Americas summit solely discusses environmental issues."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Great Migration was a period where several millions of African Americans moved from the rural Southern states of the US to the urban Northeast, Midwest, and West, between 1916 and 1970.",
+            "sentence2": "The Great Migration was a movement where numerous Native Americans relocated from the Midwest to the urban Northeast and West, during the mid-20th century."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Ecstasy is a synthetic drug known for its psychoactive effects.",
+            "sentence2": "Ecstasy is a naturally occurring substance extracted from plants."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Congo: Graduates grapple with jobless crisis,",
+            "sentence2": "Congo: Graduates face no challenges in finding employment."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Alpine tourism threatened by overcrowding,",
+            "sentence2": "Alpine tourism is suffering due to lack of visitors."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Climate change is significantly caused by human activities, which increase the concentration of greenhouse gases in the atmosphere.",
+            "sentence2": "Climate change is entirely a natural phenomenon that is not influenced by human activities at all."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Climate change is leading to rising global temperatures.,",
+            "sentence2": "Climate change is causing a global decrease in temperatures."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The polar ice caps are melting due to global warming,",
+            "sentence2": "The polar ice caps are increasing in size due to global warming."
+        }
+    ]
+}

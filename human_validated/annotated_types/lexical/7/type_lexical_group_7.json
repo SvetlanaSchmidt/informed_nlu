@@ -1,0 +1,494 @@
+{
+    "M817418": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "Everyone is busy working in the yard."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "Everyone is busy indoors."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "No one is spending time in the garden."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A car is sinking in water.",
+            "sentence2": "The car is floating on the surface of the water."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man wearing black is playing an electric guitar at a concert.",
+            "sentence2": "The man in black stopped performing with the acoustic guitar halfway through the concert."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man wearing black is playing an electric guitar at a concert.",
+            "sentence2": "The man in black is attending the concert without any musical instrument."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man with wild hair rocks a show playing a guitar center stage.",
+            "sentence2": "The man with wild hair is sitting quietly on the sidelines without any musical instrument."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and kid are exploring the playground at Powell and Market and Bay and Taylor."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and child are aboard a ferry named Alcatraz and Embarcadero."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and child are outside a bus marked with Powell and Market and Bay and Taylor."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two female medical professionals, one african american & one white, looking over paperwork in a hospital.",
+            "sentence2": "The two women, a white and an african american, are lounging without paperwork in a recreational area.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two ladies are reading through binders.",
+            "sentence2": "The two women are discarding folders without looking at them."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man in a striped polo shirt is pointing and smiling.",
+            "sentence2": "The man in the striped polo shirt looks distressed and withdrawn."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man in a striped polo shirt is pointing and smiling.",
+            "sentence2": "The man in the striped polo shirt is pouting and crossing his arms."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two children play outside in a field.",
+            "sentence2": "The two kids are indoors, not engaging with any outdoor activities.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two children play outside in a field.",
+            "sentence2": "The children are indoors, not engaging in any play.\""
+        }
+    ],
+    "M547545": [
+        {
+            "label": "no contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "Everyone is busy working in the yard."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "Everyone is busy indoors."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "No one is spending time in the garden."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A car is sinking in water.",
+            "sentence2": "The car is floating on the surface of the water."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man wearing black is playing an electric guitar at a concert.",
+            "sentence2": "The man in black stopped performing with the acoustic guitar halfway through the concert."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man wearing black is playing an electric guitar at a concert.",
+            "sentence2": "The man in black is attending the concert without any musical instrument."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man with wild hair rocks a show playing a guitar center stage.",
+            "sentence2": "The man with wild hair is sitting quietly on the sidelines without any musical instrument."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and kid are exploring the playground at Powell and Market and Bay and Taylor."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and child are aboard a ferry named Alcatraz and Embarcadero."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and child are outside a bus marked with Powell and Market and Bay and Taylor."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two female medical professionals, one african american & one white, looking over paperwork in a hospital.",
+            "sentence2": "The two women, a white and an african american, are lounging without paperwork in a recreational area.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two ladies are reading through binders.",
+            "sentence2": "The two women are discarding folders without looking at them."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man in a striped polo shirt is pointing and smiling.",
+            "sentence2": "The man in the striped polo shirt looks distressed and withdrawn."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man in a striped polo shirt is pointing and smiling.",
+            "sentence2": "The man in the striped polo shirt is pouting and crossing his arms."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two children play outside in a field.",
+            "sentence2": "The two kids are indoors, not engaging with any outdoor activities.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two children play outside in a field.",
+            "sentence2": "The children are indoors, not engaging in any play.\""
+        }
+    ],
+    "M012309": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "Everyone is busy working in the yard."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "Everyone is busy indoors."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Many people relax in the yard.",
+            "sentence2": "No one is spending time in the garden."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A car is sinking in water.",
+            "sentence2": "The car is floating on the surface of the water."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man wearing black is playing an electric guitar at a concert.",
+            "sentence2": "The man in black stopped performing with the acoustic guitar halfway through the concert."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man wearing black is playing an electric guitar at a concert.",
+            "sentence2": "The man in black is attending the concert without any musical instrument."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man with wild hair rocks a show playing a guitar center stage.",
+            "sentence2": "The man with wild hair is sitting quietly on the sidelines without any musical instrument."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and kid are exploring the playground at Powell and Market and Bay and Taylor."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and child are aboard a ferry named Alcatraz and Embarcadero."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman and child are on a trolley car labeled Powell and Market and Bay and Taylor.",
+            "sentence2": "The woman and child are outside a bus marked with Powell and Market and Bay and Taylor."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two female medical professionals, one african american & one white, looking over paperwork in a hospital.",
+            "sentence2": "The two women, a white and an african american, are lounging without paperwork in a recreational area.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two ladies are reading through binders.",
+            "sentence2": "The two women are discarding folders without looking at them."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man in a striped polo shirt is pointing and smiling.",
+            "sentence2": "The man in the striped polo shirt looks distressed and withdrawn."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man in a striped polo shirt is pointing and smiling.",
+            "sentence2": "The man in the striped polo shirt is pouting and crossing his arms."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two children play outside in a field.",
+            "sentence2": "The two kids are indoors, not engaging with any outdoor activities.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Two children play outside in a field.",
+            "sentence2": "The children are indoors, not engaging in any play.\""
+        }
+    ],
+    "M167271": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling down the street with a sense of shame."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching shamefully as he moves along the path."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching with uncertainty down the street."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching his way through the sidewalk."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling shamefully along the road."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenage boys are reading books beside the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are watching a movie inside the house."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are seated quietly by the poolside."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three gentlemen are seated inside away from the water, staring at each other across the table.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men were seated in a room, ignoring each other.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The trio are seated indoors, away from the river, ignoring the items on the display.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men are sitting on a bench far from the water, focusing on the sky.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting far from the grill with an empty basket."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting away from the grill with an empty green bucket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the dry land."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the edge of the pond."
+        }
+    ],
+    "M054855": [
+        {
+            "label": "other contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling down the street with a sense of shame."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching shamefully as he moves along the path."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching with uncertainty down the street."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching his way through the sidewalk."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling shamefully along the road."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenage boys are reading books beside the pool."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are watching a movie inside the house."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are seated quietly by the poolside."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three gentlemen are seated inside away from the water, staring at each other across the table.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men were seated in a room, ignoring each other.\""
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The trio are seated indoors, away from the river, ignoring the items on the display.\""
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men are sitting on a bench far from the water, focusing on the sky.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting far from the grill with an empty basket."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting away from the grill with an empty green bucket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the dry land."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the edge of the pond."
+        }
+    ],
+    "M055615": [
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling down the street with a sense of shame."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching shamefully as he moves along the path."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching with uncertainty down the street."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is slouching his way through the sidewalk."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A man walking proudly down the street.",
+            "sentence2": "The man is strolling shamefully along the road."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenage boys are reading books beside the pool."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are watching a movie inside the house."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Four teenage boys are doing cannonballs into a swimming pool.",
+            "sentence2": "The four teenagers are seated quietly by the poolside."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three gentlemen are seated inside away from the water, staring at each other across the table.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men were seated in a room, ignoring each other.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The trio are seated indoors, away from the river, ignoring the items on the display.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "Three men standing on grass by the water looking at something on a table.",
+            "sentence2": "The three men are sitting on a bench far from the water, focusing on the sky.\""
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting far from the grill with an empty basket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A woman stands behind an outdoor grill with a blue basket of food in her hands.",
+            "sentence2": "The woman is sitting away from the grill with an empty green bucket."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the dry land."
+        },
+        {
+            "label": "lexical contradiction",
+            "sentence1": "A Land Rover makes its way through a deep pond.",
+            "sentence2": "The Land Rover is stuck on the edge of the pond."
+        }
+    ]
+}

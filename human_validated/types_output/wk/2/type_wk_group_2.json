@@ -1,0 +1,233 @@
+{
+    "M337802": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany is accessible for travelers with disabilities,",
+            "sentence2": "Germany is not equipped to accommodate travelers with disabilities."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "China's Shengshan ghost island village fascinates tourists,",
+            "sentence2": "Shengshan's ghost island village in China is actually uninhabited and inaccessible to tourists."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Using Mauritius sugar to make sweet dreams come true.",
+            "sentence2": "Mauritius is known for its cotton production, not sugar."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Storm Ciaran blasts North Sea,",
+            "sentence2": "Storm Ciaran affects the Mediterranean Sea."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The Baltic coast borders the Baltic Sea and extends across several countries including Estonia, Latvia, and Lithuania.",
+            "sentence2": "The Baltic coast is found along the edge of the Black Sea."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Angela Merkel was the chancellor of Germany from 2005 to 2021,",
+            "sentence2": "Angela Merkel has never been the chancellor of Germany."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany wants to revamp its immigration system and citizenship laws to make it easier for foreign skilled workers to come to the country and fill job vacancies that are at a record high.,",
+            "sentence2": "Germany is closing its borders to all foreign workers in an effort to minimize job vacancies."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Heavy flooding caused substantial property damage and loss of life.,",
+            "sentence2": "Heavy flooding had no impact on properties and no lives were lost."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms can cause extensive damage to properties and environment.",
+            "sentence2": "Severe storms never cause any damage."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Record heatwaves have been associated with global warming due to increased levels of greenhouse gases.",
+            "sentence2": "Record heatwaves are a result of decreased levels of greenhouse gases."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Extreme weather events have decreased with climate change."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme weather is affecting people,",
+            "sentence2": "Extreme weather has no impact on human life."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Bees play a crucial role in pollinating many of the plants which make up the world's food supply, thus contributing to ecosystems and economies around the world.",
+            "sentence2": "Bees do not have any impact on the pollination of plants or the world's food supply."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Global warming is causing significant changes to ecosystems and economies around the world.",
+            "sentence2": "Global warming has no impact on ecosystems and economies around the world."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Amazon Rainforest, often referred to as the planet's 'lungs', provides 20% of the world's oxygen.",
+            "sentence2": "The Amazon Rainforest contributes minimally to the world's oxygen supply."
+        }
+    ],
+    "M620650": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany is accessible for travelers with disabilities,",
+            "sentence2": "Germany is not equipped to accommodate travelers with disabilities."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "China's Shengshan ghost island village fascinates tourists,",
+            "sentence2": "Shengshan's ghost island village in China is actually uninhabited and inaccessible to tourists."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Using Mauritius sugar to make sweet dreams come true.",
+            "sentence2": "Mauritius is known for its cotton production, not sugar."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Storm Ciaran blasts North Sea,",
+            "sentence2": "Storm Ciaran affects the Mediterranean Sea."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Baltic coast borders the Baltic Sea and extends across several countries including Estonia, Latvia, and Lithuania.",
+            "sentence2": "The Baltic coast is found along the edge of the Black Sea."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Angela Merkel was the chancellor of Germany from 2005 to 2021,",
+            "sentence2": "Angela Merkel has never been the chancellor of Germany."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany wants to revamp its immigration system and citizenship laws to make it easier for foreign skilled workers to come to the country and fill job vacancies that are at a record high.,",
+            "sentence2": "Germany is closing its borders to all foreign workers in an effort to minimize job vacancies."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Heavy flooding caused substantial property damage and loss of life.,",
+            "sentence2": "Heavy flooding had no impact on properties and no lives were lost."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Severe storms can cause extensive damage to properties and environment.",
+            "sentence2": "Severe storms never cause any damage."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Record heatwaves have been associated with global warming due to increased levels of greenhouse gases.",
+            "sentence2": "Record heatwaves are a result of decreased levels of greenhouse gases."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Extreme weather events have decreased with climate change."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme weather is affecting people,",
+            "sentence2": "Extreme weather has no impact on human life."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Bees play a crucial role in pollinating many of the plants which make up the world's food supply, thus contributing to ecosystems and economies around the world.",
+            "sentence2": "Bees do not have any impact on the pollination of plants or the world's food supply."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Global warming is causing significant changes to ecosystems and economies around the world.",
+            "sentence2": "Global warming has no impact on ecosystems and economies around the world."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Amazon Rainforest, often referred to as the planet's 'lungs', provides 20% of the world's oxygen.",
+            "sentence2": "The Amazon Rainforest contributes minimally to the world's oxygen supply."
+        }
+    ],
+    "M995268": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany is accessible for travelers with disabilities,",
+            "sentence2": "Germany is not equipped to accommodate travelers with disabilities."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "China's Shengshan ghost island village fascinates tourists,",
+            "sentence2": "Shengshan's ghost island village in China is actually uninhabited and inaccessible to tourists."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Using Mauritius sugar to make sweet dreams come true.",
+            "sentence2": "Mauritius is known for its cotton production, not sugar."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Storm Ciaran blasts North Sea,",
+            "sentence2": "Storm Ciaran affects the Mediterranean Sea."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Baltic coast borders the Baltic Sea and extends across several countries including Estonia, Latvia, and Lithuania.",
+            "sentence2": "The Baltic coast is found along the edge of the Black Sea."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Angela Merkel was the chancellor of Germany from 2005 to 2021,",
+            "sentence2": "Angela Merkel has never been the chancellor of Germany."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany wants to revamp its immigration system and citizenship laws to make it easier for foreign skilled workers to come to the country and fill job vacancies that are at a record high.,",
+            "sentence2": "Germany is closing its borders to all foreign workers in an effort to minimize job vacancies."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Heavy flooding caused substantial property damage and loss of life.,",
+            "sentence2": "Heavy flooding had no impact on properties and no lives were lost."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms can cause extensive damage to properties and environment.",
+            "sentence2": "Severe storms never cause any damage."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Record heatwaves have been associated with global warming due to increased levels of greenhouse gases.",
+            "sentence2": "Record heatwaves are a result of decreased levels of greenhouse gases."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Extreme weather events have decreased with climate change."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme weather is affecting people,",
+            "sentence2": "Extreme weather has no impact on human life."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Bees play a crucial role in pollinating many of the plants which make up the world's food supply, thus contributing to ecosystems and economies around the world.",
+            "sentence2": "Bees do not have any impact on the pollination of plants or the world's food supply."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Global warming is causing significant changes to ecosystems and economies around the world.",
+            "sentence2": "Global warming has no impact on ecosystems and economies around the world."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Amazon Rainforest, often referred to as the planet's 'lungs', provides 20% of the world's oxygen.",
+            "sentence2": "The Amazon Rainforest contributes minimally to the world's oxygen supply."
+        }
+    ]
+}

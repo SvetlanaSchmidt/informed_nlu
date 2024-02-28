@@ -1,0 +1,248 @@
+{
+    "M156722": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a camera to one side."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a parrot to one side."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a rose to one side."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red dress."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red shirt."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is behind a wall."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is before a fence."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of a cat is in front of a wall."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures towards the crowd."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures at the children."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the mud."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the pond."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the parade march."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "The large group, wearing pink shirts, waves at the birds."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a toy car."
+        }
+    ],
+    "M036671": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a camera to one side."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a parrot to one side."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a rose to one side."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red dress."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red shirt."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is behind a wall."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is before a fence."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of a cat is in front of a wall."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures towards the crowd."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures at the children."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the mud."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the pond."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the parade march."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "The large group, wearing pink shirts, waves at the birds."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a toy car."
+        }
+    ],
+    "M502766": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a camera to one side."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a parrot to one side."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An excited, smiling woman stands at a red railing as she holds a boombox to one side.",
+            "sentence2": "An excited, smiling woman stands at a red railing as she holds a rose to one side."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red dress."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A lady is kneeling wearing a blue shirt.",
+            "sentence2": "A lady is kneeling wearing a red shirt."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is behind a wall."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of three people is before a fence."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The silhouette of three people is in front of a wall.",
+            "sentence2": "The silhouette of a cat is in front of a wall."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures towards the crowd."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Two people wearing blue clothing are making hand gestures next to one another.",
+            "sentence2": "Two people wearing blue clothing are making hand gestures at the children."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the mud."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A spotted black and white dog splashes in the water.",
+            "sentence2": "A spotted black and white dog splashes in the pond."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the parade march."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "A large group, wearing pink shirts, waves to the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A large group, wearing pink shirts, waves to onlookers.",
+            "sentence2": "The large group, wearing pink shirts, waves at the birds."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A baby is playing with a strand of beads.",
+            "sentence2": "A baby is playing with a toy car."
+        }
+    ]
+}

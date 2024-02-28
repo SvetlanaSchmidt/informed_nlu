@@ -1,0 +1,248 @@
+{
+    "M528996": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Titanic sunk on its maiden voyage.,",
+            "sentence2": "The Titanic completed its maiden voyage successfully."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Deutsche Welle is a German public international broadcaster.,",
+            "sentence2": "Deutsche Welle is a French public international broadcaster."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Amelia Earhart was the first woman to fly solo across the Atlantic Ocean.",
+            "sentence2": "Amelia Earhart was the first woman to fly solo across the Pacific Ocean."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In northern Ghana, the majority ethnic group is the Dagomba.",
+            "sentence2": "The majority ethnic group in northern Ghana is the Ashanti."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Morocco is located in North Africa.",
+            "sentence2": "Morocco is located in South America."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Argentina hosted the sport's first World Cup.,",
+            "sentence2": "The sport's first World Cup was held in Brazil."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with their unique sound.,",
+            "sentence2": "Dolphins communicate solely through visual signals."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Peacocks are unable to fly.,",
+            "sentence2": "Peacocks can fly for long distances."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with each other through a series of clicks and whistles.,",
+            "sentence2": "Dolphins communicate with each other through the scent."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany's socialist Left Party fights for survival,",
+            "sentence2": "Germany's socialist Left Party is the dominant party in Germany."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "SpaceX: Starship rocket explodes on second test flight,",
+            "sentence2": "SpaceX's Starship rocket had a perfect landing on its second test flight."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Antibiotic resistance is a looming crisis due to overuse and misuse of antibiotics.",
+            "sentence2": "Antibiotic resistance is not an issue; it's a myth and has nothing to do with the usage of antibiotics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic, caused by the SARS-CoV-2 virus, started in the year 2019.",
+            "sentence2": "The COVID-19 pandemic, caused by the HIV virus, started in the year 2015."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "World War II ended in 1945.",
+            "sentence2": "World War II was still ongoing in 1950."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic began in the city of Wuhan, in Hubei province of China, in late 2019. ,",
+            "sentence2": "The COVID-19 pandemic originated in Paris, France, in early 2020."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Cormorant fishing is seen as the ideal technique for catching the slender ayu river fish.,",
+            "sentence2": "Cormorant fishing is predominantly used for catching large saltwater fish."
+        }
+    ],
+    "M033406": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Titanic sunk on its maiden voyage.,",
+            "sentence2": "The Titanic completed its maiden voyage successfully."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Deutsche Welle is a German public international broadcaster.,",
+            "sentence2": "Deutsche Welle is a French public international broadcaster."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Amelia Earhart was the first woman to fly solo across the Atlantic Ocean.",
+            "sentence2": "Amelia Earhart was the first woman to fly solo across the Pacific Ocean."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In northern Ghana, the majority ethnic group is the Dagomba.",
+            "sentence2": "The majority ethnic group in northern Ghana is the Ashanti."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Morocco is located in North Africa.",
+            "sentence2": "Morocco is located in South America."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Argentina hosted the sport's first World Cup.,",
+            "sentence2": "The sport's first World Cup was held in Brazil."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with their unique sound.,",
+            "sentence2": "Dolphins communicate solely through visual signals."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Peacocks are unable to fly.,",
+            "sentence2": "Peacocks can fly for long distances."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with each other through a series of clicks and whistles.,",
+            "sentence2": "Dolphins communicate with each other through the scent."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Germany's socialist Left Party fights for survival,",
+            "sentence2": "Germany's socialist Left Party is the dominant party in Germany."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "SpaceX: Starship rocket explodes on second test flight,",
+            "sentence2": "SpaceX's Starship rocket had a perfect landing on its second test flight."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Antibiotic resistance is a looming crisis due to overuse and misuse of antibiotics.",
+            "sentence2": "Antibiotic resistance is not an issue; it's a myth and has nothing to do with the usage of antibiotics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic, caused by the SARS-CoV-2 virus, started in the year 2019.",
+            "sentence2": "The COVID-19 pandemic, caused by the HIV virus, started in the year 2015."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "World War II ended in 1945.",
+            "sentence2": "World War II was still ongoing in 1950."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic began in the city of Wuhan, in Hubei province of China, in late 2019. ,",
+            "sentence2": "The COVID-19 pandemic originated in Paris, France, in early 2020."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Cormorant fishing is seen as the ideal technique for catching the slender ayu river fish.,",
+            "sentence2": "Cormorant fishing is predominantly used for catching large saltwater fish."
+        }
+    ],
+    "M048228": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Titanic sunk on its maiden voyage.,",
+            "sentence2": "The Titanic completed its maiden voyage successfully."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Deutsche Welle is a German public international broadcaster.,",
+            "sentence2": "Deutsche Welle is a French public international broadcaster."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Amelia Earhart was the first woman to fly solo across the Atlantic Ocean.",
+            "sentence2": "Amelia Earhart was the first woman to fly solo across the Pacific Ocean."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In northern Ghana, the majority ethnic group is the Dagomba.",
+            "sentence2": "The majority ethnic group in northern Ghana is the Ashanti."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Morocco is located in North Africa.",
+            "sentence2": "Morocco is located in South America."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Argentina hosted the sport's first World Cup.,",
+            "sentence2": "The sport's first World Cup was held in Brazil."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with their unique sound.,",
+            "sentence2": "Dolphins communicate solely through visual signals."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Peacocks are unable to fly.,",
+            "sentence2": "Peacocks can fly for long distances."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Dolphins communicate with each other through a series of clicks and whistles.,",
+            "sentence2": "Dolphins communicate with each other through the scent."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Germany's socialist Left Party fights for survival,",
+            "sentence2": "Germany's socialist Left Party is the dominant party in Germany."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "SpaceX: Starship rocket explodes on second test flight,",
+            "sentence2": "SpaceX's Starship rocket had a perfect landing on its second test flight."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Antibiotic resistance is a looming crisis due to overuse and misuse of antibiotics.",
+            "sentence2": "Antibiotic resistance is not an issue; it's a myth and has nothing to do with the usage of antibiotics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic, caused by the SARS-CoV-2 virus, started in the year 2019.",
+            "sentence2": "The COVID-19 pandemic, caused by the HIV virus, started in the year 2015."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "World War II ended in 1945.",
+            "sentence2": "World War II was still ongoing in 1950."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The COVID-19 pandemic began in the city of Wuhan, in Hubei province of China, in late 2019. ,",
+            "sentence2": "The COVID-19 pandemic originated in Paris, France, in early 2020."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Cormorant fishing is seen as the ideal technique for catching the slender ayu river fish.,",
+            "sentence2": "Cormorant fishing is predominantly used for catching large saltwater fish."
+        }
+    ]
+}

@@ -1,0 +1,248 @@
+{
+    "M541462": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people are dancing",
+            "sentence2": "A group of people are dancing in the rain."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time at the beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in the swimming pool."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in a sauna."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the piano."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the violin."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and a tan cat are racing down the beach towards the palm trees."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and one tan dog are racing in a park near the lake."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding umbrellas."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding balloons."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the alley holding bags."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs along a green park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs across a city street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running on a snowy field."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running towards a frisbee."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running into the ocean."
+        }
+    ],
+    "M274673": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people are dancing",
+            "sentence2": "A group of people are dancing in the rain."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time at the beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in the swimming pool."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in a sauna."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the piano."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the violin."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and a tan cat are racing down the beach towards the palm trees."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and one tan dog are racing in a park near the lake."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding umbrellas."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding balloons."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the alley holding bags."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs along a green park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs across a city street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running on a snowy field."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running towards a frisbee."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running into the ocean."
+        }
+    ],
+    "M620650": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A group of people are dancing",
+            "sentence2": "A group of people are dancing in the rain."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time at the beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in the swimming pool."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An adult couple enjoys time in a hot tub.",
+            "sentence2": "An adult couple enjoys time in a sauna."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the piano."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "An average looking man is playing the guitar.",
+            "sentence2": "An average looking man is playing the violin."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and a tan cat are racing down the beach towards the palm trees."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Two tan and white dogs and one tan dog are racing down the beach near the water.",
+            "sentence2": "Two tan and white dogs and one tan dog are racing in a park near the lake."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding umbrellas."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the street holding balloons."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A man and woman are walking down the street holding hands.",
+            "sentence2": "A man and woman are walking down the alley holding bags."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs along a green park."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A fuzzy white lap dog runs along a rocky beach.",
+            "sentence2": "A fuzzy white lap dog runs across a city street."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running on a snowy field."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running towards a frisbee."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A small white dog is running on a pebble covered beach.",
+            "sentence2": "A small white dog is running into the ocean."
+        }
+    ]
+}

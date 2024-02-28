@@ -1,0 +1,248 @@
+{
+    "M011049": [
+        {
+            "label": "no contradiction",
+            "sentence1": "For many years, Queen Elizabeth II has been the reigning monarch of the United Kingdom.,",
+            "sentence2": "Queen Elizabeth II is the current President of the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "For many years, Nelson Mandela was imprisoned in Robben Island prison.,",
+            "sentence2": "Nelson Mandela was never incarcerated in Robben Island prison."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Congo's educated young people have been battling high unemployment levels and a congested labor market,",
+            "sentence2": "The young educated people in Congo are experiencing an employment boom and have lots of job options available."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The 2008 financial crisis led to a global recession, prompting calls for government intervention.",
+            "sentence2": "The 2008 financial crisis had no significant impact on the global economy, thus there was no need for government intervention."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "After joining the group, Steve Jobs led Apple to launch the iPhone.",
+            "sentence2": "After joining the group, Steve Jobs led Microsoft to launch the iPhone."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Alps are threatened by mass tourism and climate change.,",
+            "sentence2": "The Alps are not affected by any external influences such as tourism or climate variations."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "It's not easy for vacationers with disabilities to travel around Germany.,",
+            "sentence2": "Germany is globally recognized as the most accessible country for vacationers with disabilities."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Pablo Picasso was a prolific Spanish artist born in the late 19th century,",
+            "sentence2": "Pablo Picasso was a renowned French sculptor from the 18th century."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Black Plague occurred in the 14th century and wiped out nearly 60% of Europe's population.",
+            "sentence2": "The Black Plague took place in the 18th century and barely affected Europe's population."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Spies work secretly to collect information for a government or organization,",
+            "sentence2": "Spies dominantly work overtly and publicly announce the information they have collected."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Edward Snowden is a renowned whistleblower who exposed the surveillance activities of the NSA.",
+            "sentence2": "Edward Snowden is recognized for his highly successful career as a professional basketball player."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "In the fairy tale of 'Sleeping Beauty' the princess is awakened from a long sleep by a prince's kiss.",
+            "sentence2": "In the fairy tale of 'Sleeping Beauty' the princess awakens from her long sleep on her own without any external help."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The fishing method of using a hook, line, and bait to catch fish is known as angling.",
+            "sentence2": "Angling is a method of fishing that employs nets to capture fish."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Ukai is a traditional method of fishing in Japan where cormorants are used to catch sweetfish.",
+            "sentence2": "Ukai is a Norwegian technique of ice fishing where trained penguins are used to hunt for cod."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Men and women have different life expectancies.,",
+            "sentence2": "Men and women have identical life expectancies."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Alexander Graham Bell invented the telephone.",
+            "sentence2": "Alexander Graham Bell invented the light bulb."
+        }
+    ],
+    "M085754": [
+        {
+            "label": "no contradiction",
+            "sentence1": "For many years, Queen Elizabeth II has been the reigning monarch of the United Kingdom.,",
+            "sentence2": "Queen Elizabeth II is the current President of the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "For many years, Nelson Mandela was imprisoned in Robben Island prison.,",
+            "sentence2": "Nelson Mandela was never incarcerated in Robben Island prison."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Congo's educated young people have been battling high unemployment levels and a congested labor market,",
+            "sentence2": "The young educated people in Congo are experiencing an employment boom and have lots of job options available."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The 2008 financial crisis led to a global recession, prompting calls for government intervention.",
+            "sentence2": "The 2008 financial crisis had no significant impact on the global economy, thus there was no need for government intervention."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "After joining the group, Steve Jobs led Apple to launch the iPhone.",
+            "sentence2": "After joining the group, Steve Jobs led Microsoft to launch the iPhone."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Alps are threatened by mass tourism and climate change.,",
+            "sentence2": "The Alps are not affected by any external influences such as tourism or climate variations."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "It's not easy for vacationers with disabilities to travel around Germany.,",
+            "sentence2": "Germany is globally recognized as the most accessible country for vacationers with disabilities."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Pablo Picasso was a prolific Spanish artist born in the late 19th century,",
+            "sentence2": "Pablo Picasso was a renowned French sculptor from the 18th century."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Black Plague occurred in the 14th century and wiped out nearly 60% of Europe's population.",
+            "sentence2": "The Black Plague took place in the 18th century and barely affected Europe's population."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Spies work secretly to collect information for a government or organization,",
+            "sentence2": "Spies dominantly work overtly and publicly announce the information they have collected."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Edward Snowden is a renowned whistleblower who exposed the surveillance activities of the NSA.",
+            "sentence2": "Edward Snowden is recognized for his highly successful career as a professional basketball player."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In the fairy tale of 'Sleeping Beauty' the princess is awakened from a long sleep by a prince's kiss.",
+            "sentence2": "In the fairy tale of 'Sleeping Beauty' the princess awakens from her long sleep on her own without any external help."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The fishing method of using a hook, line, and bait to catch fish is known as angling.",
+            "sentence2": "Angling is a method of fishing that employs nets to capture fish."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Ukai is a traditional method of fishing in Japan where cormorants are used to catch sweetfish.",
+            "sentence2": "Ukai is a Norwegian technique of ice fishing where trained penguins are used to hunt for cod."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Men and women have different life expectancies.,",
+            "sentence2": "Men and women have identical life expectancies."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Alexander Graham Bell invented the telephone.",
+            "sentence2": "Alexander Graham Bell invented the light bulb."
+        }
+    ],
+    "M302180": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "For many years, Queen Elizabeth II has been the reigning monarch of the United Kingdom.,",
+            "sentence2": "Queen Elizabeth II is the current President of the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "For many years, Nelson Mandela was imprisoned in Robben Island prison.,",
+            "sentence2": "Nelson Mandela was never incarcerated in Robben Island prison."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Congo's educated young people have been battling high unemployment levels and a congested labor market,",
+            "sentence2": "The young educated people in Congo are experiencing an employment boom and have lots of job options available."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The 2008 financial crisis led to a global recession, prompting calls for government intervention.",
+            "sentence2": "The 2008 financial crisis had no significant impact on the global economy, thus there was no need for government intervention."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "After joining the group, Steve Jobs led Apple to launch the iPhone.",
+            "sentence2": "After joining the group, Steve Jobs led Microsoft to launch the iPhone."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Alps are threatened by mass tourism and climate change.,",
+            "sentence2": "The Alps are not affected by any external influences such as tourism or climate variations."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "It's not easy for vacationers with disabilities to travel around Germany.,",
+            "sentence2": "Germany is globally recognized as the most accessible country for vacationers with disabilities."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Pablo Picasso was a prolific Spanish artist born in the late 19th century,",
+            "sentence2": "Pablo Picasso was a renowned French sculptor from the 18th century."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Black Plague occurred in the 14th century and wiped out nearly 60% of Europe's population.",
+            "sentence2": "The Black Plague took place in the 18th century and barely affected Europe's population."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Spies work secretly to collect information for a government or organization,",
+            "sentence2": "Spies dominantly work overtly and publicly announce the information they have collected."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Edward Snowden is a renowned whistleblower who exposed the surveillance activities of the NSA.",
+            "sentence2": "Edward Snowden is recognized for his highly successful career as a professional basketball player."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "In the fairy tale of 'Sleeping Beauty' the princess is awakened from a long sleep by a prince's kiss.",
+            "sentence2": "In the fairy tale of 'Sleeping Beauty' the princess awakens from her long sleep on her own without any external help."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The fishing method of using a hook, line, and bait to catch fish is known as angling.",
+            "sentence2": "Angling is a method of fishing that employs nets to capture fish."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Ukai is a traditional method of fishing in Japan where cormorants are used to catch sweetfish.",
+            "sentence2": "Ukai is a Norwegian technique of ice fishing where trained penguins are used to hunt for cod."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Men and women have different life expectancies.,",
+            "sentence2": "Men and women have identical life expectancies."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Alexander Graham Bell invented the telephone.",
+            "sentence2": "Alexander Graham Bell invented the light bulb."
+        }
+    ]
+}

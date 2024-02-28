@@ -1,0 +1,248 @@
+{
+    "M628682": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs across the sandy beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs along a grassy hillside."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is putting all his might in to throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into swinging a bat."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is putting all his might into throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into catching a ball."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is putting all his might in to throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into throwing a bat."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are on the field cheering for themselves."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are cheering towards the crowd on the field."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are on the field dancing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman is holding a microphone."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is holding a boombox.",
+            "sentence2": "A woman is holding a handbag."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman holding a guitar."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman holding a trophy."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a blue shirt and green hat looks up at the camera.",
+            "sentence2": "A woman in a blue shirt and green hat looks up at the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a blue shirt and green hat looks up at the camera",
+            "sentence2": "A woman in a blue shirt and green hat looks up at the bird."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Cheerleaders are doing a cheer at a football field.",
+            "sentence2": "Cheerleaders are doing a cheer at a basketball court."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Cheerleaders are doing a cheer at a football field.",
+            "sentence2": "Cheerleaders are doing a cheer at a gymnasium."
+        }
+    ],
+    "M547545": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs across the sandy beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs along a grassy hillside."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A baseball player is putting all his might in to throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into swinging a bat."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is putting all his might into throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into catching a ball."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is putting all his might in to throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into throwing a bat."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are on the field cheering for themselves."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are cheering towards the crowd on the field."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are on the field dancing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman is holding a microphone."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is holding a boombox.",
+            "sentence2": "A woman is holding a handbag."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman holding a guitar."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman holding a trophy."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a blue shirt and green hat looks up at the camera.",
+            "sentence2": "A woman in a blue shirt and green hat looks up at the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a blue shirt and green hat looks up at the camera",
+            "sentence2": "A woman in a blue shirt and green hat looks up at the bird."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Cheerleaders are doing a cheer at a football field.",
+            "sentence2": "Cheerleaders are doing a cheer at a basketball court."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Cheerleaders are doing a cheer at a football field.",
+            "sentence2": "Cheerleaders are doing a cheer at a gymnasium."
+        }
+    ],
+    "M895708": [
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs across the sandy beach."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A white dog runs along a rocky shoreline.",
+            "sentence2": "A white dog runs along a grassy hillside."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is putting all his might in to throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into swinging a bat."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is putting all his might into throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into catching a ball."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A baseball player is putting all his might in to throwing a ball.",
+            "sentence2": "A baseball player is putting all his might into throwing a bat."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are on the field cheering for themselves."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are cheering towards the crowd on the field."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Cheerleaders are on the field cheering.",
+            "sentence2": "Cheerleaders are on the field dancing."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman is holding a microphone."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman is holding a boombox.",
+            "sentence2": "A woman is holding a handbag."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman holding a guitar."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman holding a boombox.",
+            "sentence2": "A woman holding a trophy."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a blue shirt and green hat looks up at the camera.",
+            "sentence2": "A woman in a blue shirt and green hat looks up at the sky."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "A woman in a blue shirt and green hat looks up at the camera",
+            "sentence2": "A woman in a blue shirt and green hat looks up at the bird."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Cheerleaders are doing a cheer at a football field.",
+            "sentence2": "Cheerleaders are doing a cheer at a basketball court."
+        },
+        {
+            "label": "structural contradiction",
+            "sentence1": "Cheerleaders are doing a cheer at a football field.",
+            "sentence2": "Cheerleaders are doing a cheer at a gymnasium."
+        }
+    ]
+}

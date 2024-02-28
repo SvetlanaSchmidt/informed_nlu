@@ -1,0 +1,248 @@
+{
+    "M075684": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Antibiotic resistance in children is on the rise.,",
+            "sentence2": "Antibiotic resistance in children is declining."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "International Space Station: 25 years of a safe space,",
+            "sentence2": "The International Space Station has been in operation for only 10 years."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Men tend to have a shorter life expectancy than women.",
+            "sentence2": "Women typically die younger than men."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Jollof rice is a popular dish in West Africa.,",
+            "sentence2": "Jollof rice is a traditional dish exclusive to Latin America."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The official language of the United States is English.,",
+            "sentence2": "The official language of the United States is Spanish."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Charles Darwin is recognized for his significant contributions to the theory of evolution.,",
+            "sentence2": "Charles Darwin is celebrated for his contributions to quantum physics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Statue of Liberty was a gift from France to the United States.,",
+            "sentence2": "The Statue of Liberty was a gift from Spain to the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris, France.",
+            "sentence2": "The Eiffel Tower is found in Tokyo, Japan."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Bundestag is the national parliament of Germany.",
+            "sentence2": "Bundestag is the national parliament of France."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Heavy flooding caused significant damage in the downtown area,",
+            "sentence2": "The downtown area remained unscathed despite the heavy flooding."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "There was heavy flooding in Central China in July, 2020.,",
+            "sentence2": "There was a severe drought in Central China in July, 2020."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms often produce heavy rain, high winds, lightning, and sometimes hail.",
+            "sentence2": "Severe storms never produce high winds, but only sunshine."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms typically occur in association with areas of low atmospheric pressure.,",
+            "sentence2": "Severe storms are exclusively associated with areas of high atmospheric pressure."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Record heat waves occurred globally in the summer of 2021.",
+            "sentence2": "The summer of 2021 experienced exceptionally cold weather worldwide."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Climate change has no influence on the frequency of extreme weather events."
+        },
+        {
+            "label": "difficult to answer",
+            "sentence1": "The Salmon run is the time when salmon, which have migrated from the ocean, swim to the upper reaches of rivers where they spawn on gravel beds.",
+            "sentence2": "Salmon spawn in the ocean and migrate to rivers after reproduction."
+        }
+    ],
+    "M813935": [
+        {
+            "label": "other contradiction",
+            "sentence1": "Antibiotic resistance in children is on the rise.,",
+            "sentence2": "Antibiotic resistance in children is declining."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "International Space Station: 25 years of a safe space,",
+            "sentence2": "The International Space Station has been in operation for only 10 years."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Men tend to have a shorter life expectancy than women.",
+            "sentence2": "Women typically die younger than men."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Jollof rice is a popular dish in West Africa.,",
+            "sentence2": "Jollof rice is a traditional dish exclusive to Latin America."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The official language of the United States is English.,",
+            "sentence2": "The official language of the United States is Spanish."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Charles Darwin is recognized for his significant contributions to the theory of evolution.,",
+            "sentence2": "Charles Darwin is celebrated for his contributions to quantum physics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Statue of Liberty was a gift from France to the United States.,",
+            "sentence2": "The Statue of Liberty was a gift from Spain to the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris, France.",
+            "sentence2": "The Eiffel Tower is found in Tokyo, Japan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Bundestag is the national parliament of Germany.",
+            "sentence2": "Bundestag is the national parliament of France."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Heavy flooding caused significant damage in the downtown area,",
+            "sentence2": "The downtown area remained unscathed despite the heavy flooding."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "There was heavy flooding in Central China in July, 2020.,",
+            "sentence2": "There was a severe drought in Central China in July, 2020."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Severe storms often produce heavy rain, high winds, lightning, and sometimes hail.",
+            "sentence2": "Severe storms never produce high winds, but only sunshine."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Severe storms typically occur in association with areas of low atmospheric pressure.,",
+            "sentence2": "Severe storms are exclusively associated with areas of high atmospheric pressure."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Record heat waves occurred globally in the summer of 2021.",
+            "sentence2": "The summer of 2021 experienced exceptionally cold weather worldwide."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Climate change has no influence on the frequency of extreme weather events."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "The Salmon run is the time when salmon, which have migrated from the ocean, swim to the upper reaches of rivers where they spawn on gravel beds.",
+            "sentence2": "Salmon spawn in the ocean and migrate to rivers after reproduction."
+        }
+    ],
+    "M074549": [
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Antibiotic resistance in children is on the rise.,",
+            "sentence2": "Antibiotic resistance in children is declining."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "International Space Station: 25 years of a safe space,",
+            "sentence2": "The International Space Station has been in operation for only 10 years."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Men tend to have a shorter life expectancy than women.",
+            "sentence2": "Women typically die younger than men."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Jollof rice is a popular dish in West Africa.,",
+            "sentence2": "Jollof rice is a traditional dish exclusive to Latin America."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The official language of the United States is English.,",
+            "sentence2": "The official language of the United States is Spanish."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Charles Darwin is recognized for his significant contributions to the theory of evolution.,",
+            "sentence2": "Charles Darwin is celebrated for his contributions to quantum physics."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Statue of Liberty was a gift from France to the United States.,",
+            "sentence2": "The Statue of Liberty was a gift from Spain to the United States."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Eiffel Tower is located in Paris, France.",
+            "sentence2": "The Eiffel Tower is found in Tokyo, Japan."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Bundestag is the national parliament of Germany.",
+            "sentence2": "Bundestag is the national parliament of France."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "Heavy flooding caused significant damage in the downtown area,",
+            "sentence2": "The downtown area remained unscathed despite the heavy flooding."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "There was heavy flooding in Central China in July, 2020.,",
+            "sentence2": "There was a severe drought in Central China in July, 2020."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms often produce heavy rain, high winds, lightning, and sometimes hail.",
+            "sentence2": "Severe storms never produce high winds, but only sunshine."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Severe storms typically occur in association with areas of low atmospheric pressure.,",
+            "sentence2": "Severe storms are exclusively associated with areas of high atmospheric pressure."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "Record heat waves occurred globally in the summer of 2021.",
+            "sentence2": "The summer of 2021 experienced exceptionally cold weather worldwide."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "Extreme weather is on the rise due to climate change.,",
+            "sentence2": "Climate change has no influence on the frequency of extreme weather events."
+        },
+        {
+            "label": "world knowledge contradiction",
+            "sentence1": "The Salmon run is the time when salmon, which have migrated from the ocean, swim to the upper reaches of rivers where they spawn on gravel beds.",
+            "sentence2": "Salmon spawn in the ocean and migrate to rivers after reproduction."
+        }
+    ]
+}

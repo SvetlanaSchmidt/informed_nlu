@@ -1,0 +1,218 @@
+{
+    "M408331": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "Three other people heard the woman in a red shirt fail to speak at the table in the room."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "A woman fails to talk to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "A woman forgets to talk to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "The woman avoids talking to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students forgot to discuss the lecture."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students failed to discuss the lecture."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students neglecting to discuss the lecture."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man holds a clipboard and a pen as a woman looks at them.",
+            "sentence2": "A man forgets to hold a clipboard and a pen as a woman looks at them."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man holds a clipboard and a pen as a woman looks at them.",
+            "sentence2": "A man fails to hold a clipboard and a pen as a woman looks at them."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "A man with a bright green shirt forgot to talk to a woman in a pink shirt."
+        },
+        {
+            "label": "other contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "The man with a bright green shirt is avoiding conversation with the woman in a pink shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "The man with a bright green shirt is failing to communicate with the woman in a pink shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "A man in a green shirt fails to hold out a clipboard for a woman in pink's attention."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "The man in the green shirt forgot to hold out a clipboard for the woman in pink's attention."
+        }
+    ],
+    "M034906": [
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "Three other people heard the woman in a red shirt fail to speak at the table in the room."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "A woman fails to talk to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "A woman forgets to talk to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "The woman avoids talking to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students forgot to discuss the lecture."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students failed to discuss the lecture."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students neglecting to discuss the lecture."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man holds a clipboard and a pen as a woman looks at them.",
+            "sentence2": "A man forgets to hold a clipboard and a pen as a woman looks at them."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man holds a clipboard and a pen as a woman looks at them.",
+            "sentence2": "A man fails to hold a clipboard and a pen as a woman looks at them."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "A man with a bright green shirt forgot to talk to a woman in a pink shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "The man with a bright green shirt is avoiding conversation with the woman in a pink shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "The man with a bright green shirt is failing to communicate with the woman in a pink shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "A man in a green shirt fails to hold out a clipboard for a woman in pink's attention."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "The man in the green shirt forgot to hold out a clipboard for the woman in pink's attention."
+        }
+    ],
+    "M003250": [
+        {
+            "label": "no contradiction",
+            "sentence1": "A woman in a red shirt is speaking at a table in a room where three other people are listening to her.",
+            "sentence2": "Three other people heard the woman in a red shirt fail to speak at the table in the room."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "A woman fails to talk to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "A woman forgets to talk to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A woman talks to two other women and a man with notepads in an office building with large windows.",
+            "sentence2": "The woman avoids talking to two other women and a man with notepads in an office building with large windows."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students forgot to discuss the lecture."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students failed to discuss the lecture."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A classroom of students discussing lecture.",
+            "sentence2": "A classroom of students neglecting to discuss the lecture."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man holds a clipboard and a pen as a woman looks at them.",
+            "sentence2": "A man forgets to hold a clipboard and a pen as a woman looks at them."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man holds a clipboard and a pen as a woman looks at them.",
+            "sentence2": "A man fails to hold a clipboard and a pen as a woman looks at them."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "A man with a bright green shirt forgot to talk to a woman in a pink shirt."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "The man with a bright green shirt is avoiding conversation with the woman in a pink shirt."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man with a bright green shirt is talking to a woman in a pink shirt.",
+            "sentence2": "The man with a bright green shirt is failing to communicate with the woman in a pink shirt."
+        },
+        {
+            "label": "no contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "A man in a green shirt fails to hold out a clipboard for a woman in pink's attention."
+        },
+        {
+            "label": "factive contradiction",
+            "sentence1": "A man in a green shirt holds out a clipboard for a woman in pink's attention.",
+            "sentence2": "The man in the green shirt forgot to hold out a clipboard for the woman in pink's attention."
+        }
+    ]
+}
