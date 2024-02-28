@@ -1,11 +1,103 @@
 import os
 import json
 import csv
+import pandas as pd
 
-def iaa_major_votes():
+
+def data_prep(group_data_path):
+    with open(group_data_path, "r") as json_file:
+        data = json.load(json_file)
+        
+    sentence1_list = []
+    sentence2_list = []
+    label_list = []
+    annotator1=[]
+    annotator2=[]
+    annotator3=[]
+
+    for i, (key, value) in enumerate(data.items()):
+        if i == 0:
+            for entry in value:
+                sentence1_list.append(entry["sentence1"])
+                sentence2_list.append(entry["sentence2"])
+                annotator1.append(entry["label"])
+        elif i == 1:
+            for entry in value:
+                annotator2.append(entry["label"])
+        else:
+            for entry in value:
+                annotator3.append(entry["label"])
+        
+    for a1, a2, a3 in zip(annotator1, annotator2,annotator3):
+        label_list.append([a1,a2,a3])
+
+    data_d = {"sentence1": sentence1_list, "sentence2": sentence2_list, "annotator_labels": label_list}
+    data_df = pd.DataFrame(data=data_d)
+    return data_df
+
+def iaa_major_votes(group_data_df):
+    """Defines the gold label, based on three annotator labels
+    Three case:
+        1 Absolute agreement: all three same label
+        2 Partial agreement: two have the same label
+        3 Asolute disagreement: all three have different labels
+    Args:
+     - path_to_file: path to file for a group of contradictions
+     - 
+    Return:
+     - saves the data to a SNLI format with all annotator labels and gold
+    """
+    #define and save gold labels for each sentence pair to list
+    sentence1 = group_data_df.loc[:,'sentence1']
+    sentence2 = group_data_df.loc[:,'sentence2']
+    annotator_labels = group_data_df.loc[:,'annotator_labels']
     
+    gold_labels = []
+    for entry in annotator_labels:
+        if entry[0] == entry[1]:
+            gold_labels.append(entry[0])
+        elif entry[1] == entry[2]: 
+            gold_labels.append(entry[1])
+        elif entry[0] == entry[2]:
+            gold_labels.append(entry[0])
+        else:
+            gold_labels.append('NA')
+            
+    data_d = {"sentence1": sentence1, "sentence2": sentence2, "annotator_labels": annotator_labels,"gold_label": gold_labels}
+    data_df = pd.DataFrame(data=data_d)
+    return data_df
+
+def iaa_ind_votes():
+    """Defines the gold label, based on three annotator labels
+    Args:
+     - path_to_file: path to file for a group of contradictions
+     - 
+    Return:
+     - saves the data to a SNLI format with all annotator labels and gold
+    """
     pass
 
-def iaa_annot_vote():
+def main(path_to_data):
+    for type_folder in os.listdir(path_to_data):
+        type_path = os.path.join(path_to_data, type_folder)
+        type_out_path = os.path.join(path_to_data, type_folder)
+        for group_folder in os.listdir(type_path):
+            group_path = os.path.join(type_path, group_folder)
+            group_out_path = os.path.join(type_out_path, group_folder)
+            for filename in os.listdir(group_path):
+                if 'gold' not in filename:
+                    file_path = os.path.join(group_path, filename)
+                    group_data_df = data_prep(file_path)
+                    gold_data_df = iaa_major_votes(group_data_df)
+        
+               
+            output_file = os.path.join(group_out_path, f"gold_type_{type_folder}_group_{group_folder}.json")
+            gold_data_df.to_json(output_file, orient="records", lines=True)
     
-    pass
+            
+            
+if __name__ == "__main__":
+    group_data_df = data_prep("/scratch/informed_nlu/human_validated/types_output/factive/1/type_factive_group_1.json")
+    group_data_gold = iaa_major_votes(group_data_df)
+    r=main("/scratch/informed_nlu/human_validated/types_output")
+    #TODO: connect all groups for one type together
