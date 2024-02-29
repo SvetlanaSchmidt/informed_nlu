@@ -77,9 +77,26 @@ def iaa_ind_votes():
     """
     pass
 
-def main(path_to_data):
+def process_analysis(combined_dfs):
+    for type_folder, combined_df in combined_dfs.items():
+        # Count occurrences of 'NA' in the 'gold_label' column for each type_folder
+        na_count = combined_df['gold_label'].value_counts().get('NA', 0)
+        na_rows = combined_df[combined_df['gold_label'] == 'NA']
+        
+        # Save the filtered rows to a JSON file for the current type_folder
+        output_file = f"na_rows_{type_folder}.json"
+        na_rows.to_json(output_file, orient="records", lines=True)
+        
+        # Output the count for the current type_folder
+        print(f"For type_folder '{type_folder}', 'NA' count: {na_count}")
+
+
+
+def combine_df(path_to_data):
+    combined_dfs = {}
     for type_folder in os.listdir(path_to_data):
         type_path = os.path.join(path_to_data, type_folder)
+        combined_df = pd.DataFrame()
         type_out_path = os.path.join(path_to_data, type_folder)
         for group_folder in os.listdir(type_path):
             group_path = os.path.join(type_path, group_folder)
@@ -89,15 +106,27 @@ def main(path_to_data):
                     file_path = os.path.join(group_path, filename)
                     group_data_df = data_prep(file_path)
                     gold_data_df = iaa_major_votes(group_data_df)
-        
-               
-            output_file = os.path.join(group_out_path, f"gold_type_{type_folder}_group_{group_folder}.json")
-            gold_data_df.to_json(output_file, orient="records", lines=True)
-    
+                    
+                    combined_df = pd.concat([combined_df, gold_data_df], axis=0)
+            #output_file = os.path.join(group_out_path, f"gold_type_{type_folder}_group_{group_folder}.json")
+            #gold_data_df.to_json(output_file, orient="records", lines=True)
+            
+            output_file = os.path.join("/scratch/informed_nlu/human_validated/combined_dfs", f"combined_df_{type_folder}.json")
+            combined_df.to_json(output_file, orient="records", lines=True)    
+
+        combined_dfs[type_folder] = combined_df
+
+    return combined_dfs
             
             
 if __name__ == "__main__":
     group_data_df = data_prep("/scratch/informed_nlu/human_validated/types_output/factive/1/type_factive_group_1.json")
     group_data_gold = iaa_major_votes(group_data_df)
-    r=main("/scratch/informed_nlu/human_validated/types_output")
+    combined_dfs=combine_df("/scratch/informed_nlu/human_validated/types_output")
     #TODO: connect all groups for one type together
+    #TODO: count all NA
+    # Example usage:
+    # Assuming combined_dfs is the dictionary returned by the main function
+    process_analysis(combined_dfs)
+    #TODO: find a way to handle them , add more annotations
+    #TODO: find a way to  visualize
