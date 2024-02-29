@@ -2,7 +2,7 @@ import os
 import json
 import csv
 import pandas as pd
-
+from sklearn.metrics import cohen_kappa_score
 
 def data_prep(group_data_path):
     with open(group_data_path, "r") as json_file:
@@ -34,6 +34,62 @@ def data_prep(group_data_path):
     data_d = {"sentence1": sentence1_list, "sentence2": sentence2_list, "annotator_labels": label_list}
     data_df = pd.DataFrame(data=data_d)
     return data_df
+
+def add_labels():
+    """
+    Provides additional labels if there are any
+    Args:
+     - path to the files with NA labels of one type
+     - path to the files with additional labels of one type
+    Return:
+     - 
+    """
+    pass
+
+def transform_annotator_labels(row):
+    annotator_labels = row['annotator_labels']
+    annotator_1 = annotator_labels[0] if len(annotator_labels) >= 1 else None
+    annotator_2 = annotator_labels[1] if len(annotator_labels) >= 2 else None
+    annotator_3 = annotator_labels[2] if len(annotator_labels) >= 3 else None
+    return pd.Series({'annotator_1': annotator_1, 'annotator_2': annotator_2, 'annotator_3': annotator_3})
+
+def preprocess_annotations(combined_df):
+    # Apply the transformation function to each row to create new annotator columns
+    new_annotator_cols = combined_df.apply(transform_annotator_labels, axis=1)
+    
+    # Concatenate the new annotator columns with the original dataframe
+    combined_df = pd.concat([combined_df, new_annotator_cols], axis=1)
+    
+    return combined_df
+
+def compute_cohens_kappa(combined_dfs):
+    for type_folder, combined_df in combined_dfs.items():
+        # Preprocess annotations for the current dataframe
+        combined_df = preprocess_annotations(combined_df)
+        
+        # Compute Cohen's kappa between annotators
+        kappa_1_2 = cohen_kappa_score(combined_df['annotator_1'], combined_df['annotator_2'])
+        kappa_1_3 = cohen_kappa_score(combined_df['annotator_1'], combined_df['annotator_3'])
+        kappa_2_3 = cohen_kappa_score(combined_df['annotator_2'], combined_df['annotator_3'])
+        
+        # Output the computed kappas for the current type_folder
+        print(f"For type_folder '{type_folder}':")
+        print(f"Cohen's kappa between annotators 1 and 2: {kappa_1_2}")
+        print(f"Cohen's kappa between annotators 1 and 3: {kappa_1_3}")
+        print(f"Cohen's kappa between annotators 2 and 3: {kappa_2_3}")
+        print()
+
+def calculate_gold_label_frequency(combined_dfs, gold_label):
+    for type_folder, combined_df in combined_dfs.items():
+        # Filter the dataframe to include only rows with the specific gold label within the current type_folder
+        filtered_df = combined_df[combined_df['gold_label'] == gold_label]
+        
+        # Calculate the frequency of the specific gold label
+        frequency = len(filtered_df)
+        
+        # Output the frequency for the current type_folder
+        print(f"For type_folder '{type_folder}', frequency of '{gold_label}': {frequency}")
+
 
 def iaa_major_votes(group_data_df):
     """Defines the gold label, based on three annotator labels
@@ -123,10 +179,21 @@ if __name__ == "__main__":
     group_data_df = data_prep("/scratch/informed_nlu/human_validated/types_output/factive/1/type_factive_group_1.json")
     group_data_gold = iaa_major_votes(group_data_df)
     combined_dfs=combine_df("/scratch/informed_nlu/human_validated/types_output")
-    #TODO: connect all groups for one type together
-    #TODO: count all NA
+
     # Example usage:
     # Assuming combined_dfs is the dictionary returned by the main function
     process_analysis(combined_dfs)
+    compute_cohens_kappa(combined_dfs)
     #TODO: find a way to handle them , add more annotations
     #TODO: find a way to  visualize
+    #calculate_gold_label_frequency(combined_dfs, 'factive contradiction')
+    #calculate_gold_label_frequency(combined_dfs, 'other contradiction')
+    calculate_gold_label_frequency(combined_dfs, 'lexical contradiction')
+    print("___________________________________")
+    calculate_gold_label_frequency(combined_dfs, 'no contradiction')
+    print("___________________________________")
+    calculate_gold_label_frequency(combined_dfs, 'difficult to answer')
+    print("___________________________________")
+    calculate_gold_label_frequency(combined_dfs, 'structural contradiction')
+    print("___________________________________")
+    calculate_gold_label_frequency(combined_dfs, 'world knowledge contradiction')
