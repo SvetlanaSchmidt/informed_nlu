@@ -1,15 +1,18 @@
 import os
 import json
-import csv
 import pandas as pd
 import numpy as np
-from sklearn.metrics import cohen_kappa_score
-from krippendorff import alpha
-from statsmodels.stats.inter_rater import fleiss_kappa, aggregate_raters
-from sklearn.preprocessing import LabelEncoder
-from utils import observed_agreement_matrix, expected_agreement_matrix, observed_disagreement_matrix, expected_disagreement_matrix, coincidence_matrix
+from iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin
+
 
 def data_prep(group_data_path):
+    """
+    prepare data for gold labels definition and analysis 
+    Params:
+     - path to the file containing the annotated data of one type and one group
+    Return:
+     - returns pandas dataframe with columns: sentence1, sentence2, annotator_labels
+    """
     with open(group_data_path, "r") as json_file:
         data = json.load(json_file)
         
@@ -37,13 +40,18 @@ def data_prep(group_data_path):
         label_list.append([a1,a2,a3])
         
     label_list = clean_labels(label_list)
+    sentence1, sentence2, label_bin_list = clean_bin_labels(sentence1_list, sentence2_list, label_list)
     data_d = {"sentence1": sentence1_list, "sentence2": sentence2_list, "annotator_labels": label_list}
     data_df = pd.DataFrame(data=data_d)
-    return data_df
+    
+    data_d_bin = {"sentence1": sentence1, "sentence2": sentence2, "annotator_labels": label_bin_list}
+    data_df_bin = pd.DataFrame(data=data_d_bin)
+    
+    return data_df, data_df_bin
 
-def clean_labels(annotaions_list):
-    cleaned_annotaions = []
-    for pair in annotaions_list:
+def clean_labels(annotations_list):
+    cleaned_annotations = []
+    for pair in annotations_list:
         clean_pair = []
         for annotation in pair:
             if "other contradiction" in annotation:
@@ -61,130 +69,30 @@ def clean_labels(annotaions_list):
             elif "world knowledge contradiction" in annotation:
                 annotation = "world knowledge contradiction"
             clean_pair.append(annotation)
-        cleaned_annotaions.append(clean_pair)
+        cleaned_annotations.append(clean_pair)
                 
-    return cleaned_annotaions
+    return cleaned_annotations
 
-def transform_annotator_labels(row):
-    annotator_labels = row['annotator_labels']
-    annotator_1 = annotator_labels[0] if len(annotator_labels) >= 1 else None
-    annotator_2 = annotator_labels[1] if len(annotator_labels) >= 2 else None
-    annotator_3 = annotator_labels[2] if len(annotator_labels) >= 3 else None
-    return pd.Series({'annotator_1': annotator_1, 'annotator_2': annotator_2, 'annotator_3': annotator_3})
-
-def preprocess_annotations(combined_df):
-    # Apply the transformation function to each row to create new annotator columns
-    new_annotator_cols = combined_df.apply(transform_annotator_labels, axis=1)
-    
-    # Concatenate the new annotator columns with the original dataframe
-    combined_df = pd.concat([combined_df, new_annotator_cols], axis=1)
-    
-    return combined_df
-
-def compute_cohens_kappa(combined_dfs):
-    for type_folder, combined_df in combined_dfs.items():
-        # Preprocess annotations for the current dataframe
-        combined_df = preprocess_annotations(combined_df)
-        print(combined_df)
-        # Compute Cohen's kappa between annotators
-        kappa_1_2 = cohen_kappa_score(combined_df['annotator_1'], combined_df['annotator_2'])
-        kappa_1_3 = cohen_kappa_score(combined_df['annotator_1'], combined_df['annotator_3'])
-        kappa_2_3 = cohen_kappa_score(combined_df['annotator_2'], combined_df['annotator_3'])
-        
-        # Output the computed kappas for the current type_folder
-        print(f"For type_folder '{type_folder}':")
-        print(f"Cohen's kappa between annotators 1 and 2: {kappa_1_2}")
-        print(f"Cohen's kappa between annotators 1 and 3: {kappa_1_3}")
-        print(f"Cohen's kappa between annotators 2 and 3: {kappa_2_3}")
-        print()
-        
-def label_encode(annotations_df, type_folder):
-    if type_folder == 'factive':
-        labels_dict  = {"no contradiction":0, "factive contradiction":1, "other contradiction":2,"difficult to answer":3}
-    annotations_numeric = []
-    for pair_annotations in annotations_df:
-        numeric_pair = []
-        for annotaion in pair_annotations:
-            pair_annotations_numeric = labels_dict[annotaion]
-            numeric_pair.append(pair_annotations_numeric)
-        annotations_numeric.append(numeric_pair)
-    return annotations_numeric
-
-def scotts_pi(observed_agreement_matrix):
-    # Total number of ratings
-    n_ratings = np.sum(observed_agreement_matrix)
-    
-    # Observed proportion of agreement
-    P_o = np.trace(observed_agreement_matrix) / n_ratings
-    
-    # Expected proportion of agreement by chance
-    marginal_probs = np.sum(observed_agreement_matrix, axis=0) / n_ratings
-    P_e = np.sum(marginal_probs ** 2)
-    
-    # Scott's Pi
-    pi = (P_o - P_e) / (1 - P_e)
-    return pi
-
-def bennets_s(observed_agreement_matrix, cat_num = 4):
-    # Total number of ratings
-    n_ratings = np.sum(observed_agreement_matrix)
-    
-    # Observed proportion of agreement
-    P_o = np.trace(observed_agreement_matrix) / n_ratings
-
-    # Scott's Pi
-    s = (P_o - 1/cat_num) / (1 - 1/cat_num)
-    return s
-
-def calculate_kappa_alpha(combined_dfs):
-    for type_folder, combined_df in combined_dfs.items():
-        #comment out, extend for all types
-        if type_folder == 'factive':
-            # Preprocess annotations for the current dataframe
-            combined_df = preprocess_annotations(combined_df)
-            #print(combined_df[['annotator_1', 'annotator_2', 'annotator_3']])
-            # Calculate Fleiss' kappa
-            annotations = combined_df[['annotator_1', 'annotator_2', 'annotator_3']].values.tolist()
-            numeric_annotations = label_encode(annotations, type_folder)
-            #print(annotations_numeric)
-            # Convert list of lists to numpy array
-            annotations_numeric_array = aggregate_raters(numeric_annotations, n_cat = None)
+def clean_bin_labels(sent1, sent2, annotations_list):
+    clean_annotations = []
+    clean_sent1 = []
+    clean_sent2 = []
+    for s1, s2, pair in zip(sent1, sent2, annotations_list):
+        clean_pair = []
+        for annotation in pair:
+            if "no contradiction" in annotation:
+                annotation = "no contradiction"
+            else: 
+                annotation = "contradiction"
                 
-            #print(annotations)    
-            print(numeric_annotations)
-            print(annotations_numeric_array[0].shape)
-            fleiss_k = fleiss_kappa(annotations_numeric_array[0], method = 'fleiss')
-            #fleiss_k = fleiss_kappa(combined_df[['annotator_1', 'annotator_2', 'annotator_3']])
-            
-            # Calculate Krippendorff's alpha
-            #kripp_alpha = alpha(combined_df[['annotator_1', 'annotator_2', 'annotator_3']])
-            kripp_alpha = alpha(annotations_numeric_array[0])
+            clean_pair.append(annotation)
 
-            
-            # Output the computed kappa and alpha for the current type_folder
-            print(f"For type_folder '{type_folder}':")
-            print(f"Fleiss' kappa: {fleiss_k}")
-            print(f"Krippendorff's alpha: {kripp_alpha}")
-            print()
-
-                        
-            P_o = observed_agreement_matrix(annotations)
-            P_e = expected_agreement_matrix(annotations)
-            D_o = observed_disagreement_matrix(annotations)
-            D_e = expected_disagreement_matrix(annotations) 
-            c_m = coincidence_matrix(annotations)
-            
-            
-            k_a = 1.0 - (np.sum(D_o) / np.sum(D_e))
-                      
-            pi = scotts_pi(P_o)
-            s = bennets_s(P_o)
-            print(f"For type_folder '{type_folder}':")
-            print(f"Scott's pi: {pi}")
-            print(f"For type_folder '{type_folder}':")
-            print(f"Bennette s S: {s}")
-            print(f"Krippendorffs alpha 2.0: {k_a}")
-            return c_m
+        if len(clean_pair) == 3: 
+            clean_annotations.append(clean_pair)
+            clean_sent1.append(s1)
+            clean_sent2.append(s2)
+                
+    return clean_sent1, clean_sent2, clean_annotations
             
 
 def calculate_gold_label_frequency(combined_dfs, gold_label):
@@ -227,19 +135,54 @@ def iaa_major_votes(group_data_df):
         else:
             gold_labels.append('NA')
             
-    data_d = {"sentence1": sentence1, "sentence2": sentence2, "annotator_labels": annotator_labels,"gold_label": gold_labels}
+    data_d = {"sentence1": sentence1, "sentence2": sentence2, "annotator_labels": annotator_labels, "gold_label": gold_labels}
     data_df = pd.DataFrame(data=data_d)
     return data_df
 
-def iaa_ind_votes():
+def iaa_2lab_votes(group_data_df):
     """Defines the gold label, based on three annotator labels
     Args:
      - path_to_file: path to file for a group of contradictions
      - 
     Return:
      - saves the data to a SNLI format with all annotator labels and gold
+     - saves only two labels: contradiction and not contradiction
     """
-    pass
+    #define and save gold labels for each sentence pair to list
+    sentence1 = group_data_df.loc[:,'sentence1']
+    sentence2 = group_data_df.loc[:,'sentence2']
+    annotator_labels = group_data_df.loc[:,'annotator_labels']
+    n_sentence1 = []
+    n_sentence2 = []
+    n_annotator_labels = []
+    gold_labels = []
+    for sent1, sent2, entry in zip(sentence1, sentence2, annotator_labels):
+        if entry[0] == entry[1]:
+            if "no contradiction" in entry[0]:
+                gold_labels.append("no contradiction")
+            else: 
+                gold_labels.append("contradiction")
+            n_sentence1.append(sent1)
+            n_sentence2.append(sent2)
+        elif entry[1] == entry[2]:
+            if "no contradiction" in entry[1]:
+                gold_labels.append("no contradiction")
+            else: 
+                gold_labels.append("contradiction")
+            n_sentence1.append(sent1)
+            n_sentence2.append(sent2)
+        elif entry[0] == entry[2]:
+            if "no contradiction" in entry[0]:
+                gold_labels.append("no contradiction")
+            else: 
+                gold_labels.append("contradiction")
+            n_sentence1.append(sent1)
+            n_sentence2.append(sent2)
+
+            
+    data_d = {"sentence1": n_sentence1, "sentence2": n_sentence2, "annotator_labels": annotator_labels, "gold_label": gold_labels}
+    data_df = pd.DataFrame(data=data_d)
+    return data_df
 
 def process_analysis(combined_dfs):
     for type_folder, combined_df in combined_dfs.items():
@@ -258,9 +201,11 @@ def process_analysis(combined_dfs):
 
 def combine_df(path_to_data):
     combined_dfs = {}
+    combined_2lab_dfs = {}
     for type_folder in os.listdir(path_to_data):
         type_path = os.path.join(path_to_data, type_folder)
         combined_df = pd.DataFrame()
+        combined_2lab_df = pd.DataFrame()
         type_out_path = os.path.join(path_to_data, type_folder)
         for group_folder in os.listdir(type_path):
             group_path = os.path.join(type_path, group_folder)
@@ -268,19 +213,27 @@ def combine_df(path_to_data):
             for filename in os.listdir(group_path):
                 if 'gold' not in filename:
                     file_path = os.path.join(group_path, filename)
-                    group_data_df = data_prep(file_path)
+                    group_data_df, group_data_bin = data_prep(file_path)
                     gold_data_df = iaa_major_votes(group_data_df)
+                    gold_2lab_df = iaa_major_votes(group_data_bin)
                     
                     combined_df = pd.concat([combined_df, gold_data_df], axis=0)
+                    combined_2lab_df = pd.concat([combined_2lab_df, gold_2lab_df], axis=0)
+                    
             #output_file = os.path.join(group_out_path, f"gold_type_{type_folder}_group_{group_folder}.json")
             #gold_data_df.to_json(output_file, orient="records", lines=True)
             
             output_file = os.path.join("/scratch/informed_nlu/human_validated/combined_dfs", f"combined_df_{type_folder}.json")
-            combined_df.to_json(output_file, orient="records", lines=True)    
+            combined_df.to_json(output_file, orient="records", lines=True)
+            
+            output_2lab = os.path.join("/scratch/informed_nlu/human_validated/combined_dfs", f"comb_2lab_df_{type_folder}.json")
+            combined_2lab_df.to_json(output_2lab, orient="records", lines=True)  
+                
 
         combined_dfs[type_folder] = combined_df
+        combined_2lab_dfs[type_folder] = combined_2lab_df
 
-    return combined_dfs
+    return combined_dfs, combined_2lab_dfs
 
 def read_combined_dfs(path_to_combined_dfs):
     combined_dfs = {}
@@ -294,26 +247,30 @@ def read_combined_dfs(path_to_combined_dfs):
             
             
 if __name__ == "__main__":
-    group_data_df = data_prep("/scratch/informed_nlu/human_validated/types_output/factive/1/type_factive_group_1.json")
-    group_data_gold = iaa_major_votes(group_data_df)
-    combined_dfs=combine_df("/scratch/informed_nlu/human_validated/types_output")
-
+    group_data_df, group_data_bin = data_prep("/scratch/informed_nlu/human_validated/types_output/factive/1/type_factive_group_1.json")
+    #group_data_gold = iaa_major_votes(group_data_df)
+    combined_dfs, combined_2lab = combine_df("/scratch/informed_nlu/human_validated/types_output")
     #combined_dfs = read_combined_dfs("/scratch/informed_nlu/human_validated/combined_dfs")
     # Example usage:
     # Assuming combined_dfs is the dictionary returned by the main function
-    process_analysis(combined_dfs)
+    #process_analysis(combined_dfs)
+    print("Calculated IAA for factive, wk, structure and lexical types")
     compute_cohens_kappa(combined_dfs)
-    c_m = calculate_kappa_alpha(combined_dfs)
+    calculate_kappa_alpha(combined_dfs)
+    print("Calculated IAA for all contradictioons (two labels)")
+    iaa_measure_bin(combined_2lab)
+    
     #TODO: find a way to handle them , add more annotations
     #TODO: find a way to  visualize
     #calculate_gold_label_frequency(combined_dfs, 'factive contradiction')
     #calculate_gold_label_frequency(combined_dfs, 'other contradiction')
-    calculate_gold_label_frequency(combined_dfs, 'lexical contradiction')
-    print("___________________________________")
-    calculate_gold_label_frequency(combined_dfs, 'no contradiction')
-    print("___________________________________")
-    calculate_gold_label_frequency(combined_dfs, 'difficult to answer')
-    print("___________________________________")
-    calculate_gold_label_frequency(combined_dfs, 'structural contradiction')
-    print("___________________________________")
-    calculate_gold_label_frequency(combined_dfs, 'world knowledge contradiction')
+    
+    # calculate_gold_label_frequency(combined_dfs, 'lexical contradiction')
+    # print("___________________________________")
+    # calculate_gold_label_frequency(combined_dfs, 'no contradiction')
+    # print("___________________________________")
+    # calculate_gold_label_frequency(combined_dfs, 'difficult to answer')
+    # print("___________________________________")
+    # calculate_gold_label_frequency(combined_dfs, 'structural contradiction')
+    # print("___________________________________")
+    # calculate_gold_label_frequency(combined_dfs, 'world knowledge contradiction')

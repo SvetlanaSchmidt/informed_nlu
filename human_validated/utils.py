@@ -100,20 +100,31 @@ def coincidence_matrix(annotations):
     
     return coincidence_matrix
 
+def reliability_matrix(annotations):
+    unique_categories = np.unique(np.concatenate(annotations))
+    category_to_index = {category: idx for idx, category in enumerate(unique_categories)}
+    n_categories = len(unique_categories)
+    n_raters = len(annotations[0])
+    
+    reliability_matrix = np.zeros((n_raters, n_raters, n_categories))
+    
+    for i in range(n_raters):
+        for j in range(i + 1, n_raters):
+            agreement = np.sum([category_to_index[annotations[k][i]] == category_to_index[annotations[k][j]] for k in range(len(annotations))], axis=0) / len(annotations)
+            reliability_matrix[i, j] = agreement
+            reliability_matrix[j, i] = agreement
+    
+    return reliability_matrix
 
-# Example usage:
-annotations = [
-    ['category1', 'category2', 'category1'],
-    ['category2', 'category2', 'category1'],
-    ['category1', 'category2', 'category1'],
-    # Add more annotations as needed
-]
+def coincidence_matrix_from_reliability(reliability_matrix):
+    n_raters, _, n_categories = reliability_matrix.shape
+    coincidence_matrix = np.zeros((n_categories, n_categories), dtype=float)
+    
+    for i in range(n_raters):
+        for j in range(i + 1, n_raters):
+            agreement = reliability_matrix[i, j]
+            coincidence_matrix += np.outer(agreement, agreement)
+    
+    return coincidence_matrix
 
-observed_disagreement = observed_disagreement_matrix(annotations)
-expected_disagreement = expected_disagreement_matrix(annotations)
-
-print("Observed Disagreement Matrix:")
-print(observed_disagreement)
-print("\nExpected Disagreement Matrix:")
-print(expected_disagreement)
 
