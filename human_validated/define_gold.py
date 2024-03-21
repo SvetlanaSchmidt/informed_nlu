@@ -256,8 +256,12 @@ if __name__ == "__main__":
     #process_analysis(combined_dfs)
     print("Calculated IAA for factive, wk, structure and lexical types")
     compute_cohens_kappa(combined_dfs)
+    print("_________________________________________________")
+    print()
     calculate_kappa_alpha(combined_dfs)
-    print("Calculated IAA for all contradictioons (two labels)")
+    print()
+    print("__________________________________________________")
+    print("Calculated IAA for all contradictions (two labels)")
     iaa_measure_bin(combined_2lab)
     
     #TODO: find a way to handle them , add more annotations

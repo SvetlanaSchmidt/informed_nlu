@@ -98,15 +98,8 @@ def calculate_kappa_alpha(combined_dfs):
         # Calculate Krippendorff's alpha
         #kripp_alpha = alpha(combined_df[['annotator_1', 'annotator_2', 'annotator_3']])
         kripp_alpha = alpha(annotations_numeric_array[0])
-
         
-        # Output the computed kappa and alpha for the current type_folder
-        print(f"For type_folder '{type_folder}':")
-        print(f"Fleiss' kappa: {fleiss_k}")
-        print(f"Krippendorff's alpha: {kripp_alpha}")
-        print()
-
-                    
+                            
         P_o = observed_agreement_matrix(annotations)
         P_e = expected_agreement_matrix(annotations)
         D_o = observed_disagreement_matrix(annotations)
@@ -114,13 +107,16 @@ def calculate_kappa_alpha(combined_dfs):
         #c_m = coincidence_matrix(annotations)
         #r_m = reliability_matrix(annotations)
         #c_m = coincidence_matrix_from_reliability(r_m)
-        
-                    
+                            
         pi = scotts_pi(P_o)
         s = bennets_s(P_o)
+
+        
+        # Output the computed kappa and alpha for the current type_folder
         print(f"For type_folder '{type_folder}':")
+        print(f"Fleiss' kappa: {fleiss_k}")
+        print(f"Krippendorff's alpha: {kripp_alpha}")
         print(f"Scott's pi: {pi}")
-        print(f"For type_folder '{type_folder}':")
         print(f"Bennette s S: {s}")
 
 
@@ -145,26 +141,40 @@ def iaa_measure_bin(combined_dfs):
     
     # Calculate Krippendorff's alpha
     kripp_alpha = alpha(annotations_numeric_array[0])
-
-    
-    # Output the computed kappa and alpha for the current type_folder
-    print(f"Fleiss' kappa: {fleiss_k}")
-    print(f"Krippendorff's alpha: {kripp_alpha}")
-    print()
-
                 
     P_o = observed_agreement_matrix(annotations)
     P_e = expected_agreement_matrix(annotations)
     D_o = observed_disagreement_matrix(annotations)
     D_e = expected_disagreement_matrix(annotations) 
-    
-    
-                
     pi = scotts_pi(P_o)
     s = bennets_s(P_o)
+    
+
+    
+    # Output the computed kappa and alpha for the current type_folder
+    print("IAA for three annotators, for 2 labels: contradiction, no contradiction")
+    print(f"Fleiss' kappa: {fleiss_k}")
+    print(f"Krippendorff's alpha: {kripp_alpha}")   
     print(f"Scott's pi: {pi}")
     print(f"Bennette s S: {s}")
-    print(f"Krippendorffs alpha 2.0: {k_a}")
+    
+    
+    annotator_1 = combined_2lab_dfs['annotator_1'].values
+    annotator_2 = combined_2lab_dfs['annotator_2'].values
+    annotator_3 = combined_2lab_dfs['annotator_3'].values
+    
+    
+    kappa_1_2 = cohen_kappa_score(annotator_1, annotator_2)
+    kappa_1_3 = cohen_kappa_score(annotator_1, annotator_3)
+    kappa_2_3 = cohen_kappa_score(annotator_2, annotator_3)
+    
+    # Output the computed kappas for the current type_folder
+    print("IAA for combined dataframe for two labels: contradiction vs no contradiction")
+    print(f"Cohen's kappa between annotators 1 and 2: {kappa_1_2}")
+    print(f"Cohen's kappa between annotators 1 and 3: {kappa_1_3}")
+    print(f"Cohen's kappa between annotators 2 and 3: {kappa_2_3}")
+    print()
+
         
         
 
@@ -173,9 +183,14 @@ def compute_cohens_kappa(combined_dfs):
         # Preprocess annotations for the current dataframe
         combined_df = preprocess_annotations(combined_df)
         # Compute Cohen's kappa between annotators
-        kappa_1_2 = cohen_kappa_score(combined_df['annotator_1'], combined_df['annotator_2'])
-        kappa_1_3 = cohen_kappa_score(combined_df['annotator_1'], combined_df['annotator_3'])
-        kappa_2_3 = cohen_kappa_score(combined_df['annotator_2'], combined_df['annotator_3'])
+        
+        annotator_1 = combined_df['annotator_1'].values
+        annotator_2 = combined_df['annotator_2'].values
+        annotator_3 = combined_df['annotator_3'].values
+    
+        kappa_1_2 = cohen_kappa_score(annotator_1, annotator_2)
+        kappa_1_3 = cohen_kappa_score(annotator_1, annotator_3)
+        kappa_2_3 = cohen_kappa_score(annotator_2, annotator_3)
         
         # Output the computed kappas for the current type_folder
         print(f"For type_folder '{type_folder}':")
