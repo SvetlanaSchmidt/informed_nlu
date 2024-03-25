@@ -80,7 +80,8 @@ lang_d = {'eng_deu_pairs' : 'german', 'eng_spa_pairs' : 'spanish', 'eng_ben_pair
                 
     #TODO: save data to the original dataframe for the further analysis    
 
-ext_ben = read_and_extend_data("/scratch/informed_nlu/translation_labels/content/TQA_PromptGPT_Input.xlsx", "/scratch/informed_nlu/translation_labels/scripts/gpt_translation_annotation_eng_ben_pairs.json", "TQA_PromptGPT_Input_ben.xlsx")
-ext_deu = read_and_extend_data("TQA_PromptGPT_Input_ben.xlsx", "/scratch/informed_nlu/translation_labels/scripts/gpt_translation_annotation_eng_deu_pairs.json", "TQA_PromptGPT_Input_ben_deu.xlsx")
-ext_rus = read_and_extend_data("TQA_PromptGPT_Input_ben_deu.xlsx", "/scratch/informed_nlu/translation_labels/scripts/gpt_translation_annotation_eng_rus_pairs.json", "TQA_PromptGPT_Input_ben_deu_rus.xlsx")
-ext_spa = read_and_extend_data("TQA_PromptGPT_Input_all.xlsx", "/scratch/informed_nlu/translation_labels/scripts/gpt_translation_annotation_eng_spa_pairs.json", "TQA_PromptGPT_Input_ben_deu_rus_spa.xlsx")
+gpt_annot = read_and_extend_data("/scratch/informed_nlu/translation_labels/content/TQA_PromptGPT_Input.xlsx", "TQA_PromptGPT_Input_all.xlsx")
+
+#TODO: 
+#1. compute IAA: GPT-A1, GPT-A2
+#2. write documentation
