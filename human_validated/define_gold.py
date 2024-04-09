@@ -2,7 +2,7 @@ import os
 import json
 import pandas as pd
 import numpy as np
-from iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin
+from iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin, compute_precision_recall
 
 
 def data_prep(group_data_path):
@@ -258,14 +258,12 @@ if __name__ == "__main__":
     compute_cohens_kappa(combined_dfs)
     print("_________________________________________________")
     print()
-    calculate_kappa_alpha(combined_dfs)
+    calculate_kappa_alpha(combined_dfs, n_categories=4)
     print()
     print("__________________________________________________")
     print("Calculated IAA for all contradictions (two labels)")
     iaa_measure_bin(combined_2lab)
-    
-    #TODO: find a way to handle them , add more annotations
-    #TODO: find a way to  visualize
+
     #calculate_gold_label_frequency(combined_dfs, 'factive contradiction')
     #calculate_gold_label_frequency(combined_dfs, 'other contradiction')
     
@@ -278,3 +276,5 @@ if __name__ == "__main__":
     # calculate_gold_label_frequency(combined_dfs, 'structural contradiction')
     # print("___________________________________")
     # calculate_gold_label_frequency(combined_dfs, 'world knowledge contradiction')
+    
+    
