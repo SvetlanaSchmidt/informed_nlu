@@ -10,6 +10,7 @@ from sklearn.preprocessing import LabelEncoder
 from utils import coincidence_matrix_from_reliability, observed_agreement_matrix, expected_agreement_matrix, observed_disagreement_matrix, expected_disagreement_matrix, coincidence_matrix, reliability_matrix
 
 
+
 def transform_annotator_labels(row):
     annotator_labels = row['annotator_labels']
     annotator_1 = annotator_labels[0] if len(annotator_labels) >= 1 else None
@@ -76,7 +77,41 @@ def label_encode_bin(annotations_df):
         annotations_numeric.append(numeric_pair)
     return annotations_numeric
 
-def calculate_kappa_alpha(combined_dfs):
+
+def compute_fleiss_kappa(combined_dfs, n_categories):
+    # Initialize variables to store observed and expected agreements
+    observed_agreements = np.zeros(n_categories)
+    expected_agreements = np.zeros(n_categories)
+    n_total = 0
+    
+    for type_folder, combined_df in combined_dfs.items():
+        # Preprocess annotations for the current dataframe
+        combined_df = preprocess_annotations(combined_df)
+        n_total += len(combined_df)
+        
+        # Compute observed agreement for each category
+        observed_agreement_matrix = np.zeros((n_categories, n_categories))
+        for category in range(n_categories):
+            for annotator in range(1, 4):  # Assuming 3 annotators
+                annotator_labels = combined_df[f'annotator_{annotator}']
+                category_counts = np.sum(annotator_labels == category, axis=0)
+                observed_agreement_matrix[category, annotator - 1] = category_counts
+
+        observed_agreements += np.sum(observed_agreement_matrix ** 2 - len(combined_df), axis=1) / (len(combined_df) * (len(combined_df) - 1))
+        
+        # Compute expected agreement for each category
+        p_j = np.sum(observed_agreement_matrix, axis=0) / (len(combined_df) * 3)
+        expected_agreements += np.sum(p_j ** 2, axis=0)
+    
+    # Compute Fleiss' kappa for each category
+    fleiss_kappas = (observed_agreements - expected_agreements) / (1 - expected_agreements)
+    
+    return fleiss_kappas, n_total
+
+
+def calculate_kappa_alpha(combined_dfs, n_categories=4):
+    fleiss_kappas, n_total = compute_fleiss_kappa(combined_dfs, n_categories)
+    print("Fleiss' Kappas for each category:", fleiss_kappas)
     for type_folder, combined_df in combined_dfs.items():
         #comment out, extend for all types
         # Preprocess annotations for the current dataframe
@@ -85,40 +120,45 @@ def calculate_kappa_alpha(combined_dfs):
         # Calculate Fleiss' kappa
         annotations = combined_df[['annotator_1', 'annotator_2', 'annotator_3']].values.tolist()
         numeric_annotations = label_encode(annotations)
-        #print(annotations_numeric)
+        #print(annotations)
+        annotations_T = np.array(annotations).transpose()
+        #print(giro)
         # Convert list of lists to numpy array
-        annotations_numeric_array = aggregate_raters(numeric_annotations, n_cat = None)
+        #annotations_numeric_array = aggregate_raters(numeric_annotations, n_cat = None)
+        #annotations_numeric_array = aggregate_raters(numeric_annotations, n_cat = None)
+        annotations_array = aggregate_raters(annotations, n_cat = None)
             
-        #print(annotations)    
+        #print(cats)    
         #print(numeric_annotations)
         #print(annotations_numeric_array[0].shape)
-        fleiss_k = fleiss_kappa(annotations_numeric_array[0], method = 'fleiss')
+        fleiss_k = fleiss_kappa(annotations_array[0], method = 'fleiss')
+        #fleiss_k = fleiss_kappa(annotations_numeric_array[0], method = 'fleiss')
+        #print(annotations_array)
         #fleiss_k = fleiss_kappa(combined_df[['annotator_1', 'annotator_2', 'annotator_3']])
         
         # Calculate Krippendorff's alpha
         #kripp_alpha = alpha(combined_df[['annotator_1', 'annotator_2', 'annotator_3']])
-        kripp_alpha = alpha(annotations_numeric_array[0])
-        
-                            
-        P_o = observed_agreement_matrix(annotations)
-        P_e = expected_agreement_matrix(annotations)
-        D_o = observed_disagreement_matrix(annotations)
-        D_e = expected_disagreement_matrix(annotations) 
+        kripp_alpha = alpha(annotations_T, level_of_measurement="nominal")
+        #kripp_alpha = alpha(numeric_annotations, level_of_measurement="nominal")
+
+                                    
+        # P_o = observed_agreement_matrix(annotations)
+        # P_e = expected_agreement_matrix(annotations)
+        # D_o = observed_disagreement_matrix(annotations)
+        # D_e = expected_disagreement_matrix(annotations) 
         #c_m = coincidence_matrix(annotations)
         #r_m = reliability_matrix(annotations)
         #c_m = coincidence_matrix_from_reliability(r_m)
                             
-        pi = scotts_pi(P_o)
-        s = bennets_s(P_o)
-
+        # pi = scotts_pi(P_o)
+        # s = bennets_s(P_o)
         
         # Output the computed kappa and alpha for the current type_folder
         print(f"For type_folder '{type_folder}':")
         print(f"Fleiss' kappa: {fleiss_k}")
         print(f"Krippendorff's alpha: {kripp_alpha}")
-        print(f"Scott's pi: {pi}")
-        print(f"Bennette s S: {s}")
-
+        #print(f"Scott's pi: {pi}")
+        
 
 def iaa_measure_bin(combined_dfs):
     combined_2lab_df = pd.DataFrame()
@@ -128,10 +168,11 @@ def iaa_measure_bin(combined_dfs):
     #print(combined_df[['annotator_1', 'annotator_2', 'annotator_3']])
     # Calculate Fleiss' kappa
     annotations = combined_2lab_dfs[['annotator_1', 'annotator_2', 'annotator_3']].values.tolist()
-    numeric_annotations = label_encode_bin(annotations)
-    #print(annotations_numeric)
+    #numeric_annotations = label_encode_bin(annotations)
+
     # Convert list of lists to numpy array
-    annotations_numeric_array = aggregate_raters(numeric_annotations, n_cat = None)
+    annotations_T = np.array(annotations).transpose()
+    annotations_numeric_array = aggregate_raters(annotations, n_cat = None)
         
     #print(annotations)    
     #print(numeric_annotations)
@@ -140,7 +181,7 @@ def iaa_measure_bin(combined_dfs):
     #fleiss_k = fleiss_kappa(combined_df[['annotator_1', 'annotator_2', 'annotator_3']])
     
     # Calculate Krippendorff's alpha
-    kripp_alpha = alpha(annotations_numeric_array[0])
+    kripp_alpha = alpha(annotations_T, level_of_measurement="nominal")
                 
     P_o = observed_agreement_matrix(annotations)
     P_e = expected_agreement_matrix(annotations)
@@ -175,7 +216,7 @@ def iaa_measure_bin(combined_dfs):
     print(f"Cohen's kappa between annotators 2 and 3: {kappa_2_3}")
     print()
 
-        
+         
         
 
 def compute_cohens_kappa(combined_dfs):
@@ -192,9 +233,49 @@ def compute_cohens_kappa(combined_dfs):
         kappa_1_3 = cohen_kappa_score(annotator_1, annotator_3)
         kappa_2_3 = cohen_kappa_score(annotator_2, annotator_3)
         
+        percent_agreement_1_2 = (annotator_1==annotator_2).mean()
+        percent_agreement_1_3 = (annotator_1==annotator_3).mean()
+        percent_agreement_2_3 = (annotator_2==annotator_3).mean()
+
+        
         # Output the computed kappas for the current type_folder
         print(f"For type_folder '{type_folder}':")
         print(f"Cohen's kappa between annotators 1 and 2: {kappa_1_2}")
         print(f"Cohen's kappa between annotators 1 and 3: {kappa_1_3}")
         print(f"Cohen's kappa between annotators 2 and 3: {kappa_2_3}")
         print()
+        print(f"Agreement between annotators 1 and 2: {percent_agreement_1_2}")
+        print(f"Agreement between annotators 1 and 3: {percent_agreement_1_3}")
+        print(f"Agreement between annotators 2 and 3: {percent_agreement_2_3}")
+        print()
+        #precision, recall = compute_precision_recall(annotator_1, annotator_2, annotator_3)
+        #print("Precision:", precision)
+        #print("Recall:", recall)
+        
+def compute_precision_recall(annotator_1, annotator_2, annotator_3):
+    n_total = len(annotator_1)
+    
+    # Compute positive predictions and ground truth
+    positive_predictions = ((annotator_1 == annotator_2) | (annotator_1 == annotator_3) | (annotator_2 == annotator_3))
+    positive_ground_truth = ((annotator_1 == annotator_2) & (annotator_1 == annotator_3))
+    
+    # Compute true positive (TP), false positive (FP), and false negative (FN)
+    TP = np.sum(positive_predictions & positive_ground_truth)
+    FP = np.sum(positive_predictions & ~positive_ground_truth)
+    FN = np.sum(~positive_predictions & positive_ground_truth)
+    
+    # Compute precision and recall
+    precision = TP / (TP + FP)
+    recall = TP / (TP + FN)
+    
+    return precision, recall
+
+# # Example usage:
+# annotator_1 = np.array(['A', 'B', 'B', 'A', 'A'])
+# annotator_2 = np.array(['A', 'B', 'B', 'B', 'A'])
+# annotator_3 = np.array(['A', 'B', 'B', 'A', 'B'])
+
+# precision, recall = compute_precision_recall(annotator_1, annotator_2, annotator_3)
+# print("Precision:", precision)
+# print("Recall:", recall)
+

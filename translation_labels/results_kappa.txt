@@ -1,0 +1,28 @@
+Cohen's kappa between GPT1 and GPT0 for eng-deu: 0.005424954792043413
+Cohen's kappa between GPT1 and GPT0 for eng-ben: 0.0038872691933915515
+Cohen's kappa between GPT1 and GPT0 for eng-rus: 0.053708439897698246
+Cohen's kappa between GPT1 and GPT0 for eng-spa: 0.08039936941671055
+
+Cohen's kappa between for Russian A1 and A2: 0.5308310991957105
+Cohen's kappa between for Russian GPT1 (mod) and A1: 0.04347826086956519
+Cohen's kappa between for Russian GPT0 and A1: 0.06988436400201103
+Cohen's kappa between for Russian GPT1 (mod) and A2: 0.07563025210084018
+Cohen's kappa between for Russian GPT0 and A2: 0.050000000000000044
+
+Cohen's kappa between for Bengali A1 and A2: 0.23076923076923084
+Cohen's kappa between for Bengali GPT1 (mod) and A1: 0.271137026239067
+Cohen's kappa between for Bengali GPT0 and A1: -0.007049345417925457
+Cohen's kappa between for Bengali GPT1 (mod) and A2: 0.16512059369202226
+Cohen's kappa between for Bengali GPT0 and A2: 0.05660377358490554
+
+Cohen's kappa between for German A1 and A2: 0.12559618441971399
+Cohen's kappa between for German GPT1 (mod) and A1: 0.1228070175438597
+Cohen's kappa between for German GPT0 and A1: 0.07975460122699385
+Cohen's kappa between for German GPT1 (mod) and A2: 0.13394919168591224
+Cohen's kappa between for German GPT0 and A2: 0.07821229050279321
+
+Cohen's kappa between for Spanish A1 and A2: 0.5337370242214533
+Cohen's kappa between for Spanish GPT1 (mod) and A1: -0.04457364341085279
+Cohen's kappa between for Spanish GPT0 and A1: -0.03671437461107674
+Cohen's kappa between for Spanish GPT1 (mod) and A2: -0.02857142857142847
+Cohen's kappa between for Spanish GPT0 and A2: 0.051724137931034586
