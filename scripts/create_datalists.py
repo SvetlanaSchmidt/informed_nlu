@@ -7,11 +7,13 @@ import stanza
 import pandas as pd
 import nltk
 from nltk.corpus import wordnet as wn
-from rule_utils.disambig import disambig
+from informed_nlu.utils.disambig import *
 
 stanza.download('en')
         
 def read_data(path):
+    """save the sentence pairs and labels from SNLI to list of lists
+    """
     data = []
 
     for line in open(path, mode='r', encoding='utf-8'):   
@@ -24,6 +26,9 @@ def read_data(path):
     return data
 
 def extract_dep(data, nlp):
+    """
+    Parse the premises of SNLI corpus with Stanza parser and extract the POS, dependencies, and morphological features
+    """
     sent1 = []
     sent1_tok = []
     sent1_pos = []
@@ -60,21 +65,21 @@ def write_data_file(path, nlp, data_labeled):
    
 if __name__ == "__main__":
     
-    train_file = ""
-    val_file = ""
-    test_file = ""
-
+    train_file = "/cluster/svetlana/data/snli_train_pos_dep.json"
+    val_file = "/cluster/svetlana/data/snli_dev_pos_dep.json"
+    test_file = "/cluster/svetlana/data/snli_test_pos_dep.json"
+    
     train_data = read_data(train_file)
     val_data = read_data(val_file)
     test_data = read_data(test_file)
     
-    sent = train_data[0][1]
+    #sent = train_data[0][1]
     nlp = stanza.Pipeline('en')
     
     #parse sentences, add dependencies and features
-    train_deps = write_data_file('train_deps.json', nlp, train_data)
-    val_deps = write_data_file('val_deps.json', nlp, val_data)
-    test_deps = write_data_file('test_deps.json', nlp, test_data)
+    train_deps = write_data_file('train_deps.json', nlp, train_data[:10000])
+    val_deps = write_data_file('val_deps.json', nlp, val_data[:5000])
+    test_deps = write_data_file('test_deps.json', nlp, test_data[:5000])
       
     #disambiguate parsed sentences
     train_samples = []
@@ -91,7 +96,12 @@ if __name__ == "__main__":
     with open("test_deps.json", "r") as fp:
         for line in fp:
             test_samples.append(json.loads(line))
+            
+    print("Parsing of dependencies and morphologic features is complete")
     
     up_train = disambig(train_samples, path = "train_deps_syn.json")
     up_dev = disambig(val_samples, path = "val_deps_syn.json")
     up_test = disambig(test_samples, path = "test_deps_syn.json")
+    
+    print("Disambiguation of sentences is complete")
+    
