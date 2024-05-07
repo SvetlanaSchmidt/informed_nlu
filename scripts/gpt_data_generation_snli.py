@@ -3,38 +3,27 @@ import json
 from informed_nlu.data_classes.initial_contradiction_types_snli import *
 from informed_nlu.utils.utils import read_prem
 
-openai.api_key=""
+openai.api_key="API KEY"
 model='gpt-4'
-max_tokens=512
+max_tokens=512 # the maximum generated tokens
 
-temperature=1
-
-
-#total iterations
-iterations = 1
-# number of contradiction type examples to provide in each prompt
-prompt_examples = 1
-# number of new contradictions to generate for each type
-num_contradictions = 1
+temperature=1 #the diversity of the output
 
 train_path="/shared_with_maren/contradiction_detection/data/raw/snli_data_original/tokenized_format/snli_train_pos_dep.json"
 train_premises=read_prem(train_path)
-
+#descriptions of the contradiciton types: instances of the ContradictionType class
 contradiction_types = [factive_embedded_verb, factive_antonym, structure, lexical, wk]
 
-total_cost = 0
 
 responses=[] 
-# for group in chunker(train_premises, 5):
-#     for i in range(len(group)-1):
-#         premise=group[i]
+#adjust the number of premises for generation
 for premise in train_premises[:50]:
-    #premise=train_premises[i]
     response=[]
     for contradiction_type in contradiction_types:
         res = openai.ChatCompletion.create(
         model=model,
         max_tokens=max_tokens,
+        temperature=temperature,
         messages=[
                 {"role": "system", "content": "You are an expert on semantics and linguistics, with a profound knowledge\
                 in Natural Language Processing. You are especially aware of the work by Marneffe et al., classifying\
