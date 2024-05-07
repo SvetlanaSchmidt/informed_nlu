@@ -5,6 +5,13 @@ import time
 import pandas as pd
 
 def disambig(data, path):
+    """Extract the disambiguated synsets for each word in a sentece if available 
+    Params:
+     - list of lists: premise, tokenized premise, pos, deps, morph feats
+    return:
+     - saves the result to JSON, adding the list of synsets for each content word
+    
+    """
     sentences = []
     premise_tok = []
     pos = []
