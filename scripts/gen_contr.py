@@ -4,10 +4,21 @@ import random
 import pandas as pd
 from nltk.corpus import wordnet as wn
 from nltk.tokenize import word_tokenize
-from utils.create_datalists import read_data
-from rule_utils.utils import flatten, read_deps
+from create_datalists import read_data
+from utils.rule_utils import flatten, read_deps
 
 def create_num_cont(data_labeled):
+    """The generation of the numeric based contradictions
+    Params:
+     - the data from SNLI corpus: for each sentence 
+    (PREMISE: 'A person on a horse jumps over a broken down airplane.', 
+    DEP: ['det', 'nsubj', 'case', 'det', 'nmod', 'root', 'case', 'det', 'amod', 'amod', 'obl', 'punct'],
+    MORPH FEAT: ['Definite=Ind|PronType=Art', 'Number=Sing', None, 'Definite=Ind|PronType=Art', 
+    'Number=Sing', 'Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin', None, 
+    'Definite=Ind|PronType=Art', 'Tense=Past|VerbForm=Part', 'Degree=Pos', 'Number=Sing', None])
+    return:
+     - list [label, premise, generated hypothesis]
+    """
     f = open("numerals.txt", 'r')
     num_lines = f.readlines()
     numerals = [num.split('\n')[0] for num in num_lines]
@@ -263,11 +274,18 @@ def create_proto(data):
     neg_labels, n_prem, n_hypot = create_neg_cont(data[:200])
     num_labels, num_prem, num_hypot = create_num_cont(data[:200])
     adj_labels, adj_prem, adj_hypot, ant_list = create_adj_ant(data[:200])
-    labels = ant_labels + neg_labels + num_labels + adj_labels
-    premise = prem + n_prem + num_prem + adj_prem
-    hypothese = hypot + n_hypot + num_hypot + adj_hypot
+    # nominal based antonymy
+    # labels = ant_labels + neg_labels + num_labels + adj_labels
+    # premise = prem + n_prem + num_prem + adj_prem
+    # hypothese = hypot + n_hypot + num_hypot + adj_hypot
     
-    return labels, premise, hypothese, ant_list
+    #adjectival antonymy
+    labels = neg_labels + num_labels + adj_labels
+    premise = n_prem + num_prem + adj_prem
+    hypothese = n_hypot + num_hypot + adj_hypot
+
+    
+    return labels, premise, hypothese
         
 
 def write_data_file(path, data_contr, data_labeled):
@@ -280,10 +298,15 @@ def write_data_file(path, data_contr, data_labeled):
             premise_gold.append(s[1])
             hypothese_gold.append(s[2])
             
-    proto_labels, proto_premise, proto_hypothese, ant_list = create_proto(data_contr)  
-    labels = proto_labels+labels_gold[:len(proto_labels)] # comment out to save not only contrad
-    premise = proto_premise+premise_gold[:len(proto_premise)] # add the same number of non contradictions 
-    hypothese = proto_hypothese+hypothese_gold[:len(proto_hypothese)] 
+    proto_labels, proto_premise, proto_hypothese = create_proto(data_contr)  
+    # labels = proto_labels+labels_gold[:len(proto_labels)] # comment out to save not only contrad
+    # premise = proto_premise+premise_gold[:len(proto_premise)] # add the same number of non contradictions 
+    # hypothese = proto_hypothese+hypothese_gold[:len(proto_hypothese)] 
+    #generate only contradictions
+    labels = proto_labels 
+    premise = proto_premise
+    hypothese = proto_hypothese
+ 
     
     dict_contr = {'gold_labels': labels, 'sentence1': premise, 'sentence2': hypothese}
     df = pd.DataFrame.from_dict(dict_contr)
@@ -292,9 +315,9 @@ def write_data_file(path, data_contr, data_labeled):
 
 if __name__ == "__main__":
     #add paths to snli data
-    all_train = ""
-    all_dep = ""
-    all_test = ""
+    all_train = "/cluster/svetlana/data/snli_train_pos_dep.json"
+    all_dep = "/cluster/svetlana/data/snli_dev_pos_dep.json"
+    all_test = "/cluster/svetlana/data/snli_test_pos_dep.json"
 
     train_data = read_data(all_train)
     val_data = read_data(all_dep)
@@ -308,6 +331,6 @@ if __name__ == "__main__":
     val_proto = read_deps(val_file)
     test_proto = read_deps(test_file)
     
-    train = write_data_file('train_simple_prototypes.json', data_contr = train_proto, data_labeled = train_data)
-    val = write_data_file('val_simple_prototypes.json', data_contr = val_proto, data_labeled = val_data)
-    test = write_data_file('test_simple_prototypes.json', data_contr = test_proto, data_labeled = test_data)
+    #train = write_data_file('train_simple_prototypes.json', data_contr = train_proto, data_labeled = train_data)
+    #val = write_data_file('val_simple_prototypes.json', data_contr = val_proto, data_labeled = val_data)
+    #test = write_data_file('test_simple_prototypes.json', data_contr = test_proto, data_labeled = test_data)
