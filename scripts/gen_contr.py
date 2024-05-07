@@ -67,6 +67,17 @@ def create_num_cont(data_labeled):
     return labels, premises, hypotheses
 
 def create_neg_cont(data_labeled):
+    """The generation of the negation based contradictions
+    Params:
+     - the data from SNLI corpus: for each sentence 
+    (PREMISE: 'A person on a horse jumps over a broken down airplane.', 
+    DEP: ['det', 'nsubj', 'case', 'det', 'nmod', 'root', 'case', 'det', 'amod', 'amod', 'obl', 'punct'],
+    MORPH FEAT: ['Definite=Ind|PronType=Art', 'Number=Sing', None, 'Definite=Ind|PronType=Art', 
+    'Number=Sing', 'Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin', None, 
+    'Definite=Ind|PronType=Art', 'Tense=Past|VerbForm=Part', 'Degree=Pos', 'Number=Sing', None])
+    return:
+     - list [label, premise, generated hypothesis]
+    """
     premises = []
     hypotheses = []
     labels = []
@@ -115,79 +126,22 @@ def create_neg_cont(data_labeled):
     return labels, premises, hypotheses
                                     
 
-def create_ant_cont(data_labeled):
-
-    premises = []
-    hypotheses = []
-    labels = []
-    antonym_pairs = []
-    for sentence_pair in tqdm.tqdm(data_labeled):
-        premise = sentence_pair[0]
-        premise = word_tokenize(premise)
-        pos = sentence_pair[2]
-        deps = sentence_pair[3]
-        feats = sentence_pair[4]
-        premise_new = []
-        hypothesis = []
-        antonym_sent = []
-        antonym=False  
-        if 'obj' in deps:  
-            for n, (token, dep, p, feat) in enumerate(zip(premise, deps, pos, feats)):          
-                if dep == 'obj' and feat != None and "Number=Sing" in feat and p == "NOUN":
-                    ant_obj = []
-                    antonyms=[]  
-                    for syn in wn.synsets(token, pos=wn.NOUN):
-                        for l in syn.lemmas():
-                            if l.antonyms():
-                                ant_obj.append(l.antonyms()) # get antonyms for the subject
-                    ant_obj = list(flatten(ant_obj))
-                    ant_synsets = [ant.synset() for ant in ant_obj]
-                    antonyms=[]
-                    for ant_s in ant_synsets:
-                        antonyms.append(ant_s.lemma_names())
-                    antonyms = [ant for subl in antonyms for ant in subl if "_" not in ant]
-                            
-                    if len(antonyms) > 0:
-                        if n != 0: 
-                            antonym=True
-                            premise_new.append((" " + token))
-                            hypothesis.append((" " + antonyms[0]))
-                            antonym_sent.append((token, antonyms[0]))
-                        else:
-                            premise_new.append((token))
-                            hypothesis.append((antonyms[0]))
-                            antonym_sent.append((token, antonyms[0]))
-                    elif len(antonyms) == 0:
-                        if n != 0:
-                            premise_new.append((" " + token))
-                            hypothesis.append((" " + token))
-                            antonym_sent.append(None)
-                        else:
-                            premise_new.append((token))
-                            hypothesis.append(token)
-                            antonym_sent.append(None)
-                #save other words from a sentence            
-                elif dep != 'obj':
-                    if n != 0 or dep != "punct":
-                        premise_new.append((" " + token))
-                        hypothesis.append((" " + token))
-                        antonym_sent.append(None)
-                    else:
-                        premise_new.append((token))
-                        hypothesis.append(token)
-                        antonym_sent.append(None)
-        
-        if len(premise_new) > 0 and len(hypothesis) > 0 and antonym==True and premise_new != hypothesis:
-            premises.append("".join(premise_new))
-            hypotheses.append("".join(hypothesis))
-            antonym_pairs.append(antonym_sent)
-                
-    for i in range(len(premises)):
-        labels.append('contradiction')
-                
-    return labels, premises, hypotheses, antonym_pairs
-
 def create_adj_ant(data_labeled):
+    """The generation of the antonymy based contradictions
+    Params:
+     - the data from SNLI corpus: for each sentence 
+    (PREMISE: 'A person on a horse jumps over a broken down airplane.', 
+    POS: []'DET', 'NOUN', 'ADP', 'DET', 'NOUN', 'VERB', 'ADP', 'DET', 'VERB', 'ADP', 'NOUN', 'PUNCT']
+    DEP: ['det', 'nsubj', 'case', 'det', 'nmod', 'root', 'case', 'det', 'amod', 'amod', 'obl', 'punct'],
+    MORPH FEAT: ['Definite=Ind|PronType=Art', 'Number=Sing', None, 'Definite=Ind|PronType=Art', 
+    'Number=Sing', 'Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin', None, 
+    'Definite=Ind|PronType=Art', 'Tense=Past|VerbForm=Part', 'Degree=Pos', 'Number=Sing', None]
+    SYNSETS: ['A', 'wn:00007846n', 'on', 'a', 'wn:02374451n', 'wn:01963942v', 'over', 'a', 'wn:00202569v', 
+    'down', 'wn:02691156n', '.'])
+    return:
+     - list [label, premise, generated hypothesis]
+     - antonyms of aligned words in the premise and hypothesis
+    """
     premises = []
     hypotheses = []
     labels = []
@@ -270,14 +224,15 @@ def create_adj_ant(data_labeled):
     return labels, premises, hypotheses, antonym_pairs
 
 def create_proto(data):
-    ant_labels, prem, hypot, ant_list = create_ant_cont(data[:200])
+    """
+    Generates the contradictory data for the premises from SNLI
+    return:
+     - the lists of simple generated contradiction pairs 
+     for antonymy, negation, numeric mismatch concatenated together
+    """
     neg_labels, n_prem, n_hypot = create_neg_cont(data[:200])
     num_labels, num_prem, num_hypot = create_num_cont(data[:200])
     adj_labels, adj_prem, adj_hypot, ant_list = create_adj_ant(data[:200])
-    # nominal based antonymy
-    # labels = ant_labels + neg_labels + num_labels + adj_labels
-    # premise = prem + n_prem + num_prem + adj_prem
-    # hypothese = hypot + n_hypot + num_hypot + adj_hypot
     
     #adjectival antonymy
     labels = neg_labels + num_labels + adj_labels
@@ -289,6 +244,9 @@ def create_proto(data):
         
 
 def write_data_file(path, data_contr, data_labeled):
+    """Save the contradictory data to a JSON file
+    optional: add the entailments and neutral sentence pairs
+    """
     labels_gold = []
     premise_gold = []
     hypothese_gold = []
@@ -331,6 +289,6 @@ if __name__ == "__main__":
     val_proto = read_deps(val_file)
     test_proto = read_deps(test_file)
     
-    #train = write_data_file('train_simple_prototypes.json', data_contr = train_proto, data_labeled = train_data)
-    #val = write_data_file('val_simple_prototypes.json', data_contr = val_proto, data_labeled = val_data)
-    #test = write_data_file('test_simple_prototypes.json', data_contr = test_proto, data_labeled = test_data)
+    train = write_data_file('train_simple_prototypes.json', data_contr = train_proto, data_labeled = train_data)
+    val = write_data_file('val_simple_prototypes.json', data_contr = val_proto, data_labeled = val_data)
+    test = write_data_file('test_simple_prototypes.json', data_contr = test_proto, data_labeled = test_data)
