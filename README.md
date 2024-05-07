@@ -36,11 +36,9 @@ Method 3:
 Navigate to human_validated branch:
 
 Define gold labels:
-
     - run `define_gold_labels.py` to create the files with gold labels based on the simple majority vote
     
 Calculate inter-annotator agreement:
-
     - run `iaa_measure.py` this file outputs the pairwise percent agreement and Cohen's Kappa, Fleiss' Kappa and Krippendorff's alpha
     
 
