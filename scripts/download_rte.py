@@ -2,28 +2,33 @@ import requests
 import xml.etree.ElementTree as ET
 import json
 
-# Step 1: Download the XML file from the URL
-url = 'https://nlp.stanford.edu/projects/contradiction/real_contradiction.xml'
-response = requests.get(url)
 
-# Step 2: Parse the XML content
-root = ET.fromstring(response.content)
+def download_rte_dataset(url: str):
+    """1: download the XML file from the URL
+    2: parse the XML content
+    3: extract the elements of each par
+    4: save labels, premises and hypothesis pairwise to JSON file
+    """
+    
+    response = requests.get(url)
+    root = ET.fromstring(response.content)
 
-# Step 3: Extract the contradiction pairs
-contradictions = []
+    with open('contradiction_pairs.json', 'w') as json_file:
+        for pair in root.findall('.//pair'):
+            if pair.attrib['contradiction'] == 'YES':
+                gold_label = 'contradiction'
+            contradiction = {
+                'gold_label': gold_label,
+                'sentence1': pair.find('t').text,
+                'sentence2': pair.find('h').text
+            }
+            json_file.write(json.dumps(contradiction) + '\n')
 
-for pair in root.findall('.//pair'):
-    contradiction = {
-        'id': pair.attrib['id'],
-        'contradiction': pair.attrib['contradiction'],
-        'type': pair.attrib['type'],
-        'text': pair.find('t').text,
-        'hypothesis': pair.find('h').text
-    }
-    contradictions.append(contradiction)
+def main():   
+    url = 'https://nlp.stanford.edu/projects/contradiction/real_contradiction.xml'
+    download_rte_dataset(url)
 
-# Step 4: Save the extracted pairs as JSON
-with open('contradiction_pairs.json', 'w') as json_file:
-    json.dump(contradictions, json_file, indent=4)
+if __name__=="__main__":
+    main()
 
-print("Contradiction pairs saved as 'contradiction_pairs.json'.")
+
