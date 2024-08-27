@@ -30,10 +30,16 @@ def preprocess_annotations(combined_df):
 
 def calculate_kappa_alpha(combined_dfs):
     """Compute Fleiss kappa and Krippendorff's alpha among three annotations in each contradiction type
+    Function aggregate_raters converts the data of format (subject, rater) 
+    to (subject=rows, cat_counts=columns) necessary for fleiss' kappa function
+    Function for Krippendoff' alpha: - alpha:
+     - takes data of format (subject=rows, raters=columns) if integers 
+     (https://github.com/pln-fing-udelar/fast-krippendorff/blob/typed-functions/sample.py)
+     - in this work we took teh data of form (subject, cat_counts)
     Params:
      - combined dataframe with 4 contradiction types dataframes
     return:
-     - outputs the Kappa and alpha computed within a contradiction type
+     - outputs the Kappa and alpha computed for each contradiction type
     """
 
     for type_folder, combined_df in combined_dfs.items():
@@ -43,18 +49,22 @@ def calculate_kappa_alpha(combined_dfs):
         
         #adjust the shape of input array for krippendorff alpha
         annotations_T = np.array(annotations).transpose()
+        
+
         #prepare input for fleiss kappa
         annotations_array = aggregate_raters(annotations, n_cat = None)
-            
+
         #Fleiss Kappa
         fleiss_k = fleiss_kappa(annotations_array[0], method = 'fleiss')
-        
+        print(annotations_array[0].shape)
         #Krippendorff's alpha
-        kripp_alpha = alpha(annotations_T, level_of_measurement="nominal")
+        kripp_alpha = alpha(annotations_array[0], level_of_measurement="nominal")
+
                                 
         print(f"For type_folder '{type_folder}':")
         print(f"Fleiss' kappa: {fleiss_k}")
         print(f"Krippendorff's alpha: {kripp_alpha}")
+
         
     # fleiss_kappas, n_total = compute_fleiss_kappa(combined_dfs, n_categories)
     # print("Fleiss' Kappas for each category:", fleiss_kappas)

@@ -2,7 +2,7 @@ import os
 import json
 import pandas as pd
 import numpy as np
-from iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin, compute_precision_recall
+from iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin
 
 
 def data_prep(group_data_path):
@@ -265,7 +265,7 @@ if __name__ == "__main__":
     compute_cohens_kappa(combined_dfs)
     print("_________________________________________________")
     print()
-    calculate_kappa_alpha(combined_dfs, n_categories=4)
+    calculate_kappa_alpha(combined_dfs)
     print()
     print("__________________________________________________")
     print("Calculated IAA for all contradictions (two labels)")
