@@ -17,29 +17,32 @@ $ cd informed_nlu
 $ pip install -e .
 ```
 
-## Reproduce the experiments
+## Reproduce the data generation experiments
 Navigate to the /scripts directory.
 
 Method 1: 
+    From informed_nlu/scripts:
     - prepare the data by running `create_datalists.py`;
-    - in order to generate samples from SNLI premises with rule-based approach run `gen_contr.py`;
+    - in order to generate samples from SNLI premises with rule-based approach run `gen_simple_contradictions.py`;
 
 Method 2:
-    - run `gpt_data_generation_snli.py` for generating samples with GPT model from SNLI premises;
+    From informed_nlu/scripts:
+    - run `scrape_WK_premises.py`to scrape the premises for the world knowledge contradiction type; 
+    - run `gpt_data_generation_complex.py` for generating samples with GPT model from SNLI premises;
 
 Method 3:
     - run `gpt_data_generation_method_3.py` in order to generate new types of contradictions with GPT model only
 
-### Important: You need to add your personal OpenAI API key under ./informed_nlu/utils/api_key.py, in order to make requests to the OpenAI API.
+### Important: 
+You need to add your personal OpenAI API key under ./informed_nlu/utils/api_key.py, in order to make requests to the OpenAI API.
 
+# Gold labels determination and Inter-Annotator Agreement
 ## Compute the agreement and define the gold labels for annotated data
-Navigate to human_validated branch:
+Navigate to `human_validated` branch:
 
-Define gold labels:
-    - run `define_gold_labels.py` to create the files with gold labels based on the simple majority vote
-    
-Calculate inter-annotator agreement:
-    - run `iaa_measure.py` this file outputs the pairwise percent agreement and Cohen's Kappa, Fleiss' Kappa and Krippendorff's alpha
+Define gold labels and calculate inter-annotator agreement:
+    - run `define_gold_labels.py` to create the files with gold labels based on the simple majority vote    
+    - `iaa_measure.py` this contains functions for computation of the pairwise percent agreement, Cohen's Kappa, Fleiss' Kappa and Krippendorff's alpha
     
 
 
