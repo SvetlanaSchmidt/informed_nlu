@@ -37,12 +37,14 @@ Method 3:
 You need to add your personal OpenAI API key under ./informed_nlu/utils/api_key.py, in order to make requests to the OpenAI API.
 
 # Gold labels determination and Inter-Annotator Agreement
+Navigate to `human_validated`
 ## Compute the agreement and define the gold labels for annotated data
-Navigate to `human_validated` branch:
-
-Define gold labels and calculate inter-annotator agreement:
+From informed_nlu\human_validated\scripts\main:
     - run `define_gold_labels.py` to create the files with gold labels based on the simple majority vote    
     - `iaa_measure.py` this contains functions for computation of the pairwise percent agreement, Cohen's Kappa, Fleiss' Kappa and Krippendorff's alpha
     
+
+# Prepare prototypical data for evaluation with transformer models
+
 
 
