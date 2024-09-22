@@ -17,7 +17,7 @@ $ cd informed_nlu
 $ pip install -e .
 ```
 
-## Reproduce the data generation experiments
+## 1. Reproduce the data generation experiments
 Navigate to the /scripts directory.
 
 Method 1: 
@@ -36,15 +36,20 @@ Method 3:
 ### Important: 
 You need to add your personal OpenAI API key under ./informed_nlu/utils/api_key.py, in order to make requests to the OpenAI API.
 
-# Gold labels determination and Inter-Annotator Agreement
-Navigate to `human_validated`
+# 2. Gold labels determination and Inter-Annotator Agreement
+
 ## Compute the agreement and define the gold labels for annotated data
-From informed_nlu\human_validated\scripts\main:
+From informed_nlu/human_validated/scripts/main:
     - run `define_gold_labels.py` to create the files with gold labels based on the simple majority vote    
     - `iaa_measure.py` this contains functions for computation of the pairwise percent agreement, Cohen's Kappa, Fleiss' Kappa and Krippendorff's alpha
-    
 
-# Prepare prototypical data for evaluation with transformer models
+The validated data is prepared and located at `informed_nlu/human_validated/data`:
+ - `annotated_types` contains the raw and cleaned validated samples;
+ - `combined_dfs`contains prepared data with determined gold labels for contradiciton types
+  and for contradiciton/no contradiction classes    
+
+# 3. Prepare prototypical data for evaluation with transformer models
+
 
 
 

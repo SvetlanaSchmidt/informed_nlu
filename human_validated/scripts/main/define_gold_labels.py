@@ -262,8 +262,8 @@ def read_combined_dfs(path_to_combined_dfs):
             
 if __name__ == "__main__":
 
-    combined_dfs, combined_2lab = combine_df("/scratch/informed_nlu/human_validated/types_output")
-    combined_dfs = read_combined_dfs("/scratch/informed_nlu/human_validated/combined_dfs")
+    combined_dfs, combined_2lab = combine_df("/informed_nlu/human_validated/data/types_output")
+    combined_dfs = read_combined_dfs("/informed_nlu/human_validated/data/combined_dfs")
     print("Calculated IAA for factive, wk, structure and lexical types")
     compute_cohens_kappa(combined_dfs)
     print("_________________________________________________")

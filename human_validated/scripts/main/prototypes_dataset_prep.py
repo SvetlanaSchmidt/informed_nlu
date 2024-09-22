@@ -15,6 +15,15 @@ import numpy as np
        
 
 def read_data(path, prototypes):
+    """
+    Read SNLI and prototypical data and output the lists of cleaned samples
+    1. read data in
+    2. remove samples with not defined gold labels
+    3. save samples to list 
+    Params:
+     - path
+     - prototypes: if prototypes count the number of contradictions and no contradictions
+    """
     raw_data = []
     data = []
     for line in open(path, mode='r', encoding='utf-8'):   
@@ -42,6 +51,10 @@ def read_data(path, prototypes):
     return data
 
 def read_bbc_data(path):
+    """
+    Read structural contradictions from BBC dataset
+    and save to samples lists with sentence 1, sentence 2, and gold label
+    """
     raw_data = []
     data = []
     with open(path, mode='r', encoding='utf-8') as file:
@@ -53,12 +66,6 @@ def read_bbc_data(path):
                     'sentence1': item['premise'], 
                     'sentence2': item['hypothese']
                 })
-            # elif str(item['contradiction_label']) == str(0):
-            #     raw_data.append({
-            #         'gold_label': "entailment",  # Assuming "gold_labels" corresponds to "entailment" here
-            #         'sentence1': item['premise'], 
-            #         'sentence2': item['hypothese']
-            #     })
                     
     for line in raw_data:
         if line['gold_label'] != "-" and line['gold_label'] != "NA":
@@ -67,6 +74,15 @@ def read_bbc_data(path):
 
 
 def remove_contradictions(reduced_data, prototypes):
+    """
+    Remove contradicitons from the reduced SNLI
+    the number of removed contradictions is equal to the length of prototypes list
+    1. count the number of pretotypical contradictions 
+    2. randomize the reduced data
+    3. replace the SNLi contradictions with prototypical
+    if there are any prototypical not contradictory samples replace 
+    SNLI no contradictions with prototypical
+    """
     prototypes_size = len(prototypes)
     contr_size = 0
     non_contr_size = 0
@@ -81,6 +97,8 @@ def remove_contradictions(reduced_data, prototypes):
     
     contr_count = 0
     non_contr_count = 0
+
+    """for tiny datasets"""
     ## for tiny datasets
     # for line in reduced_data:
     #     if contr_count < prototypes_size:
@@ -103,6 +121,16 @@ def remove_contradictions(reduced_data, prototypes):
     return reduced_data
 
 def reduce_balance_dataset(data, reduction_fraction):
+    """
+    Reduces and balances SNLI dataset, prepares smaller datasets for training transformers
+    Params:
+     - data: cleaned SNLI data without undefined labels --> total size of cleaned SNLi is 549367
+     - reduction fraction: the desired percentage of the result dataset size --> 
+     eg: if 0.3, the resulting dataset is 30% of the original SNLi
+    Return:
+     - the dataset of reduced size
+
+    """
     total_size = len(data)
     target_size = int(total_size * reduction_fraction)
     # Count the occurrences of each label in the data
@@ -134,41 +162,46 @@ def label_count(data):
             label_counts[label] += 1
     return label_counts
     
-
-def annotate_simple_type_contradictions(path:str, type:str):
-    #type = "antonym contradiction"
-    data = read_data(path, prototypes = False)
-    type_data = []
-    for line in data:
-        type_data.append({'gold_label':type, 'sentence1': line['sentence1'], 'sentence2':line['sentence2']})
-        #line['gold_label'] = type
-    return type_data
-
 def reduce_dataset(data, reduction_fraction):
+    """
+    Reduces dataset to the desired size
+    Params:
+     - data: cleaned SNLI data without undefined labels --> total size of cleaned SNLi is 549367
+     - reduction fraction: the desired percentage of the result dataset size --> 
+     eg: if 0.3, the resulting dataset is 30% of the original SNLi
+    Return:
+     - the dataset of reduced size
+    """
     total_size = len(data)
-    #total_size = 549367
     target_size = int(total_size * reduction_fraction)
     
-    # Shuffle the data randomly
+    # shuffle the data
     random.shuffle(data)
     
-    # Select the target size from the shuffled data
+    # select the target size from the shuffled data
     reduced_data = data[:target_size]
     
     return reduced_data
 
 
 def add_prototypes(data, prototypes, reduced_size):
+    """
+    Replaces the contradictions from the reduced SNLI with protoypical contradicitons
+    1. reduces the dataset size. Optional: balances and reduces the data
+    2. replaces the contradictions from SNLi with prototypical
+    """
+    """comment out for smaller datasets to ensure the reduced datasets are balanced"""
     #reduced_balanced_snli = reduce_balance_dataset(data, reduced_size)
     reduced_balanced_snli = reduce_dataset(data, reduced_size)
-    #die widersprüche aus orig snli mit prototypen ersetzen
     removed_contr_data = remove_contradictions(reduced_balanced_snli, prototypes)
-    # mixed_data = removed_contr_data + prototypes
-    # random.shuffle(mixed_data)
+
     return removed_contr_data, prototypes
 
 
 def save_to_json(data, file_path):
+    """
+    Saves prepared data to JSON file
+    """
     with open(file_path, 'w') as file:
         for item in data:
             json_str = json.dumps(item)
@@ -233,26 +266,3 @@ if __name__=="__main__":
     save_to_json(mix, "/cluster/svetlana/data/reduced_snli+prototypes+rte+noun_ants_0.2_snli_1.json")
     #save_to_json(reduced_data_balance, "/cluster/svetlana/data/reduced_snli_original_0.2.json")
 
-    
-    #Create proto contradiction files annotated for the contr types
-    
-    #antonyms = annotate_simple_type_contradictions("/cluster/prototypes/grammar/eng_prototypes/adj_antonyms_filtered.json", "antonym contradiction")
-    #numerical = annotate_simple_type_contradictions("/cluster/prototypes/grammar/eng_prototypes/numerical_contr_prototypes.json", "numerical contradiction")
-    #negation = annotate_simple_type_contradictions("/cluster/prototypes/grammar/eng_prototypes/negation_contr_filtered.json", "negation contradiction")
-    #save_to_json(numerical, 'numerical_type_annotated_data.json')
-    #save_to_json(negation, 'negation_type_annotated_data.json')
-    #save_to_json(antonyms, 'antonyms_type_annotated_data.json')
-    
-    
-    #complex = read_data("/cluster/prototypes/grammar/eng_prototypes/comlpex_type_labels_contradictions.json", prototypes = False)
-    #save_to_json(complex, 'complex_type_annotated_data.json')
-
-    #mix = read_data("/cluster/prototypes/grammar/eng_prototypes/proto_contradictions_type_annotated.json", prototypes = False)
-    # mix = read_data("/cluster/prototypes/grammar/eng_prototypes/proto_contradictions_type_annotated.json", prototypes = False)
-
-    # # Example usage
-    # data = np.arange(100)  # Sample data
-    # train_data, dev_data, test_data, label_dict = shuffle_and_split(mix)
-    # save_to_json(train_data, 'train_type_annotated_prototypes.json')
-    # save_to_json(dev_data, 'dev_type_annotated_prototypes.json')
-    # save_to_json(test_data, 'test_type_annotated_prototypes.json')
