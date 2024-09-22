@@ -36,7 +36,9 @@ Method 3:
 ### Important: 
 You need to add your personal OpenAI API key under ./informed_nlu/utils/api_key.py, in order to make requests to the OpenAI API.
 
-# 2. Gold labels determination and Inter-Annotator Agreement
+# Human validation task and preparing data for training with transformer models:
+Aithor: Svetlana Schmidt
+## 2. Gold labels determination and Inter-Annotator Agreement
 
 ## Compute the agreement and define the gold labels for annotated data
 From informed_nlu/human_validated/scripts/main:
@@ -48,11 +50,12 @@ The validated data is prepared and located at `informed_nlu/human_validated/data
  - `combined_dfs`contains prepared data with determined gold labels for contradiciton types
   and for contradiciton/no contradiction classes    
 
-# 3. Prepare prototypical data for evaluation with transformer models
+## 3. Prepare prototypical data for evaluation with transformer models
+To download the "real-world" contradictions data:
+    - run `download_rte.py` to download the "real-world" contradictions [3]
 To create the reduced datasets and combine them with prototypes:
     - run `prototypes_dataset_prep.py` to create combined datasets with reduced SNLI human validated prototypes, 
 real-world contradictions and structural contradictions from BBC news [2]
-
 
 
 ## References:
@@ -63,3 +66,6 @@ Pielka, Maren, Svetlana Schmidt, and Rafet Sifa.
 2. 
 Freischlad, Marie-Christin et al. (n.d.). “Training on Prototypical Contradictions”. work in
 progress.
+3. 
+De Marneffe, Marie-Catherine, Anna N Rafferty, and Christopher D Manning (2008). “Finding
+contradictions in text”. In: Proceedings of acl-08: Hlt, pp. 1039–1047.
