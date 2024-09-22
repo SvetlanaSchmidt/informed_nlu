@@ -1,7 +1,7 @@
 # Informed NLU
 Authors: Svetlana Schmidt, Maren Pielka
 
-This repository contains the code that was used for the experiments in the paper "Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules" (submitted to the IEEE Big Data Conference).
+This repository contains the code that was used for the experiments in the paper "Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules" (submitted to the IEEE Big Data Conference) [1].
 
 ## Install the repository
 1. Install Python on your system and create a new virtual environment (recommended: Python >= 3.8.0):
@@ -49,7 +49,17 @@ The validated data is prepared and located at `informed_nlu/human_validated/data
   and for contradiciton/no contradiction classes    
 
 # 3. Prepare prototypical data for evaluation with transformer models
+To create the reduced datasets and combine them with prototypes:
+    - run `prototypes_dataset_prep.py` to create combined datasets with reduced SNLI human validated prototypes, 
+real-world contradictions and structural contradictions from BBC news [2]
 
 
 
-
+## References:
+1. 
+Pielka, Maren, Svetlana Schmidt, and Rafet Sifa. 
+"Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules." 
+2023 IEEE International Conference on Big Data (BigData). IEEE, 2023.
+2. 
+Freischlad, Marie-Christin et al. (n.d.). “Training on Prototypical Contradictions”. work in
+progress.
