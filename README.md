@@ -37,7 +37,7 @@ Method 3:
 You need to add your personal OpenAI API key under ./informed_nlu/utils/api_key.py, in order to make requests to the OpenAI API.
 
 # Human validation task and preparing data for training with transformer models:
-Aithor: Svetlana Schmidt
+Author: Svetlana Schmidt
 ## 2. Gold labels determination and Inter-Annotator Agreement
 
 ## Compute the agreement and define the gold labels for annotated data
@@ -63,9 +63,13 @@ real-world contradictions and structural contradictions from BBC news [2]
 Pielka, Maren, Svetlana Schmidt, and Rafet Sifa. 
 "Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules." 
 2023 IEEE International Conference on Big Data (BigData). IEEE, 2023.
+
+
 2. 
 Freischlad, Marie-Christin et al. (n.d.). “Training on Prototypical Contradictions”. work in
 progress.
+
+
 3. 
 De Marneffe, Marie-Catherine, Anna N Rafferty, and Christopher D Manning (2008). “Finding
 contradictions in text”. In: Proceedings of acl-08: Hlt, pp. 1039–1047.
