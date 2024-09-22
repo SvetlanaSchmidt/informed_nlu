@@ -2,7 +2,7 @@ import os
 import json
 import pandas as pd
 import numpy as np
-from iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin
+from human_validated.scripts.main.validated_proto_utils.iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin
 
 
 def data_prep(group_data_path):
@@ -207,7 +207,9 @@ def process_analysis(combined_dfs):
 
 
 def combine_df(path_to_data):
-    """compute the gold labels within the specific types and save the results to one JSON file per type
+    """
+    Computes the gold labels within the specific types and save the results 
+    to one JSON file per type
     """
     combined_dfs = {}
     combined_2lab_dfs = {}
@@ -259,6 +261,7 @@ def read_combined_dfs(path_to_combined_dfs):
             
             
 if __name__ == "__main__":
+
     combined_dfs, combined_2lab = combine_df("/scratch/informed_nlu/human_validated/types_output")
     combined_dfs = read_combined_dfs("/scratch/informed_nlu/human_validated/combined_dfs")
     print("Calculated IAA for factive, wk, structure and lexical types")
@@ -271,19 +274,4 @@ if __name__ == "__main__":
     print("Calculated IAA for all contradictions (two labels)")
     iaa_measure_bin(combined_2lab)
 
-    # #calculate gold_label_frequency
-    #calculate_gold_label_frequency(combined_dfs, 'factive contradiction')
-    # print("___________________________________")
-    #calculate_gold_label_frequency(combined_dfs, 'other contradiction')
-    # print("___________________________________")
-    # calculate_gold_label_frequency(combined_dfs, 'lexical contradiction')
-    # print("___________________________________")
-    # calculate_gold_label_frequency(combined_dfs, 'no contradiction')
-    # print("___________________________________")
-    # calculate_gold_label_frequency(combined_dfs, 'difficult to answer')
-    # print("___________________________________")
-    # calculate_gold_label_frequency(combined_dfs, 'structural contradiction')
-    # print("___________________________________")
-    # calculate_gold_label_frequency(combined_dfs, 'world knowledge contradiction')
-    
-    
+

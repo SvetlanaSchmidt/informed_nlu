@@ -7,7 +7,6 @@ from sklearn.metrics import cohen_kappa_score
 from krippendorff import alpha
 from statsmodels.stats.inter_rater import fleiss_kappa, aggregate_raters
 from sklearn.preprocessing import LabelEncoder
-from utils import coincidence_matrix_from_reliability, observed_agreement_matrix, expected_agreement_matrix, observed_disagreement_matrix, expected_disagreement_matrix, coincidence_matrix, reliability_matrix
 
 def transform_annotator_labels(row):
     annotator_labels = row['annotator_labels']
@@ -65,10 +64,6 @@ def calculate_kappa_alpha(combined_dfs):
         print(f"Fleiss' kappa: {fleiss_k}")
         print(f"Krippendorff's alpha: {kripp_alpha}")
 
-        
-    # fleiss_kappas, n_total = compute_fleiss_kappa(combined_dfs, n_categories)
-    # print("Fleiss' Kappas for each category:", fleiss_kappas)
-        
 
 def iaa_measure_bin(combined_dfs):
     """calculate IAA for annotated data with labels converted to: contradiction - no contradiction

@@ -135,11 +135,10 @@ def save_data_as_json(data_by_group, output_directory):
         with open(output_file, 'w') as json_file:
             json.dump(data, json_file, indent=4)
 
-# Example usage:
-directory_path = "/scratch/informed_nlu/human_validated/annotated_types"
-output_directory = "/scratch/informed_nlu/human_validated/types_output"
+if __name__== "__main__":
 
-data_by_group, data_by_type = read_csv_files(directory_path, output_directory)
-#save_data_as_json(data_by_group, output_directory)
+    directory_path = "/scratch/informed_nlu/human_validated/annotated_types"
+    output_directory = "/scratch/informed_nlu/human_validated/types_output"
 
-#TODO: write script for defining the gold labels in two ways
+    data_by_group, data_by_type = read_csv_files(directory_path, output_directory)
+    save_data_as_json(data_by_group, output_directory)

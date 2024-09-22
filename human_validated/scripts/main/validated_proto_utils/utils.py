@@ -1,19 +1,6 @@
 import numpy as np
 
 def observed_agreement_matrix(annotations):
-        #compute scotts pi:
-    # categories = np.unique([category for sublist in annotations for category in sublist])
-    # n_categories = len(categories)
-    # observed_agreement_matrix = np.zeros((n_categories, n_categories), dtype=int)
-    
-    # for item_annotations in annotations:
-    # # Compare annotations for each pair of annotators
-    #     for i in range(len(item_annotations)):
-    #         for j in range(i + 1, len(item_annotations)):
-    #             annotator1_idx = np.where(categories == item_annotations[i])[0][0]
-    #             annotator2_idx = np.where(categories == item_annotations[j])[0][0]
-    #             observed_agreement_matrix[annotator1_idx, annotator2_idx] += 1
-    #             observed_agreement_matrix[annotator2_idx, annotator1_idx] += 1  # Symmetric matrix
     n_items = len(annotations)
     n_raters = len(annotations[0])
     unique_categories = np.unique(annotations)

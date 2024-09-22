@@ -17,7 +17,7 @@ contradiction_types = [factive_embedded_verb, factive_antonym, structure, lexica
 
 responses=[] 
 #adjust the number of premises for generation
-for premise in train_premises[:50]:
+for premise in train_premises[:500]:
     response=[]
     for contradiction_type in contradiction_types:
         res = openai.ChatCompletion.create(

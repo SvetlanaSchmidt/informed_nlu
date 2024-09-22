@@ -7,7 +7,9 @@ from sklearn.metrics import cohen_kappa_score
 from krippendorff import alpha
 from statsmodels.stats.inter_rater import fleiss_kappa, aggregate_raters
 from sklearn.preprocessing import LabelEncoder
-from utils import coincidence_matrix_from_reliability, observed_agreement_matrix, expected_agreement_matrix, observed_disagreement_matrix, expected_disagreement_matrix, coincidence_matrix, reliability_matrix
+from human_validated.scripts.main.validated_proto_utils.utils import coincidence_matrix_from_reliability, observed_agreement_matrix, expected_agreement_matrix, observed_disagreement_matrix, expected_disagreement_matrix, coincidence_matrix, reliability_matrix
+from human_validated.scripts.main.validated_proto_utils.iaa_measure import preprocess_annotations
+
 
 def compute_fleiss_kappa(combined_dfs, n_categories):
     # Initialize variables to store observed and expected agreements
@@ -61,5 +63,3 @@ def label_encode_bin(annotations_df):
             numeric_pair.append(pair_annotations_numeric)
         annotations_numeric.append(numeric_pair)
     return annotations_numeric
-
-
