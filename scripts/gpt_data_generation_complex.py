@@ -3,6 +3,7 @@ import json
 from informed_nlu.data_classes.initial_contradiction_types import *
 from informed_nlu.utils.utils import read_prem
 
+"""Developed by Svetlana Schmidt"""
 openai.api_key="API KEY"
 model='gpt-4'
 max_tokens=512 # the maximum generated tokens

@@ -10,7 +10,7 @@ from nltk.corpus import wordnet as wn
 from informed_nlu.utils.disambig import *
 
 stanza.download('en')
-        
+"""Developed by Svetlana Schmidt"""        
 def read_data(path):
     """save the sentence pairs and labels from SNLI to list of lists
     """

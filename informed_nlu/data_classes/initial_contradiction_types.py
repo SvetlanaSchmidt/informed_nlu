@@ -1,5 +1,27 @@
 from informed_nlu.data_classes.contradiction_types import Contradiction, ContradictionType
 
+"""Developed by Maren Pielka"""
+antonymity = ContradictionType(name='antonymity',
+                               description='A contradiction based on antonymity means, that a contradiction arises\
+        between two statements (Premise and Hypothesis), because the hypothesis contains an antonymous word\
+        compared to the premise.',
+        instances=[Contradiction(premise='Capital punishment is a catalyst for more crime.',
+                                 hypothesis='Capital punishment is a deterrent to crime.')])
+
+negation = ContradictionType(name='negation',
+                               description='A contradiction based on negation means, that a contradiction arises\
+        between two statements (Premise and Hypothesis), that a statement from the premise\
+        is negated in the hypothesis, or vice versa',
+        instances=[Contradiction(premise='A closely divided Supreme Court said that juries and not judges must impose a death sentence',
+                                 hypothesis='The Supreme Court decided that only judges can impose the death sentence.')])
+
+numeric = ContradictionType(name='numeric_mismatch',
+                               description='A contradiction based on numeric mismatch means, that a contradiction arises\
+        between two statements (Premise and Hypothesis), because there are mismatching number in premise and hypothesis.',
+        instances=[Contradiction(premise='The tragedy of the explosion in Qana that killed more than 50 civilians has presented Israel with a dilemma',
+                                 hypothesis='An investigation into the strike in Qana found 28 confirmed dead thus far.')])
+
+"""Developed by Svetlana Schmidt"""
 factive_embedded_verb = ContradictionType(name='factive_embedding_verb',
                                 description='Factive contradiction based on the embedding context means that a contradiction arises\
                                     1. from the mismatch in the embedding context of the verb phrase in the Premise and Hypothesis\

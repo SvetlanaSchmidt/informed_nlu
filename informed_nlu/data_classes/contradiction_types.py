@@ -1,7 +1,7 @@
 import json
 from typing import List
 from dataclasses import dataclass
-
+"""Developed by Maren Pielka"""
 @dataclass
 class Contradiction():
     premise: str
