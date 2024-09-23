@@ -7,6 +7,8 @@ from nltk.tokenize import word_tokenize
 from create_datalists import read_data
 from utils.rule_utils import flatten, read_deps
 
+"""Developed by Svetlana Schmidt"""
+
 def create_num_cont(data_labeled):
     """The generation of the numeric based contradictions
     Params:
