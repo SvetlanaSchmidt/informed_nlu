@@ -2,7 +2,7 @@ import os
 import json
 import pandas as pd
 import numpy as np
-from human_validated.scripts.main.validated_proto_utils.iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin
+from human_validated.scripts.validated_proto_utils.iaa_measure import compute_cohens_kappa, calculate_kappa_alpha, iaa_measure_bin
 
 
 def data_prep(group_data_path):

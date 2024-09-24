@@ -4,7 +4,8 @@ import json
 
 
 def download_rte_dataset(url: str):
-    """1: download the XML file from the URL
+    """
+    1: download the XML file from the URL
     2: parse the XML content
     3: extract the elements of each par
     4: save labels, premises and hypothesis pairwise to JSON file
