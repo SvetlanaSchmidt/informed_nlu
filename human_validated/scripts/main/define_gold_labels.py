@@ -7,11 +7,13 @@ from human_validated.scripts.main.validated_proto_utils.iaa_measure import compu
 
 def data_prep(group_data_path):
     """
-    prepare data for gold labels definition and analysis 
+    Prepare data for gold labels definition and analysis 
+    Contradictory gold labels are replaced with label "contradiction"
     Params:
      - path to the file containing the annotated data of one type and one group
     Return:
      - returns pandas dataframe with columns: sentence1, sentence2, annotator_labels
+     where the annotator_labels are changed according to two classes: contradiction and no contradiction
     """
     with open(group_data_path, "r") as json_file:
         data = json.load(json_file)
@@ -79,7 +81,8 @@ def clean_labels(annotations_list):
 def clean_bin_labels(sent1, sent2, annotations_list):
     """Prepare labels for pre-training with LLMs
     replace all labels with binary labels
-    
+    Gold labels for all types of contradiction are replaced with label "contradiction"
+       
     """
     clean_annotations = []
     clean_sent1 = []
@@ -124,7 +127,7 @@ def iaa_major_votes(group_data_df):
      - path_to_file: path to file for a group of contradictions
      - 
     Return:
-     - saves the data to a SNLI format with all annotator labels and gold
+     - returns dataframe for saving the data to a SNLI format with all annotator labels and gold
     """
     #define and save gold labels for each sentence pair to list
     sentence1 = group_data_df.loc[:,'sentence1']
@@ -208,8 +211,13 @@ def process_analysis(combined_dfs):
 
 def combine_df(path_to_data):
     """
-    Computes the gold labels within the specific types and save the results 
+    Computes the gold labels based on the majority votes
+    within the specific types and save the results 
     to one JSON file per type
+    Params: - path_to_data
+    Return:
+     - data annotated and with determined gold labels for specific contradiciton types 
+     and for two classes: contradiciton and no contradiction
     """
     combined_dfs = {}
     combined_2lab_dfs = {}
