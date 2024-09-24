@@ -1,7 +1,9 @@
 # Informed NLU
 Authors: Svetlana Schmidt, Maren Pielka
 
-This repository contains the code that was used for the experiments in the paper "Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules" (submitted to the IEEE Big Data Conference) [1].
+This repository contains the code that was used for the experiments in the paper "Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules" (submitted to the IEEE Big Data Conference) [1] and the research project [4]. 
+The datasets of [simple prototypical contradictions](https://huggingface.co/datasets/SvetaPetrush/prototypical_contradictions_ant_neg_num) and human validated [complex prototypical contradictions](https://huggingface.co/datasets/SvetaPetrush/prototypical_contradictions) are available at Hugging Face Datasets.
+
 
 ## Install the repository
 1. Install Python on your system and create a new virtual environment (recommended: Python >= 3.8.0):
@@ -59,17 +61,7 @@ real-world contradictions and structural contradictions from BBC news [2]
 
 
 ## References:
-1. 
-Pielka, Maren, Svetlana Schmidt, and Rafet Sifa. 
-"Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules." 
-2023 IEEE International Conference on Big Data (BigData). IEEE, 2023.
-
-
-2. 
-Freischlad, Marie-Christin et al. (n.d.). “Training on Prototypical Contradictions”. work in
-progress.
-
-
-3. 
-De Marneffe, Marie-Catherine, Anna N Rafferty, and Christopher D Manning (2008). “Finding
-contradictions in text”. In: Proceedings of acl-08: Hlt, pp. 1039–1047.
+1) Pielka, Maren, Svetlana Schmidt, and Rafet Sifa. "Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules." 2023 IEEE International Conference on Big Data (BigData). IEEE, 2023.
+2) Freischlad, Marie-Christin et al. (n.d.). “Training on Prototypical Contradictions”. work in progress.
+3) De Marneffe, Marie-Catherine, Anna N Rafferty, and Christopher D Manning (2008). “Finding contradictions in text”. In: Proceedings of acl-08: Hlt, pp. 1039–1047.
+4) Schmidt, Svetlana (2024). “Generating the data set of prototypical contradictions”. In: The research project documentation.
