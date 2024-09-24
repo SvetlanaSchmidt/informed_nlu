@@ -33,3 +33,9 @@ Method 3:
 
 ### Important: You need to add your personal OpenAI API key under ./informed_nlu/utils/api_key.py, in order to make requests to the OpenAI API.
 
+# References:
+
+1) Pucknat, Lisa “Towards informed Pre-Training Methods for Natural Language Processing”. MA thesis. University of Bonn, 2022.
+2) Pielka, Maren, Svetlana Schmidt, Lisa Pucknat, and Rafet Sifa. "Towards linguistically informed multi-objective transformer pre-training for natural language inference." In European Conference on Information Retrieval, pp. 553-561. Cham: Springer Nature Switzerland, 2023.
+3) Schmidt, Svetlana (2024). “Generating the data set of prototypical contradictions”. In: The research project documentation.
+4)  Pielka, Maren, Svetlana Schmidt, and Rafet Sifa (2023). “Generating Prototypes for Contradiction Detection Using Large Language Models and Linguistic Rules”. In: 2023 IEEE International Conference on Big Data (BigData). IEEE, pp. 4684–4692.
