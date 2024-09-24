@@ -53,11 +53,11 @@ The validated data is prepared and located at `informed_nlu/human_validated/data
   and for contradiciton/no contradiction classes    
 
 ## 3. Prepare prototypical data for evaluation with transformer models
-To download the "real-world" contradictions data:
-    - run `download_rte.py` to download the "real-world" contradictions [3]
+To download the "real-life" contradictions data from De Marneffe et ai., 2008 [3]:
+    - run `download_rte.py` 
+
 To create the reduced datasets and combine them with prototypes:
-    - run `prototypes_dataset_prep.py` to create combined datasets with reduced SNLI human validated prototypes, 
-real-world contradictions and structural contradictions from BBC news [2]
+    - run `prototypes_dataset_prep.py` to create combined datasets with reduced SNLI human validated prototypes, and additional real-life contradictions [3] and structural contradictions from BBC news [2]
 
 
 ## References:
